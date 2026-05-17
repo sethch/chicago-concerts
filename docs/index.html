@@ -125,6 +125,114 @@
       font-size: 0.88rem;
       color: #666;
     }
+    /* For You section */
+    .foryou {
+      max-width: 900px;
+      margin: 0 auto 2.5rem;
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    .foryou-header {
+      padding: 1rem 1.25rem;
+      border-bottom: 1px solid #2a2a2a;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+    .foryou-header h2 { font-size: 1rem; font-weight: 700; color: #f0f0f0; }
+    .foryou-body { padding: 1.25rem; }
+    .foryou-connect {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .foryou-connect p { font-size: 0.88rem; color: #888; }
+    .btn-spotify {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: #1DB954;
+      color: #000;
+      font-size: 0.85rem;
+      font-weight: 700;
+      padding: 0.5rem 1rem;
+      border-radius: 999px;
+      text-decoration: none;
+      border: none;
+      cursor: pointer;
+      transition: opacity 0.15s;
+      white-space: nowrap;
+    }
+    .btn-spotify:hover { opacity: 0.88; }
+    .btn-secondary {
+      display: inline-flex;
+      align-items: center;
+      font-size: 0.8rem;
+      color: #888;
+      background: none;
+      border: 1px solid #333;
+      border-radius: 999px;
+      padding: 0.4rem 0.85rem;
+      cursor: pointer;
+      transition: border-color 0.15s, color 0.15s;
+    }
+    .btn-secondary:hover { border-color: #555; color: #ccc; }
+    .foryou-results {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    }
+    .foryou-artist {
+      display: flex;
+      flex-direction: column;
+      padding: 0.75rem 1rem;
+      border-right: 1px solid #222;
+      border-bottom: 1px solid #222;
+      text-decoration: none;
+      color: inherit;
+      transition: background 0.1s;
+    }
+    .foryou-artist:hover { background: #222; }
+    .foryou-artist-name { font-size: 0.88rem; color: #e0e0e0; }
+    .foryou-artist-venue { font-size: 0.75rem; color: #666; margin-top: 0.15rem; }
+    .foryou-artist-reason { font-size: 0.72rem; color: #1DB954; margin-top: 0.3rem; }
+    .foryou-loading { font-size: 0.88rem; color: #666; }
+    .foryou-empty { font-size: 0.88rem; color: #555; }
+    .foryou-seeds { margin-top: 1.1rem; }
+    .foryou-seeds-label { font-size: 0.8rem; color: #666; margin-bottom: 0.5rem; }
+    .foryou-seed-input-row { display: flex; gap: 0.5rem; }
+    .foryou-seed-input-row input {
+      flex: 1; min-width: 0;
+      background: #111;
+      border: 1px solid #333;
+      border-radius: 6px;
+      color: #e0e0e0;
+      font-size: 0.88rem;
+      padding: 0.45rem 0.75rem;
+      outline: none;
+      transition: border-color 0.15s;
+    }
+    .foryou-seed-input-row input:focus { border-color: #555; }
+    .foryou-seed-input-row input::placeholder { color: #555; }
+    #seed-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.6rem; }
+    .seed-tag {
+      display: inline-flex; align-items: center; gap: 0.35rem;
+      font-size: 0.75rem; padding: 0.2rem 0.6rem; border-radius: 999px;
+      background: #2a2a2a; border: 1px solid #444; color: #ccc;
+    }
+    .seed-tag button {
+      background: none; border: none; color: #888;
+      cursor: pointer; padding: 0; font-size: 1em; line-height: 1;
+    }
+    .seed-tag button:hover { color: #ccc; }
+    .foryou-subtitle {
+      padding: 0.5rem 1.25rem; font-size: 0.75rem; color: #666;
+      border-top: 1px solid #2a2a2a;
+    }
+
     /* Browse / filter section */
     .browse {
       max-width: 900px;
@@ -212,6 +320,37 @@
   <div class="search-wrap">
     <input type="search" id="search" placeholder="Search artists across all venues…" autocomplete="off">
     <div class="search-results" id="search-results"></div>
+  </div>
+
+  <div class="foryou" id="foryou-section">
+    <div class="foryou-header">
+      <h2>For You</h2>
+      <div style="display:flex;gap:0.75rem;align-items:center">
+        <span id="foryou-status" style="font-size:0.78rem;color:#1DB954"></span>
+        <button class="btn-secondary" id="btn-disconnect" style="display:none">Disconnect</button>
+      </div>
+    </div>
+    <div class="foryou-body">
+      <div class="foryou-connect">
+        <p>Connect Spotify for personalized picks, or add artists you like below.</p>
+        <button class="btn-spotify" id="btn-connect">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg>
+          Connect Spotify
+        </button>
+      </div>
+      <div class="foryou-seeds">
+        <p class="foryou-seeds-label">Add artists you like:</p>
+        <div class="foryou-seed-input-row">
+          <input type="text" id="seed-input" placeholder="e.g. Bon Iver, Sylvan Esso…" autocomplete="off">
+          <button class="btn-secondary" id="btn-add-seed">Add</button>
+        </div>
+        <div id="seed-tags"></div>
+      </div>
+    </div>
+    <div id="foryou-results-wrap" style="display:none">
+      <div class="foryou-subtitle" id="foryou-subtitle"></div>
+      <div class="foryou-results" id="foryou-results"></div>
+    </div>
   </div>
 
   <div class="browse">
@@ -353,6 +492,7 @@
         fuse = new Fuse(allArtists, { keys: ['name'], threshold: 0.35, minMatchCharLength: 2 });
         renderGenreTags(allArtists);
         renderBrowse();
+        runRecommendations();
       });
 
     // Popularity slider
@@ -381,6 +521,197 @@
         searchResultsEl.classList.remove('visible');
       }
     });
+
+    // ── For You ──────────────────────────────────────────────────────────
+    const CLIENT_ID = 'fc07e34626644848b814ab3b688972e5';
+    const REDIRECT_URI = window.location.origin + window.location.pathname;
+    const TOKEN_KEY = 'fy_token';
+    const SEEDS_KEY = 'fy_seeds';
+
+    let spotifyToken = sessionStorage.getItem(TOKEN_KEY);
+    let seedArtists = JSON.parse(localStorage.getItem(SEEDS_KEY) || '[]');
+
+    // PKCE helpers
+    function b64url(buf) {
+      return btoa(String.fromCharCode(...new Uint8Array(buf)))
+        .replace(/\+/g, '-').replace(/\//g, '_').replace(/=/g, '');
+    }
+    async function pkceChallenge(verifier) {
+      return b64url(await crypto.subtle.digest('SHA-256', new TextEncoder().encode(verifier)));
+    }
+    function randomVerifier() {
+      const arr = new Uint8Array(48);
+      crypto.getRandomValues(arr);
+      return b64url(arr);
+    }
+
+    async function spotifyGet(path) {
+      const r = await fetch('https://api.spotify.com/v1' + path, {
+        headers: { Authorization: 'Bearer ' + spotifyToken }
+      });
+      if (r.status === 401) { sessionStorage.removeItem(TOKEN_KEY); spotifyToken = null; return null; }
+      return r.ok ? r.json() : null;
+    }
+
+    function updateForYouUI() {
+      const disc = document.getElementById('btn-disconnect');
+      const conn = document.getElementById('btn-connect');
+      const status = document.getElementById('foryou-status');
+      if (spotifyToken) {
+        disc.style.display = ''; conn.style.display = 'none'; status.textContent = 'Spotify connected';
+      } else {
+        disc.style.display = 'none'; conn.style.display = ''; status.textContent = '';
+      }
+    }
+
+    function renderSeedTags() {
+      document.getElementById('seed-tags').innerHTML = seedArtists.map((s, i) =>
+        `<span class="seed-tag">${s}<button onclick="removeSeed(${i})" aria-label="Remove">×</button></span>`
+      ).join('');
+    }
+    window.removeSeed = function(i) {
+      seedArtists.splice(i, 1);
+      localStorage.setItem(SEEDS_KEY, JSON.stringify(seedArtists));
+      renderSeedTags();
+      runRecommendations();
+    };
+    function addSeed(name) {
+      name = name.trim();
+      if (!name || seedArtists.map(s => s.toLowerCase()).includes(name.toLowerCase())) return;
+      seedArtists.push(name);
+      localStorage.setItem(SEEDS_KEY, JSON.stringify(seedArtists));
+      renderSeedTags();
+      runRecommendations();
+    }
+
+    async function runRecommendations() {
+      if (!allArtists.length) return;
+      const wrap = document.getElementById('foryou-results-wrap');
+      const resultsEl = document.getElementById('foryou-results');
+      const subtitleEl = document.getElementById('foryou-subtitle');
+      let matches = [], subtitle = '';
+
+      if (spotifyToken) {
+        const topData = await spotifyGet('/me/top/artists?limit=10&time_range=medium_term');
+        const topArtists = topData?.items || [];
+        const manualObjects = [];
+        for (const seed of seedArtists) {
+          const d = await spotifyGet('/search?q=' + encodeURIComponent(seed) + '&type=artist&limit=1');
+          const a = d?.artists?.items?.[0];
+          if (a) manualObjects.push(a);
+        }
+        const allSeeds = [...topArtists, ...manualObjects];
+        const seedNames = new Set(allSeeds.map(a => a.name.toLowerCase()));
+        const seedGenres = new Set(allSeeds.flatMap(a => a.genres || []));
+        const seedIds = allSeeds.slice(0, 5).map(a => a.id);
+
+        const direct = allArtists
+          .filter(a => seedNames.has(a.name.toLowerCase()))
+          .map(a => ({ ...a, reason: 'You follow them' }));
+
+        let recNames = new Set();
+        if (seedIds.length) {
+          const recData = await spotifyGet('/recommendations?seed_artists=' + seedIds.join(',') + '&limit=40');
+          (recData?.tracks || []).forEach(t => (t.artists || []).forEach(a => recNames.add(a.name.toLowerCase())));
+        }
+        const recMatches = allArtists
+          .filter(a => !seedNames.has(a.name.toLowerCase()) && recNames.has(a.name.toLowerCase()))
+          .map(a => ({ ...a, reason: 'Spotify pick' }));
+
+        const genreMatches = allArtists
+          .filter(a => !seedNames.has(a.name.toLowerCase()) && !recNames.has(a.name.toLowerCase()) && a.genres.some(g => seedGenres.has(g)))
+          .sort((a, b) => b.genres.filter(g => seedGenres.has(g)).length - a.genres.filter(g => seedGenres.has(g)).length)
+          .slice(0, 10)
+          .map(a => ({ ...a, reason: 'Similar genre' }));
+
+        matches = [...direct, ...recMatches, ...genreMatches];
+        subtitle = 'Based on your Spotify taste' + (seedArtists.length ? ' + your picks' : '');
+
+      } else if (seedArtists.length) {
+        const seedGenres = new Set();
+        seedArtists.forEach(seed => {
+          const found = allArtists.find(a => a.name.toLowerCase() === seed.toLowerCase());
+          if (found) found.genres.forEach(g => seedGenres.add(g));
+        });
+        const seedNamesLC = new Set(seedArtists.map(s => s.toLowerCase()));
+        if (seedGenres.size) {
+          matches = allArtists
+            .filter(a => !seedNamesLC.has(a.name.toLowerCase()) && a.genres.some(g => seedGenres.has(g)))
+            .sort((a, b) => b.genres.filter(g => seedGenres.has(g)).length - a.genres.filter(g => seedGenres.has(g)).length)
+            .slice(0, 20)
+            .map(a => ({ ...a, reason: 'Similar genre' }));
+          subtitle = 'Based on your picks';
+        }
+      }
+
+      if (!matches.length) { wrap.style.display = 'none'; return; }
+      subtitleEl.textContent = subtitle;
+      resultsEl.innerHTML = matches.map(a =>
+        `<a class="foryou-artist" href="${a.venue_url}" target="_blank" rel="noopener">
+          <span class="foryou-artist-name">${a.name}</span>
+          <span class="foryou-artist-venue">${a.venue}</span>
+          <span class="foryou-artist-reason">${a.reason}</span>
+        </a>`
+      ).join('');
+      wrap.style.display = '';
+    }
+
+    document.getElementById('btn-connect').addEventListener('click', async () => {
+      const verifier = randomVerifier();
+      const challenge = await pkceChallenge(verifier);
+      sessionStorage.setItem('pkce_v', verifier);
+      const p = new URLSearchParams({
+        client_id: CLIENT_ID, response_type: 'code',
+        redirect_uri: REDIRECT_URI, scope: 'user-top-read',
+        code_challenge_method: 'S256', code_challenge: challenge,
+      });
+      window.location.href = 'https://accounts.spotify.com/authorize?' + p;
+    });
+
+    document.getElementById('btn-disconnect').addEventListener('click', () => {
+      sessionStorage.removeItem(TOKEN_KEY);
+      spotifyToken = null;
+      updateForYouUI();
+      runRecommendations();
+    });
+
+    document.getElementById('btn-add-seed').addEventListener('click', () => {
+      const inp = document.getElementById('seed-input');
+      addSeed(inp.value); inp.value = '';
+    });
+    document.getElementById('seed-input').addEventListener('keydown', e => {
+      if (e.key === 'Enter') { addSeed(e.target.value); e.target.value = ''; }
+    });
+
+    async function handleOAuthCallback() {
+      const params = new URLSearchParams(window.location.search);
+      const code = params.get('code');
+      if (!code) return;
+      history.replaceState({}, '', window.location.pathname);
+      const verifier = sessionStorage.getItem('pkce_v');
+      if (!verifier) return;
+      sessionStorage.removeItem('pkce_v');
+      const body = new URLSearchParams({
+        client_id: CLIENT_ID, grant_type: 'authorization_code',
+        code, redirect_uri: REDIRECT_URI, code_verifier: verifier,
+      });
+      const r = await fetch('https://accounts.spotify.com/api/token', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body,
+      });
+      const d = await r.json();
+      if (d.access_token) {
+        sessionStorage.setItem(TOKEN_KEY, d.access_token);
+        spotifyToken = d.access_token;
+      }
+    }
+
+    (async () => {
+      await handleOAuthCallback();
+      updateForYouUI();
+      renderSeedTags();
+    })();
   </script>
 </body>
 </html>
