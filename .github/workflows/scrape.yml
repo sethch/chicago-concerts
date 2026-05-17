@@ -1,0 +1,36 @@
+name: Scrape venues and update playlists
+
+on:
+  schedule:
+    - cron: '0 12 * * 1'  # Every Monday at noon UTC
+  workflow_dispatch:       # Allow manual runs
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Set up Chrome
+        uses: browser-actions/setup-chrome@v1
+
+      - name: Install dependencies
+        run: pip install -r scraper/requirements.txt
+
+      - name: Run scraper
+        env:
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+          SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
+          SPOTIFY_SCHUBAS_PLAYLIST_ID: ${{ secrets.SPOTIFY_SCHUBAS_PLAYLIST_ID }}
+          SPOTIFY_EMPTY_BOTTLE_PLAYLIST_ID: ${{ secrets.SPOTIFY_EMPTY_BOTTLE_PLAYLIST_ID }}
+          SPOTIFY_THALIA_HALL_PLAYLIST_ID: ${{ secrets.SPOTIFY_THALIA_HALL_PLAYLIST_ID }}
+          SPOTIFY_RIVIERA_PLAYLIST_ID: ${{ secrets.SPOTIFY_RIVIERA_PLAYLIST_ID }}
+          SPOTIFY_SUBTERRANEAN_PLAYLIST_ID: ${{ secrets.SPOTIFY_SUBTERRANEAN_PLAYLIST_ID }}
+          SPOTIFY_SALT_SHED_PLAYLIST_ID: ${{ secrets.SPOTIFY_SALT_SHED_PLAYLIST_ID }}
+        run: python scraper/scraper.py
