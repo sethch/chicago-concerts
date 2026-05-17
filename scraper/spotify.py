@@ -15,11 +15,17 @@ def _client() -> spotipy.Spotify:
     return spotipy.Spotify(auth=token_info["access_token"])
 
 
-def update_playlist(artists: list[str], playlist_id: str) -> None:
+def update_playlist(artists: list[str], playlist_id: str) -> list[dict]:
+    """Update the Spotify playlist and return metadata for each matched artist.
+
+    Returns a list of dicts: {name, genres, popularity}
+    """
     sp = _client()
     sp.playlist_replace_items(playlist_id, [])
 
     track_ids = []
+    metadata = []
+
     for name in artists:
         if not name:
             continue
@@ -35,6 +41,12 @@ def update_playlist(artists: list[str], playlist_id: str) -> None:
         if not match:
             continue
 
+        metadata.append({
+            "name": name,
+            "genres": match.get("genres", []),
+            "popularity": match.get("popularity", 0),
+        })
+
         top_tracks = sp.artist_top_tracks(match["id"]).get("tracks", [])[:3]
         track_ids.extend(t["id"] for t in top_tracks if t.get("id"))
 
@@ -42,3 +54,5 @@ def update_playlist(artists: list[str], playlist_id: str) -> None:
     for i in range(0, len(track_ids), 100):
         sp.playlist_add_items(playlist_id=playlist_id, items=track_ids[i : i + 100])
         print(f"Added {len(track_ids[i:i+100])} tracks to {playlist_id}")
+
+    return metadata

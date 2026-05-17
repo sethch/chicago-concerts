@@ -30,10 +30,18 @@ def main():
         try:
             artists = get_artists()
             print(f"Found {len(artists)} artists: {artists}")
-            update_playlist(artists, playlist_id)
+            metadata = update_playlist(artists, playlist_id)
             print(f"Playlist updated.")
+            meta_by_name = {m["name"]: m for m in metadata}
             for artist in artists:
-                all_artists.append({"name": artist, "venue": name, "venue_url": venue_url})
+                m = meta_by_name.get(artist, {})
+                all_artists.append({
+                    "name": artist,
+                    "venue": name,
+                    "venue_url": venue_url,
+                    "genres": m.get("genres", []),
+                    "popularity": m.get("popularity", 0),
+                })
         except Exception as e:
             print(f"Error processing {name}: {e}")
 

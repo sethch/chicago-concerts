@@ -125,6 +125,81 @@
       font-size: 0.88rem;
       color: #666;
     }
+    /* Browse / filter section */
+    .browse {
+      max-width: 900px;
+      margin: 0 auto 2.5rem;
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    .browse-header {
+      padding: 1rem 1.25rem;
+      border-bottom: 1px solid #2a2a2a;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .browse-header h2 { font-size: 1rem; font-weight: 700; color: #f0f0f0; }
+    .pop-wrap {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      font-size: 0.8rem;
+      color: #888;
+    }
+    .pop-wrap input[type=range] {
+      accent-color: #e0e0e0;
+      width: 120px;
+      cursor: pointer;
+    }
+    .genre-tags {
+      padding: 0.75rem 1.25rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      border-bottom: 1px solid #2a2a2a;
+    }
+    .genre-tag {
+      font-size: 0.75rem;
+      padding: 0.25rem 0.6rem;
+      border-radius: 999px;
+      border: 1px solid #333;
+      background: #222;
+      color: #999;
+      cursor: pointer;
+      transition: all 0.12s;
+      user-select: none;
+    }
+    .genre-tag:hover { border-color: #555; color: #ccc; }
+    .genre-tag.active { background: #e0e0e0; color: #111; border-color: #e0e0e0; }
+    .browse-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 0;
+    }
+    .browse-artist {
+      display: flex;
+      flex-direction: column;
+      padding: 0.65rem 1rem;
+      border-right: 1px solid #222;
+      border-bottom: 1px solid #222;
+      text-decoration: none;
+      color: inherit;
+      transition: background 0.1s;
+    }
+    .browse-artist:hover { background: #222; }
+    .browse-artist-name { font-size: 0.88rem; color: #e0e0e0; }
+    .browse-artist-venue { font-size: 0.75rem; color: #666; margin-top: 0.15rem; }
+    .browse-none {
+      padding: 1.5rem;
+      color: #555;
+      font-size: 0.88rem;
+      grid-column: 1/-1;
+    }
   </style>
   <script src="https://cdn.jsdelivr.net/npm/fuse.js@7/dist/fuse.min.js"></script>
 </head>
@@ -137,6 +212,20 @@
   <div class="search-wrap">
     <input type="search" id="search" placeholder="Search artists across all venues…" autocomplete="off">
     <div class="search-results" id="search-results"></div>
+  </div>
+
+  <div class="browse">
+    <div class="browse-header">
+      <h2>Browse Artists</h2>
+      <div class="pop-wrap">
+        <span>Niche</span>
+        <input type="range" id="pop-slider" min="0" max="100" value="100">
+        <span>Mainstream</span>
+        <span id="pop-label" style="min-width:3ch;text-align:right;">all</span>
+      </div>
+    </div>
+    <div class="genre-tags" id="genre-tags"></div>
+    <div class="browse-list" id="browse-list"><div class="browse-none">Loading…</div></div>
   </div>
 
   <div class="venues">
@@ -164,7 +253,7 @@
     <div class="venue">
       <div class="venue-header">
         <h2>Thalia Hall</h2>
-        <a href="https://www.thaliahall.com/shows/" target="_blank" rel="noopener">All shows ↗</a>
+        <a href="https://www.thaliahallchicago.com" target="_blank" rel="noopener">All shows ↗</a>
       </div>
       <iframe src="https://open.spotify.com/embed/playlist/7M4rtfRDVTNly3zZFPK90n?utm_source=generator&theme=0"
         height="380" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
@@ -208,42 +297,88 @@
   </footer>
 
   <script>
-    const input = document.getElementById('search');
-    const resultsEl = document.getElementById('search-results');
+    const searchInput = document.getElementById('search');
+    const searchResultsEl = document.getElementById('search-results');
+    const genreTagsEl = document.getElementById('genre-tags');
+    const browseListEl = document.getElementById('browse-list');
+    const popSlider = document.getElementById('pop-slider');
+    const popLabel = document.getElementById('pop-label');
+
+    let allArtists = [];
     let fuse = null;
+    let activeGenres = new Set();
+
+    function renderBrowse() {
+      const maxPop = parseInt(popSlider.value);
+      let filtered = allArtists.filter(a => a.popularity <= maxPop);
+      if (activeGenres.size > 0) {
+        filtered = filtered.filter(a =>
+          a.genres.some(g => activeGenres.has(g))
+        );
+      }
+      if (!filtered.length) {
+        browseListEl.innerHTML = '<div class="browse-none">No artists match these filters.</div>';
+        return;
+      }
+      browseListEl.innerHTML = filtered.map(a => `
+        <a class="browse-artist" href="${a.venue_url}" target="_blank" rel="noopener">
+          <span class="browse-artist-name">${a.name}</span>
+          <span class="browse-artist-venue">${a.venue}</span>
+        </a>`).join('');
+    }
+
+    function renderGenreTags(artists) {
+      const counts = {};
+      artists.forEach(a => a.genres.forEach(g => { counts[g] = (counts[g] || 0) + 1; }));
+      const topGenres = Object.entries(counts)
+        .sort((a, b) => b[1] - a[1])
+        .slice(0, 18)
+        .map(([g]) => g);
+      genreTagsEl.innerHTML = topGenres.map(g => `
+        <span class="genre-tag" data-genre="${g}">${g}</span>`).join('');
+      genreTagsEl.querySelectorAll('.genre-tag').forEach(tag => {
+        tag.addEventListener('click', () => {
+          const g = tag.dataset.genre;
+          if (activeGenres.has(g)) { activeGenres.delete(g); tag.classList.remove('active'); }
+          else { activeGenres.add(g); tag.classList.add('active'); }
+          renderBrowse();
+        });
+      });
+    }
 
     fetch('data.json')
       .then(r => r.json())
       .then(data => {
-        fuse = new Fuse(data.artists, {
-          keys: ['name'],
-          threshold: 0.35,
-          minMatchCharLength: 2,
-        });
+        allArtists = data.artists || [];
+        fuse = new Fuse(allArtists, { keys: ['name'], threshold: 0.35, minMatchCharLength: 2 });
+        renderGenreTags(allArtists);
+        renderBrowse();
       });
 
-    input.addEventListener('input', () => {
-      const q = input.value.trim();
-      if (!q || !fuse) {
-        resultsEl.classList.remove('visible');
-        return;
-      }
+    // Popularity slider
+    popSlider.addEventListener('input', () => {
+      popLabel.textContent = popSlider.value == 100 ? 'all' : `≤${popSlider.value}`;
+      renderBrowse();
+    });
+
+    // Search
+    searchInput.addEventListener('input', () => {
+      const q = searchInput.value.trim();
+      if (!q || !fuse) { searchResultsEl.classList.remove('visible'); return; }
       const results = fuse.search(q, { limit: 8 });
-      if (!results.length) {
-        resultsEl.innerHTML = '<div class="search-empty">No artists found</div>';
-      } else {
-        resultsEl.innerHTML = results.map(({ item }) => `
-          <a class="search-result" href="${item.venue_url}" target="_blank" rel="noopener">
-            <span class="search-result-name">${item.name}</span>
-            <span class="search-result-venue">${item.venue}</span>
-          </a>`).join('');
-      }
-      resultsEl.classList.add('visible');
+      searchResultsEl.innerHTML = results.length
+        ? results.map(({ item }) => `
+            <a class="search-result" href="${item.venue_url}" target="_blank" rel="noopener">
+              <span class="search-result-name">${item.name}</span>
+              <span class="search-result-venue">${item.venue}</span>
+            </a>`).join('')
+        : '<div class="search-empty">No artists found</div>';
+      searchResultsEl.classList.add('visible');
     });
 
     document.addEventListener('click', e => {
-      if (!input.contains(e.target) && !resultsEl.contains(e.target)) {
-        resultsEl.classList.remove('visible');
+      if (!searchInput.contains(e.target) && !searchResultsEl.contains(e.target)) {
+        searchResultsEl.classList.remove('visible');
       }
     });
   </script>
