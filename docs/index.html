@@ -14,300 +14,144 @@
     }
     header {
       max-width: 900px;
-      margin: 0 auto 2.5rem;
+      margin: 0 auto 2rem;
       border-bottom: 1px solid #333;
       padding-bottom: 1.25rem;
     }
-    header h1 {
-      font-size: 2rem;
-      font-weight: 700;
-      letter-spacing: -0.02em;
-      color: #f5f5f5;
-    }
-    header p {
-      margin-top: 0.4rem;
-      color: #888;
-      font-size: 0.9rem;
-    }
-    .venues {
-      max-width: 900px;
-      margin: 0 auto;
-      display: flex;
-      flex-direction: column;
-      gap: 2.5rem;
-    }
-    .venue {
-      background: #1a1a1a;
-      border: 1px solid #2a2a2a;
-      border-radius: 8px;
-      overflow: hidden;
-    }
-    .venue-header {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 1rem 1.25rem;
-      border-bottom: 1px solid #2a2a2a;
-    }
-    .venue-header h2 {
-      font-size: 1rem;
-      font-weight: 700;
-      color: #f0f0f0;
-    }
-    .venue-header a {
-      font-size: 0.8rem;
-      color: #888;
-      text-decoration: none;
-      border: 1px solid #333;
-      border-radius: 4px;
-      padding: 0.2rem 0.6rem;
-      transition: color 0.15s, border-color 0.15s;
-    }
-    .venue-header a:hover { color: #ccc; border-color: #555; }
-    iframe {
-      display: block;
-      width: 100%;
-      border: none;
-    }
-    footer {
-      max-width: 900px;
-      margin: 3rem auto 0;
-      text-align: center;
-      font-size: 0.8rem;
-      color: #555;
-    }
-    .search-wrap {
-      max-width: 900px;
-      margin: 0 auto 2rem;
-      position: relative;
-    }
+    header h1 { font-size: 2rem; font-weight: 700; letter-spacing: -0.02em; color: #f5f5f5; }
+    header p { margin-top: 0.4rem; color: #888; font-size: 0.9rem; }
+
+    /* Search */
+    .search-wrap { max-width: 900px; margin: 0 auto 1.25rem; position: relative; }
     .search-wrap input {
-      width: 100%;
-      background: #1a1a1a;
-      border: 1px solid #333;
-      border-radius: 8px;
-      color: #e0e0e0;
-      font-size: 0.95rem;
-      padding: 0.75rem 1rem;
-      outline: none;
-      transition: border-color 0.15s;
+      width: 100%; background: #1a1a1a; border: 1px solid #333; border-radius: 8px;
+      color: #e0e0e0; font-size: 0.95rem; padding: 0.75rem 1rem;
+      outline: none; transition: border-color 0.15s;
     }
     .search-wrap input::placeholder { color: #555; }
     .search-wrap input:focus { border-color: #555; }
     .search-results {
-      position: absolute;
-      top: calc(100% + 4px);
-      left: 0; right: 0;
-      background: #1e1e1e;
-      border: 1px solid #333;
-      border-radius: 8px;
-      overflow: hidden;
-      z-index: 10;
-      display: none;
+      position: absolute; top: calc(100% + 4px); left: 0; right: 0;
+      background: #1e1e1e; border: 1px solid #333; border-radius: 8px;
+      overflow: hidden; z-index: 10; display: none;
     }
     .search-results.visible { display: block; }
     .search-result {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 0.65rem 1rem;
-      border-bottom: 1px solid #2a2a2a;
-      text-decoration: none;
-      color: inherit;
-      transition: background 0.1s;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0.65rem 1rem; border-bottom: 1px solid #2a2a2a;
+      text-decoration: none; color: inherit; transition: background 0.1s;
     }
     .search-result:last-child { border-bottom: none; }
     .search-result:hover { background: #252525; }
     .search-result-name { font-size: 0.9rem; color: #e0e0e0; }
     .search-result-venue { font-size: 0.8rem; color: #666; }
-    .search-empty {
-      padding: 0.75rem 1rem;
-      font-size: 0.88rem;
-      color: #666;
+    .search-empty { padding: 0.75rem 1rem; font-size: 0.88rem; color: #666; }
+
+    /* ── Discover panel ──────────────────────────────────────── */
+    .discover {
+      max-width: 900px; margin: 0 auto 2.5rem;
+      background: #1a1a1a; border: 1px solid #2a2a2a; border-radius: 8px; overflow: hidden;
     }
-    /* For You section */
-    .foryou {
-      max-width: 900px;
-      margin: 0 auto 2.5rem;
-      background: #1a1a1a;
-      border: 1px solid #2a2a2a;
-      border-radius: 8px;
-      overflow: hidden;
+    .discover-header {
+      display: flex; align-items: center; gap: 0.75rem;
+      padding: 0.6rem 1rem; border-bottom: 1px solid #2a2a2a; flex-wrap: wrap;
     }
-    .foryou-header {
-      padding: 1rem 1.25rem;
-      border-bottom: 1px solid #2a2a2a;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 1rem;
+    .discover-tabs { display: flex; gap: 0.15rem; flex-shrink: 0; }
+    .dtab {
+      background: none; border: none; color: #777; font-size: 0.83rem; font-weight: 600;
+      cursor: pointer; padding: 0.25rem 0.6rem; border-radius: 4px;
+      transition: color 0.12s, background 0.12s;
     }
-    .foryou-header h2 { font-size: 1rem; font-weight: 700; color: #f0f0f0; }
-    .foryou-body { padding: 1.25rem; }
-    .foryou-connect {
-      display: flex;
-      align-items: center;
-      gap: 1rem;
-      flex-wrap: wrap;
+    .dtab.active { color: #e0e0e0; background: #2a2a2a; }
+    .dtab:hover:not(.active) { color: #bbb; }
+    .sep { width: 1px; height: 18px; background: #2a2a2a; flex-shrink: 0; }
+    /* Controls pushed to the right */
+    .discover-ctrl { display: flex; align-items: center; gap: 0.45rem; margin-left: auto; flex-wrap: wrap; }
+    .pop-wrap { display: flex; align-items: center; gap: 0.45rem; font-size: 0.76rem; color: #777; }
+    .pop-wrap input[type=range] { accent-color: #e0e0e0; width: 88px; cursor: pointer; }
+    #pop-label { font-size: 0.73rem; color: #666; min-width: 2.5ch; text-align: right; }
+    .fy-ctrl-row { display: flex; align-items: center; gap: 0.4rem; flex-wrap: wrap; }
+    .fy-ctrl-row input {
+      background: #111; border: 1px solid #333; border-radius: 5px;
+      color: #e0e0e0; font-size: 0.8rem; padding: 0.28rem 0.6rem;
+      outline: none; width: 145px; transition: border-color 0.15s;
     }
-    .foryou-connect p { font-size: 0.88rem; color: #888; }
+    .fy-ctrl-row input:focus { border-color: #555; }
+    .fy-ctrl-row input::placeholder { color: #555; }
+    #foryou-status { font-size: 0.73rem; color: #1DB954; }
+    /* Buttons */
     .btn-spotify {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.5rem;
-      background: #1DB954;
-      color: #000;
-      font-size: 0.85rem;
-      font-weight: 700;
-      padding: 0.5rem 1rem;
-      border-radius: 999px;
-      text-decoration: none;
-      border: none;
-      cursor: pointer;
-      transition: opacity 0.15s;
-      white-space: nowrap;
+      display: inline-flex; align-items: center; gap: 0.3rem;
+      background: #1DB954; color: #000; font-size: 0.76rem; font-weight: 700;
+      padding: 0.28rem 0.7rem; border-radius: 999px; border: none; cursor: pointer;
+      transition: opacity 0.15s; white-space: nowrap;
     }
     .btn-spotify:hover { opacity: 0.88; }
     .btn-secondary {
-      display: inline-flex;
-      align-items: center;
-      font-size: 0.8rem;
-      color: #888;
-      background: none;
-      border: 1px solid #333;
-      border-radius: 999px;
-      padding: 0.4rem 0.85rem;
-      cursor: pointer;
-      transition: border-color 0.15s, color 0.15s;
+      display: inline-flex; align-items: center; font-size: 0.73rem; color: #888;
+      background: none; border: 1px solid #333; border-radius: 999px;
+      padding: 0.25rem 0.65rem; cursor: pointer;
+      transition: border-color 0.15s, color 0.15s; white-space: nowrap;
     }
     .btn-secondary:hover { border-color: #555; color: #ccc; }
-    .foryou-results {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    /* Genre chips – single scrolling row */
+    .discover-chips {
+      display: flex; gap: 0.35rem; padding: 0.5rem 1rem;
+      overflow-x: auto; border-bottom: 1px solid #2a2a2a; scrollbar-width: none;
     }
-    .foryou-artist {
-      display: flex;
-      flex-direction: column;
-      padding: 0.75rem 1rem;
-      border-right: 1px solid #222;
-      border-bottom: 1px solid #222;
-      text-decoration: none;
-      color: inherit;
-      transition: background 0.1s;
-    }
-    .foryou-artist:hover { background: #222; }
-    .foryou-artist-name { font-size: 0.88rem; color: #e0e0e0; }
-    .foryou-artist-venue { font-size: 0.75rem; color: #666; margin-top: 0.15rem; }
-    .foryou-artist-reason { font-size: 0.72rem; color: #1DB954; margin-top: 0.3rem; }
-    .foryou-loading { font-size: 0.88rem; color: #666; }
-    .foryou-empty { font-size: 0.88rem; color: #555; }
-    .foryou-seeds { margin-top: 1.1rem; }
-    .foryou-seeds-label { font-size: 0.8rem; color: #666; margin-bottom: 0.5rem; }
-    .foryou-seed-input-row { display: flex; gap: 0.5rem; }
-    .foryou-seed-input-row input {
-      flex: 1; min-width: 0;
-      background: #111;
-      border: 1px solid #333;
-      border-radius: 6px;
-      color: #e0e0e0;
-      font-size: 0.88rem;
-      padding: 0.45rem 0.75rem;
-      outline: none;
-      transition: border-color 0.15s;
-    }
-    .foryou-seed-input-row input:focus { border-color: #555; }
-    .foryou-seed-input-row input::placeholder { color: #555; }
-    #seed-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.6rem; }
-    .seed-tag {
-      display: inline-flex; align-items: center; gap: 0.35rem;
-      font-size: 0.75rem; padding: 0.2rem 0.6rem; border-radius: 999px;
-      background: #2a2a2a; border: 1px solid #444; color: #ccc;
-    }
-    .seed-tag button {
-      background: none; border: none; color: #888;
-      cursor: pointer; padding: 0; font-size: 1em; line-height: 1;
-    }
-    .seed-tag button:hover { color: #ccc; }
-    .foryou-subtitle {
-      padding: 0.5rem 1.25rem; font-size: 0.75rem; color: #666;
-      border-top: 1px solid #2a2a2a;
-    }
-
-    /* Browse / filter section */
-    .browse {
-      max-width: 900px;
-      margin: 0 auto 2.5rem;
-      background: #1a1a1a;
-      border: 1px solid #2a2a2a;
-      border-radius: 8px;
-      overflow: hidden;
-    }
-    .browse-header {
-      padding: 1rem 1.25rem;
-      border-bottom: 1px solid #2a2a2a;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 1rem;
-      flex-wrap: wrap;
-    }
-    .browse-header h2 { font-size: 1rem; font-weight: 700; color: #f0f0f0; }
-    .pop-wrap {
-      display: flex;
-      align-items: center;
-      gap: 0.6rem;
-      font-size: 0.8rem;
-      color: #888;
-    }
-    .pop-wrap input[type=range] {
-      accent-color: #e0e0e0;
-      width: 120px;
-      cursor: pointer;
-    }
-    .genre-tags {
-      padding: 0.75rem 1.25rem;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.4rem;
-      border-bottom: 1px solid #2a2a2a;
-    }
+    .discover-chips::-webkit-scrollbar { display: none; }
+    .discover-chips:empty { padding: 0; border: none; }
     .genre-tag {
-      font-size: 0.75rem;
-      padding: 0.25rem 0.6rem;
-      border-radius: 999px;
-      border: 1px solid #333;
-      background: #222;
-      color: #999;
-      cursor: pointer;
-      transition: all 0.12s;
-      user-select: none;
+      flex-shrink: 0; font-size: 0.71rem; padding: 0.18rem 0.52rem; border-radius: 999px;
+      border: 1px solid #333; background: #222; color: #999;
+      cursor: pointer; transition: all 0.12s; user-select: none;
     }
     .genre-tag:hover { border-color: #555; color: #ccc; }
     .genre-tag.active { background: #e0e0e0; color: #111; border-color: #e0e0e0; }
-    .browse-list {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-      gap: 0;
+    /* Seed tags */
+    .seed-chips {
+      display: flex; gap: 0.35rem; flex-wrap: wrap;
+      padding: 0.45rem 1rem; border-bottom: 1px solid #2a2a2a;
     }
-    .browse-artist {
-      display: flex;
-      flex-direction: column;
-      padding: 0.65rem 1rem;
-      border-right: 1px solid #222;
-      border-bottom: 1px solid #222;
-      text-decoration: none;
-      color: inherit;
-      transition: background 0.1s;
+    .seed-tag {
+      display: inline-flex; align-items: center; gap: 0.3rem;
+      font-size: 0.71rem; padding: 0.18rem 0.52rem; border-radius: 999px;
+      background: #2a2a2a; border: 1px solid #444; color: #ccc;
     }
-    .browse-artist:hover { background: #222; }
-    .browse-artist-name { font-size: 0.88rem; color: #e0e0e0; }
-    .browse-artist-venue { font-size: 0.75rem; color: #666; margin-top: 0.15rem; }
-    .browse-none {
-      padding: 1.5rem;
-      color: #555;
-      font-size: 0.88rem;
-      grid-column: 1/-1;
+    .seed-tag button {
+      background: none; border: none; color: #888; cursor: pointer; padding: 0; font-size: 1em; line-height: 1;
     }
+    .seed-tag button:hover { color: #ccc; }
+    /* Scrollable results grid */
+    .discover-results { max-height: 210px; overflow-y: auto; scrollbar-width: thin; scrollbar-color: #2a2a2a transparent; }
+    .discover-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(195px, 1fr)); }
+    .discover-artist {
+      display: flex; flex-direction: column; padding: 0.5rem 1rem;
+      border-right: 1px solid #222; border-bottom: 1px solid #222;
+      text-decoration: none; color: inherit; transition: background 0.1s;
+    }
+    .discover-artist:hover { background: #222; }
+    .da-name { font-size: 0.84rem; color: #e0e0e0; }
+    .da-venue { font-size: 0.7rem; color: #666; margin-top: 0.1rem; }
+    .da-reason { font-size: 0.67rem; color: #1DB954; margin-top: 0.2rem; }
+    .discover-none { padding: 1.1rem 1rem; color: #555; font-size: 0.83rem; }
+
+    /* Venue sections */
+    .venues { max-width: 900px; margin: 0 auto; display: flex; flex-direction: column; gap: 2.5rem; }
+    .venue { background: #1a1a1a; border: 1px solid #2a2a2a; border-radius: 8px; overflow: hidden; }
+    .venue-header {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 1rem 1.25rem; border-bottom: 1px solid #2a2a2a;
+    }
+    .venue-header h2 { font-size: 1rem; font-weight: 700; color: #f0f0f0; }
+    .venue-header a {
+      font-size: 0.8rem; color: #888; text-decoration: none;
+      border: 1px solid #333; border-radius: 4px; padding: 0.2rem 0.6rem;
+      transition: color 0.15s, border-color 0.15s;
+    }
+    .venue-header a:hover { color: #ccc; border-color: #555; }
+    iframe { display: block; width: 100%; border: none; }
+    footer { max-width: 900px; margin: 3rem auto 0; text-align: center; font-size: 0.8rem; color: #555; }
   </style>
   <script src="https://cdn.jsdelivr.net/npm/fuse.js@7/dist/fuse.min.js"></script>
 </head>
@@ -322,49 +166,40 @@
     <div class="search-results" id="search-results"></div>
   </div>
 
-  <div class="foryou" id="foryou-section">
-    <div class="foryou-header">
-      <h2>For You</h2>
-      <div style="display:flex;gap:0.75rem;align-items:center">
-        <span id="foryou-status" style="font-size:0.78rem;color:#1DB954"></span>
-        <button class="btn-secondary" id="btn-disconnect" style="display:none">Disconnect</button>
+  <div class="discover">
+    <div class="discover-header">
+      <div class="discover-tabs">
+        <button class="dtab active" data-tab="browse">Browse</button>
+        <button class="dtab" data-tab="foryou">For You</button>
       </div>
-    </div>
-    <div class="foryou-body">
-      <div class="foryou-connect">
-        <p>Connect Spotify for personalized picks, or add artists you like below.</p>
-        <button class="btn-spotify" id="btn-connect">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg>
-          Connect Spotify
-        </button>
-      </div>
-      <div class="foryou-seeds">
-        <p class="foryou-seeds-label">Add artists you like:</p>
-        <div class="foryou-seed-input-row">
-          <input type="text" id="seed-input" placeholder="e.g. Bon Iver, Sylvan Esso…" autocomplete="off">
-          <button class="btn-secondary" id="btn-add-seed">Add</button>
+      <div class="sep"></div>
+      <div class="discover-ctrl" id="ctrl-browse">
+        <div class="pop-wrap">
+          <span>Niche</span>
+          <input type="range" id="pop-slider" min="0" max="100" value="100">
+          <span>Mainstream</span>
+          <span id="pop-label">all</span>
         </div>
-        <div id="seed-tags"></div>
+      </div>
+      <div class="discover-ctrl" id="ctrl-foryou" style="display:none">
+        <div class="fy-ctrl-row">
+          <input type="text" id="seed-input" placeholder="Add an artist…" autocomplete="off">
+          <button class="btn-secondary" id="btn-add-seed">Add</button>
+          <button class="btn-spotify" id="btn-connect">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg>
+            Connect Spotify
+          </button>
+          <span id="foryou-status"></span>
+          <button class="btn-secondary" id="btn-disconnect" style="display:none">Disconnect</button>
+        </div>
       </div>
     </div>
-    <div id="foryou-results-wrap" style="display:none">
-      <div class="foryou-subtitle" id="foryou-subtitle"></div>
-      <div class="foryou-results" id="foryou-results"></div>
+    <div class="discover-chips" id="genre-tags"></div>
+    <div class="seed-chips" id="seed-tags" style="display:none"></div>
+    <div class="discover-results">
+      <div class="discover-grid" id="browse-list"><div class="discover-none">Loading…</div></div>
+      <div class="discover-grid" id="foryou-results" style="display:none"><div class="discover-none">Connect Spotify or add an artist above to see personalized picks.</div></div>
     </div>
-  </div>
-
-  <div class="browse">
-    <div class="browse-header">
-      <h2>Browse Artists</h2>
-      <div class="pop-wrap">
-        <span>Niche</span>
-        <input type="range" id="pop-slider" min="0" max="100" value="100">
-        <span>Mainstream</span>
-        <span id="pop-label" style="min-width:3ch;text-align:right;">all</span>
-      </div>
-    </div>
-    <div class="genre-tags" id="genre-tags"></div>
-    <div class="browse-list" id="browse-list"><div class="browse-none">Loading…</div></div>
   </div>
 
   <div class="venues">
@@ -375,8 +210,7 @@
         <a href="https://www.lh-st.com/shows/" target="_blank" rel="noopener">All shows ↗</a>
       </div>
       <iframe src="https://open.spotify.com/embed/playlist/2U2905zrSa7d0srhj5UQPl?utm_source=generator&theme=0"
-        height="380" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-        loading="lazy"></iframe>
+        height="380" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     </div>
 
     <div class="venue">
@@ -385,8 +219,7 @@
         <a href="https://www.emptybottle.com" target="_blank" rel="noopener">All shows ↗</a>
       </div>
       <iframe src="https://open.spotify.com/embed/playlist/064CP2pebRQJ8JxkBz1o8Q?utm_source=generator&theme=0"
-        height="380" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-        loading="lazy"></iframe>
+        height="380" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     </div>
 
     <div class="venue">
@@ -395,8 +228,7 @@
         <a href="https://www.thaliahallchicago.com" target="_blank" rel="noopener">All shows ↗</a>
       </div>
       <iframe src="https://open.spotify.com/embed/playlist/7M4rtfRDVTNly3zZFPK90n?utm_source=generator&theme=0"
-        height="380" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-        loading="lazy"></iframe>
+        height="380" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     </div>
 
     <div class="venue">
@@ -405,8 +237,7 @@
         <a href="https://www.rivieratheatre.com/events" target="_blank" rel="noopener">All shows ↗</a>
       </div>
       <iframe src="https://open.spotify.com/embed/playlist/5de0c0jgd4tmc8hJuTA7Cz?utm_source=generator&theme=0"
-        height="380" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-        loading="lazy"></iframe>
+        height="380" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     </div>
 
     <div class="venue">
@@ -415,8 +246,7 @@
         <a href="https://www.subt.net" target="_blank" rel="noopener">All shows ↗</a>
       </div>
       <iframe src="https://open.spotify.com/embed/playlist/6PF0qVIeU7r1dOOhceq2g4?utm_source=generator&theme=0"
-        height="380" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-        loading="lazy"></iframe>
+        height="380" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     </div>
 
     <div class="venue">
@@ -425,8 +255,7 @@
         <a href="https://www.saltshedchicago.com/home#shows" target="_blank" rel="noopener">All shows ↗</a>
       </div>
       <iframe src="https://open.spotify.com/embed/playlist/6DsSykZfubhHNkMFOWMiKC?utm_source=generator&theme=0"
-        height="380" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-        loading="lazy"></iframe>
+        height="380" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     </div>
 
   </div>
@@ -446,35 +275,47 @@
     let allArtists = [];
     let fuse = null;
     let activeGenres = new Set();
+    let activeTab = 'browse';
+
+    // Tab switching
+    document.querySelectorAll('.dtab').forEach(btn => {
+      btn.addEventListener('click', () => {
+        activeTab = btn.dataset.tab;
+        document.querySelectorAll('.dtab').forEach(b => b.classList.toggle('active', b === btn));
+        const isBrowse = activeTab === 'browse';
+        document.getElementById('ctrl-browse').style.display = isBrowse ? '' : 'none';
+        document.getElementById('ctrl-foryou').style.display = isBrowse ? 'none' : '';
+        document.getElementById('genre-tags').style.display = isBrowse ? '' : 'none';
+        const seedTags = document.getElementById('seed-tags');
+        seedTags.style.display = (!isBrowse && seedArtists.length) ? '' : 'none';
+        document.getElementById('browse-list').style.display = isBrowse ? '' : 'none';
+        document.getElementById('foryou-results').style.display = isBrowse ? 'none' : '';
+      });
+    });
 
     function renderBrowse() {
       const maxPop = parseInt(popSlider.value);
       let filtered = allArtists.filter(a => a.popularity <= maxPop);
       if (activeGenres.size > 0) {
-        filtered = filtered.filter(a =>
-          a.genres.some(g => activeGenres.has(g))
-        );
+        filtered = filtered.filter(a => a.genres.some(g => activeGenres.has(g)));
       }
       if (!filtered.length) {
-        browseListEl.innerHTML = '<div class="browse-none">No artists match these filters.</div>';
+        browseListEl.innerHTML = '<div class="discover-none">No artists match these filters.</div>';
         return;
       }
       browseListEl.innerHTML = filtered.map(a => `
-        <a class="browse-artist" href="${a.venue_url}" target="_blank" rel="noopener">
-          <span class="browse-artist-name">${a.name}</span>
-          <span class="browse-artist-venue">${a.venue}</span>
+        <a class="discover-artist" href="${a.venue_url}" target="_blank" rel="noopener">
+          <span class="da-name">${a.name}</span>
+          <span class="da-venue">${a.venue}</span>
         </a>`).join('');
     }
 
     function renderGenreTags(artists) {
       const counts = {};
       artists.forEach(a => a.genres.forEach(g => { counts[g] = (counts[g] || 0) + 1; }));
-      const topGenres = Object.entries(counts)
-        .sort((a, b) => b[1] - a[1])
-        .slice(0, 18)
-        .map(([g]) => g);
-      genreTagsEl.innerHTML = topGenres.map(g => `
-        <span class="genre-tag" data-genre="${g}">${g}</span>`).join('');
+      const topGenres = Object.entries(counts).sort((a, b) => b[1] - a[1]).slice(0, 24).map(([g]) => g);
+      genreTagsEl.innerHTML = topGenres.map(g =>
+        `<span class="genre-tag" data-genre="${g}">${g}</span>`).join('');
       genreTagsEl.querySelectorAll('.genre-tag').forEach(tag => {
         tag.addEventListener('click', () => {
           const g = tag.dataset.genre;
@@ -495,13 +336,11 @@
         runRecommendations();
       });
 
-    // Popularity slider
     popSlider.addEventListener('input', () => {
       popLabel.textContent = popSlider.value == 100 ? 'all' : `≤${popSlider.value}`;
       renderBrowse();
     });
 
-    // Search
     searchInput.addEventListener('input', () => {
       const q = searchInput.value.trim();
       if (!q || !fuse) { searchResultsEl.classList.remove('visible'); return; }
@@ -531,7 +370,6 @@
     let spotifyToken = sessionStorage.getItem(TOKEN_KEY);
     let seedArtists = JSON.parse(localStorage.getItem(SEEDS_KEY) || '[]');
 
-    // PKCE helpers
     function b64url(buf) {
       return btoa(String.fromCharCode(...new Uint8Array(buf)))
         .replace(/\+/g, '-').replace(/\//g, '_').replace(/=/g, '');
@@ -540,9 +378,7 @@
       return b64url(await crypto.subtle.digest('SHA-256', new TextEncoder().encode(verifier)));
     }
     function randomVerifier() {
-      const arr = new Uint8Array(48);
-      crypto.getRandomValues(arr);
-      return b64url(arr);
+      const arr = new Uint8Array(48); crypto.getRandomValues(arr); return b64url(arr);
     }
 
     async function spotifyGet(path) {
@@ -558,23 +394,27 @@
       const conn = document.getElementById('btn-connect');
       const status = document.getElementById('foryou-status');
       if (spotifyToken) {
-        disc.style.display = ''; conn.style.display = 'none'; status.textContent = 'Spotify connected';
+        disc.style.display = ''; conn.style.display = 'none'; status.textContent = 'Connected';
       } else {
         disc.style.display = 'none'; conn.style.display = ''; status.textContent = '';
       }
     }
 
     function renderSeedTags() {
-      document.getElementById('seed-tags').innerHTML = seedArtists.map((s, i) =>
+      const el = document.getElementById('seed-tags');
+      el.innerHTML = seedArtists.map((s, i) =>
         `<span class="seed-tag">${s}<button onclick="removeSeed(${i})" aria-label="Remove">×</button></span>`
       ).join('');
+      el.style.display = (activeTab === 'foryou' && seedArtists.length) ? '' : 'none';
     }
+
     window.removeSeed = function(i) {
       seedArtists.splice(i, 1);
       localStorage.setItem(SEEDS_KEY, JSON.stringify(seedArtists));
       renderSeedTags();
       runRecommendations();
     };
+
     function addSeed(name) {
       name = name.trim();
       if (!name || seedArtists.map(s => s.toLowerCase()).includes(name.toLowerCase())) return;
@@ -586,10 +426,8 @@
 
     async function runRecommendations() {
       if (!allArtists.length) return;
-      const wrap = document.getElementById('foryou-results-wrap');
       const resultsEl = document.getElementById('foryou-results');
-      const subtitleEl = document.getElementById('foryou-subtitle');
-      let matches = [], subtitle = '';
+      let matches = [];
 
       if (spotifyToken) {
         const topData = await spotifyGet('/me/top/artists?limit=10&time_range=medium_term');
@@ -625,7 +463,6 @@
           .map(a => ({ ...a, reason: 'Similar genre' }));
 
         matches = [...direct, ...recMatches, ...genreMatches];
-        subtitle = 'Based on your Spotify taste' + (seedArtists.length ? ' + your picks' : '');
 
       } else if (seedArtists.length) {
         const seedGenres = new Set();
@@ -640,20 +477,20 @@
             .sort((a, b) => b.genres.filter(g => seedGenres.has(g)).length - a.genres.filter(g => seedGenres.has(g)).length)
             .slice(0, 20)
             .map(a => ({ ...a, reason: 'Similar genre' }));
-          subtitle = 'Based on your picks';
         }
       }
 
-      if (!matches.length) { wrap.style.display = 'none'; return; }
-      subtitleEl.textContent = subtitle;
+      if (!matches.length) {
+        resultsEl.innerHTML = '<div class="discover-none">Connect Spotify or add an artist above to see personalized picks.</div>';
+        return;
+      }
       resultsEl.innerHTML = matches.map(a =>
-        `<a class="foryou-artist" href="${a.venue_url}" target="_blank" rel="noopener">
-          <span class="foryou-artist-name">${a.name}</span>
-          <span class="foryou-artist-venue">${a.venue}</span>
-          <span class="foryou-artist-reason">${a.reason}</span>
+        `<a class="discover-artist" href="${a.venue_url}" target="_blank" rel="noopener">
+          <span class="da-name">${a.name}</span>
+          <span class="da-venue">${a.venue}</span>
+          <span class="da-reason">${a.reason}</span>
         </a>`
       ).join('');
-      wrap.style.display = '';
     }
 
     document.getElementById('btn-connect').addEventListener('click', async () => {
@@ -696,9 +533,7 @@
         code, redirect_uri: REDIRECT_URI, code_verifier: verifier,
       });
       const r = await fetch('https://accounts.spotify.com/api/token', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body,
+        method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body,
       });
       const d = await r.json();
       if (d.access_token) {
