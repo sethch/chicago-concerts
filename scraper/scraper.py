@@ -1,19 +1,27 @@
+import json
 import os
+from datetime import datetime, timezone
+from pathlib import Path
+
 from spotify import update_playlist
 from venues import schubas, empty_bottle, thalia_hall, riviera, subterranean, salt_shed
 
 VENUES = [
-    ("Schubas / Lincoln Hall", schubas.get_artists,      "SPOTIFY_SCHUBAS_PLAYLIST_ID"),
-    ("Empty Bottle",           empty_bottle.get_artists,  "SPOTIFY_EMPTY_BOTTLE_PLAYLIST_ID"),
-    ("Thalia Hall",            thalia_hall.get_artists,   "SPOTIFY_THALIA_HALL_PLAYLIST_ID"),
-    ("Riviera",                riviera.get_artists,       "SPOTIFY_RIVIERA_PLAYLIST_ID"),
-    ("Subterranean",           subterranean.get_artists,  "SPOTIFY_SUBTERRANEAN_PLAYLIST_ID"),
-    ("Salt Shed",              salt_shed.get_artists,     "SPOTIFY_SALT_SHED_PLAYLIST_ID"),
+    ("Schubas / Lincoln Hall", schubas.get_artists,      "SPOTIFY_SCHUBAS_PLAYLIST_ID", "https://www.lh-st.com/shows/"),
+    ("Empty Bottle",           empty_bottle.get_artists,  "SPOTIFY_EMPTY_BOTTLE_PLAYLIST_ID", "https://www.emptybottle.com"),
+    ("Thalia Hall",            thalia_hall.get_artists,   "SPOTIFY_THALIA_HALL_PLAYLIST_ID", "https://www.thaliahall.com/shows/"),
+    ("Riviera",                riviera.get_artists,       "SPOTIFY_RIVIERA_PLAYLIST_ID", "https://www.rivieratheatre.com/events"),
+    ("Subterranean",           subterranean.get_artists,  "SPOTIFY_SUBTERRANEAN_PLAYLIST_ID", "https://www.subt.net"),
+    ("Salt Shed",              salt_shed.get_artists,     "SPOTIFY_SALT_SHED_PLAYLIST_ID", "https://www.saltshedchicago.com/home#shows"),
 ]
+
+MANIFEST_PATH = Path(__file__).parent.parent / "docs" / "data.json"
 
 
 def main():
-    for name, get_artists, playlist_env in VENUES:
+    all_artists = []
+
+    for name, get_artists, playlist_env, venue_url in VENUES:
         playlist_id = os.environ.get(playlist_env)
         if not playlist_id:
             print(f"Skipping {name}: {playlist_env} not set")
@@ -24,8 +32,17 @@ def main():
             print(f"Found {len(artists)} artists: {artists}")
             update_playlist(artists, playlist_id)
             print(f"Playlist updated.")
+            for artist in artists:
+                all_artists.append({"name": artist, "venue": name, "venue_url": venue_url})
         except Exception as e:
             print(f"Error processing {name}: {e}")
+
+    manifest = {
+        "updated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "artists": all_artists,
+    }
+    MANIFEST_PATH.write_text(json.dumps(manifest, indent=2))
+    print(f"\nWrote {len(all_artists)} artists to {MANIFEST_PATH}")
 
 
 if __name__ == "__main__":

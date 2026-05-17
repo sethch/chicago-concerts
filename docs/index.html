@@ -76,13 +76,68 @@
       font-size: 0.8rem;
       color: #555;
     }
+    .search-wrap {
+      max-width: 900px;
+      margin: 0 auto 2rem;
+      position: relative;
+    }
+    .search-wrap input {
+      width: 100%;
+      background: #1a1a1a;
+      border: 1px solid #333;
+      border-radius: 8px;
+      color: #e0e0e0;
+      font-size: 0.95rem;
+      padding: 0.75rem 1rem;
+      outline: none;
+      transition: border-color 0.15s;
+    }
+    .search-wrap input::placeholder { color: #555; }
+    .search-wrap input:focus { border-color: #555; }
+    .search-results {
+      position: absolute;
+      top: calc(100% + 4px);
+      left: 0; right: 0;
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 8px;
+      overflow: hidden;
+      z-index: 10;
+      display: none;
+    }
+    .search-results.visible { display: block; }
+    .search-result {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.65rem 1rem;
+      border-bottom: 1px solid #2a2a2a;
+      text-decoration: none;
+      color: inherit;
+      transition: background 0.1s;
+    }
+    .search-result:last-child { border-bottom: none; }
+    .search-result:hover { background: #252525; }
+    .search-result-name { font-size: 0.9rem; color: #e0e0e0; }
+    .search-result-venue { font-size: 0.8rem; color: #666; }
+    .search-empty {
+      padding: 0.75rem 1rem;
+      font-size: 0.88rem;
+      color: #666;
+    }
   </style>
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7/dist/fuse.min.js"></script>
 </head>
 <body>
   <header>
     <h1>Chicago Concerts</h1>
     <p>Upcoming shows at Chicago venues — playlists updated weekly</p>
   </header>
+
+  <div class="search-wrap">
+    <input type="search" id="search" placeholder="Search artists across all venues…" autocomplete="off">
+    <div class="search-results" id="search-results"></div>
+  </div>
 
   <div class="venues">
 
@@ -151,5 +206,46 @@
   <footer>
     Playlists updated every Monday &nbsp;·&nbsp; <a href="https://github.com/sethch/chicago-concerts" style="color:#555;" target="_blank" rel="noopener">GitHub</a>
   </footer>
+
+  <script>
+    const input = document.getElementById('search');
+    const resultsEl = document.getElementById('search-results');
+    let fuse = null;
+
+    fetch('data.json')
+      .then(r => r.json())
+      .then(data => {
+        fuse = new Fuse(data.artists, {
+          keys: ['name'],
+          threshold: 0.35,
+          minMatchCharLength: 2,
+        });
+      });
+
+    input.addEventListener('input', () => {
+      const q = input.value.trim();
+      if (!q || !fuse) {
+        resultsEl.classList.remove('visible');
+        return;
+      }
+      const results = fuse.search(q, { limit: 8 });
+      if (!results.length) {
+        resultsEl.innerHTML = '<div class="search-empty">No artists found</div>';
+      } else {
+        resultsEl.innerHTML = results.map(({ item }) => `
+          <a class="search-result" href="${item.venue_url}" target="_blank" rel="noopener">
+            <span class="search-result-name">${item.name}</span>
+            <span class="search-result-venue">${item.venue}</span>
+          </a>`).join('');
+      }
+      resultsEl.classList.add('visible');
+    });
+
+    document.addEventListener('click', e => {
+      if (!input.contains(e.target) && !resultsEl.contains(e.target)) {
+        resultsEl.classList.remove('visible');
+      }
+    });
+  </script>
 </body>
 </html>

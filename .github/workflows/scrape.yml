@@ -34,3 +34,11 @@ jobs:
           SPOTIFY_SUBTERRANEAN_PLAYLIST_ID: ${{ secrets.SPOTIFY_SUBTERRANEAN_PLAYLIST_ID }}
           SPOTIFY_SALT_SHED_PLAYLIST_ID: ${{ secrets.SPOTIFY_SALT_SHED_PLAYLIST_ID }}
         run: python scraper/scraper.py
+
+      - name: Commit and push data.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/data.json
+          git diff --cached --quiet || git commit -m "Update artist manifest [skip ci]"
+          git push
