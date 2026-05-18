@@ -174,10 +174,13 @@
       .discover-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
       .discover-header { gap: 0.5rem; padding: 0.5rem 0.75rem; }
       .discover-chips, .venue-chips, .seed-chips { padding-left: 0.75rem; padding-right: 0.75rem; }
-      .discover-results { max-height: 240px; }
+      .discover-results { max-height: none; overflow-y: visible; }
     }
     /* Scrollable results grid */
-    .discover-results { max-height: 210px; overflow-y: auto; scrollbar-width: thin; scrollbar-color: #2a2a2a transparent; }
+    .discover-results { max-height: 210px; overflow-y: auto; scrollbar-width: thin; scrollbar-color: #444 transparent; }
+    .discover-results::-webkit-scrollbar { width: 4px; }
+    .discover-results::-webkit-scrollbar-track { background: transparent; }
+    .discover-results::-webkit-scrollbar-thumb { background: #444; border-radius: 2px; }
     .discover-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(195px, 1fr)); }
     .discover-artist {
       display: flex; flex-direction: column; padding: 0.5rem 1rem;
