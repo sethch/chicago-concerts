@@ -1,1 +1,3546 @@
-{"updated": "2026-05-17T00:00:00Z", "artists": []}
+{
+  "updated": "2026-05-18T00:00:46Z",
+  "artists": [
+    {
+      "name": "Armlock",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [
+        "lo-fi indie"
+      ],
+      "popularity": 29
+    },
+    {
+      "name": "Deryk G",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 1
+    },
+    {
+      "name": "Am\u00e9lie Farren",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 58
+    },
+    {
+      "name": "Sleaford Mods",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [
+        "post-punk"
+      ],
+      "popularity": 50
+    },
+    {
+      "name": "Foto Flo",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Quiet Light",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 48
+    },
+    {
+      "name": "Schubas Open Mic",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Trash Kickers",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "FIGHTMASTER",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 42
+    },
+    {
+      "name": "Heavy Crownz",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 7
+    },
+    {
+      "name": "The Orchard",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 23
+    },
+    {
+      "name": "Anthony Cruz and Double Dipp Present: Full Circle",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Dope After Dark Presents: Pleasures",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "RECESSION INDICATOR",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Cooper Moore",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 2
+    },
+    {
+      "name": "IKE DWECK",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [
+        "folk pop"
+      ],
+      "popularity": 62
+    },
+    {
+      "name": "Joshua Ray Walker",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [
+        "alt country",
+        "americana",
+        "red dirt",
+        "outlaw country"
+      ],
+      "popularity": 35
+    },
+    {
+      "name": "Jaguar Sun",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [
+        "dream pop"
+      ],
+      "popularity": 47
+    },
+    {
+      "name": "Glom",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 37
+    },
+    {
+      "name": "Prince Daddy & the Hyena",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [
+        "midwest emo",
+        "emo",
+        "indie punk",
+        "folk punk",
+        "math rock"
+      ],
+      "popularity": 46
+    },
+    {
+      "name": "DJ DTOX",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Wesley School of Music Spring Recital",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Hrishikesh Hirway",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 31
+    },
+    {
+      "name": "Old Mervs",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [
+        "surf rock"
+      ],
+      "popularity": 51
+    },
+    {
+      "name": "Machin",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [
+        "groove metal",
+        "metal",
+        "nu metal",
+        "thrash metal",
+        "hard rock",
+        "heavy metal"
+      ],
+      "popularity": 61
+    },
+    {
+      "name": "Avery Lynch",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 44
+    },
+    {
+      "name": "Anywho Whooptie Woo",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Scenic Route",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "BOTH SIDES NOW: A CHIRP VINYL LISTENING BAR",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Neoni",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 70
+    },
+    {
+      "name": "Gnite",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [
+        "melodic hardcore",
+        "skate punk",
+        "hardcore punk",
+        "punk",
+        "hardcore"
+      ],
+      "popularity": 40
+    },
+    {
+      "name": "toss!",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 1
+    },
+    {
+      "name": "Arts Fishing Club",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 41
+    },
+    {
+      "name": "Widemouth",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 12
+    },
+    {
+      "name": "Choker",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [
+        "alternative r&b"
+      ],
+      "popularity": 45
+    },
+    {
+      "name": "Clark Street Jams",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Leah Kate",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 57
+    },
+    {
+      "name": "The Metalliques",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Augustana",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 46
+    },
+    {
+      "name": "Morpho",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 1
+    },
+    {
+      "name": "Seedhe Maut",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [
+        "desi hip hop",
+        "hindi hip hop",
+        "hardcore hip hop"
+      ],
+      "popularity": 67
+    },
+    {
+      "name": "Sam Dicke and Friends",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Janet Blackwell",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 1
+    },
+    {
+      "name": "Tommy Goodroad",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 4
+    },
+    {
+      "name": "ZEP",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [
+        "classic rock",
+        "rock",
+        "hard rock",
+        "rock and roll"
+      ],
+      "popularity": 79
+    },
+    {
+      "name": "Max Kulchinsky",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Katie Kadan",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 25
+    },
+    {
+      "name": "Tri Nohbi",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 9
+    },
+    {
+      "name": "Schubas Garden Party",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Tyler Stock",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Naomi Scott",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 64
+    },
+    {
+      "name": "Aly Wojo",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Dominique Sachse's Over 50 & Flourishing",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Worldpeace DMT",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [
+        "electroclash"
+      ],
+      "popularity": 36
+    },
+    {
+      "name": "Conway The Machine",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [
+        "boom bap",
+        "east coast hip hop"
+      ],
+      "popularity": 61
+    },
+    {
+      "name": "Wim Tapley & The Cannons",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "The Silver Palms",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 2
+    },
+    {
+      "name": "The Hotelier",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [
+        "midwest emo",
+        "emo",
+        "math rock"
+      ],
+      "popularity": 44
+    },
+    {
+      "name": "PERRY MAYSUN",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 46
+    },
+    {
+      "name": "Prewn",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 43
+    },
+    {
+      "name": "Greg Mendez",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 38
+    },
+    {
+      "name": "ALLY NICHOLAS",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 54
+    },
+    {
+      "name": "Jesca Hoop",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [
+        "indie folk"
+      ],
+      "popularity": 40
+    },
+    {
+      "name": "Sideshow",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [
+        "experimental hip hop",
+        "alternative hip hop",
+        "jazz rap"
+      ],
+      "popularity": 50
+    },
+    {
+      "name": "Elias",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 55
+    },
+    {
+      "name": "Fulton Lee",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [
+        "pop soul"
+      ],
+      "popularity": 48
+    },
+    {
+      "name": "Olive Jones",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 60
+    },
+    {
+      "name": "Mortified Chicago: Pride",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "We Rock! Chicago End-of-Camp Extravaganza",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Widowspeak",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [
+        "dream pop",
+        "chillwave"
+      ],
+      "popularity": 48
+    },
+    {
+      "name": "BEOGA",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [
+        "celtic"
+      ],
+      "popularity": 37
+    },
+    {
+      "name": "KeiyaA",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [
+        "alternative r&b"
+      ],
+      "popularity": 29
+    },
+    {
+      "name": "The Wildwoods",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 34
+    },
+    {
+      "name": "Don Trip",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 54
+    },
+    {
+      "name": "Middle Sister",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "corto.alto",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [
+        "nu jazz",
+        "indie jazz",
+        "jazz fusion",
+        "experimental jazz"
+      ],
+      "popularity": 42
+    },
+    {
+      "name": "The Bug Club",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 40
+    },
+    {
+      "name": "AKRIILA",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [
+        "neoperreo",
+        "chilean trap"
+      ],
+      "popularity": 63
+    },
+    {
+      "name": "DUSTBOWLCHAMPION",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [
+        "darkwave",
+        "post-punk",
+        "cold wave"
+      ],
+      "popularity": 38
+    },
+    {
+      "name": "Congress the Band",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 49
+    },
+    {
+      "name": "Bluefront",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Wells Ferrari",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 32
+    },
+    {
+      "name": "youbet",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 33
+    },
+    {
+      "name": "Man Man",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 38
+    },
+    {
+      "name": "SIAM\u00c9S",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Pool Hall",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 5
+    },
+    {
+      "name": "The Weekend Run Club",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 14
+    },
+    {
+      "name": "Holy Joke",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 3
+    },
+    {
+      "name": "ford.",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 48
+    },
+    {
+      "name": "Fat, Evil Children",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 39
+    },
+    {
+      "name": "KEVIAN KRAEMER",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 50
+    },
+    {
+      "name": "The Femcels",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [
+        "electroclash"
+      ],
+      "popularity": 35
+    },
+    {
+      "name": "Friendlyjordies Presents: Alien Hunter",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Alex Lahey (Solo)",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Wu Lyf",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Wild Child",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [
+        "folk pop"
+      ],
+      "popularity": 45
+    },
+    {
+      "name": "Headband Henny",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 42
+    },
+    {
+      "name": "Wild Child for Kids",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "St. Julien",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 40
+    },
+    {
+      "name": "Harvey Street",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [
+        "jam band"
+      ],
+      "popularity": 47
+    },
+    {
+      "name": "The Family Crest",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 47
+    },
+    {
+      "name": "The Droptines",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [
+        "red dirt",
+        "alt country"
+      ],
+      "popularity": 50
+    },
+    {
+      "name": "Em Brown",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [
+        "comedy"
+      ],
+      "popularity": 0
+    },
+    {
+      "name": "Bob Keen",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Zoh Amba",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [
+        "free jazz",
+        "experimental jazz",
+        "avant-garde"
+      ],
+      "popularity": 23
+    },
+    {
+      "name": "Riff Wood",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 36
+    },
+    {
+      "name": "BIIRD",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 6
+    },
+    {
+      "name": "Abby Holliday",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 40
+    },
+    {
+      "name": "Babymorocco",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [
+        "electroclash",
+        "hyperpop"
+      ],
+      "popularity": 38
+    },
+    {
+      "name": "Tommy Oeffling and The B-Team",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Playlunch",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 44
+    },
+    {
+      "name": "Belles",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 45
+    },
+    {
+      "name": "Born at Midnite",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 36
+    },
+    {
+      "name": "Meltt",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 58
+    },
+    {
+      "name": "BLUHM",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [
+        "dream pop"
+      ],
+      "popularity": 38
+    },
+    {
+      "name": "Value Select",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 27
+    },
+    {
+      "name": "Chilluminati x Cox 'n' Crendor Live",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Rival Consoles",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [
+        "idm",
+        "electronica"
+      ],
+      "popularity": 49
+    },
+    {
+      "name": "Magnolia And Johnson Electric Co.",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "The Innocence Mission",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [
+        "ambient folk"
+      ],
+      "popularity": 40
+    },
+    {
+      "name": "Vincent Bryant",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Recoechi",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 25
+    },
+    {
+      "name": "Fantasy Fangirls",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Emma Harner",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 39
+    },
+    {
+      "name": "Sondre Lerche",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [
+        "norwegian pop"
+      ],
+      "popularity": 38
+    },
+    {
+      "name": "Ghostly Kisses",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 51
+    },
+    {
+      "name": "Soda Blonde",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 38
+    },
+    {
+      "name": "Shearling",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "When Chai Met Toast",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [
+        "indian indie",
+        "hindi indie",
+        "folk pop"
+      ],
+      "popularity": 43
+    },
+    {
+      "name": "AJ Lee & Blue Summit",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [
+        "bluegrass",
+        "newgrass",
+        "americana"
+      ],
+      "popularity": 43
+    },
+    {
+      "name": "The Takes",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 35
+    },
+    {
+      "name": "Briscoe",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 46
+    },
+    {
+      "name": "Jervis Campbell",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [
+        "christian folk",
+        "christian pop",
+        "worship",
+        "christian",
+        "christian alternative rock"
+      ],
+      "popularity": 61
+    },
+    {
+      "name": "Bahamas",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 59
+    },
+    {
+      "name": "Bayonne",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 55
+    },
+    {
+      "name": "Elder Island",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 53
+    },
+    {
+      "name": "MARO",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 58
+    },
+    {
+      "name": "Wesley Joseph",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 54
+    },
+    {
+      "name": "Red Leather",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 62
+    },
+    {
+      "name": "Benny G",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [
+        "big band",
+        "swing music",
+        "jazz",
+        "ragtime"
+      ],
+      "popularity": 52
+    },
+    {
+      "name": "IAN SWEET",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 32
+    },
+    {
+      "name": "The Bobby Lees",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [
+        "egg punk",
+        "garage rock"
+      ],
+      "popularity": 35
+    },
+    {
+      "name": "DICE",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [
+        "surf rock"
+      ],
+      "popularity": 47
+    },
+    {
+      "name": "Taylor Bickett",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 44
+    },
+    {
+      "name": "Teen Jesus and the Jean Teasers",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 44
+    },
+    {
+      "name": "THE BENDS",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 51
+    },
+    {
+      "name": "Flower Face",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [
+        "ambient folk"
+      ],
+      "popularity": 51
+    },
+    {
+      "name": "West 22nd",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 58
+    },
+    {
+      "name": "Low Cut Connie",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 36
+    },
+    {
+      "name": "Boyfriend",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [
+        "new orleans bounce"
+      ],
+      "popularity": 24
+    },
+    {
+      "name": "Pokey LaFarge",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [
+        "americana",
+        "bluegrass"
+      ],
+      "popularity": 43
+    },
+    {
+      "name": "Wrestle League Presents: Pride and Punishment II",
+      "venue": "Schubas / Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "*MOVED TO THALIA HALL* Anna von Hausswolff",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Sunday Night Magic",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "FREE MONDAY w",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Tunnel",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "genres": [
+        "reggae rock",
+        "reggae"
+      ],
+      "popularity": 31
+    },
+    {
+      "name": "Various Distractions w",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Just Mustard",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "genres": [
+        "shoegaze",
+        "lo-fi indie",
+        "noise rock",
+        "post-punk"
+      ],
+      "popularity": 41
+    },
+    {
+      "name": "Hard Country Honky Tonk",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Portrayal of Guilt",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "genres": [
+        "screamo",
+        "mathcore",
+        "sludge metal",
+        "grindcore",
+        "black metal"
+      ],
+      "popularity": 42
+    },
+    {
+      "name": "Warm Love Cool Dreams",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Ruidoteca presents",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Snowcuffs",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "genres": [
+        "shoegaze",
+        "dream pop"
+      ],
+      "popularity": 15
+    },
+    {
+      "name": "Modern Cults",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "genres": [
+        "jangle pop"
+      ],
+      "popularity": 0
+    },
+    {
+      "name": "National Photo Committee",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "genres": [],
+      "popularity": 16
+    },
+    {
+      "name": "CHIRP Radio Welcomes Adrian Younge",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Gabacho",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "genres": [
+        "mexican indie",
+        "latin indie"
+      ],
+      "popularity": 29
+    },
+    {
+      "name": "Talulah Paisley",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "genres": [],
+      "popularity": 1
+    },
+    {
+      "name": "Rareforms",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "TsuShiMaMiRe",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "genres": [
+        "j-rock",
+        "japanese indie",
+        "noise rock",
+        "riot grrrl"
+      ],
+      "popularity": 22
+    },
+    {
+      "name": "Forever Deaf Fest and Empty Bottle Present: Vow",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Nothing",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "genres": [
+        "shoegaze",
+        "dream pop",
+        "slowcore"
+      ],
+      "popularity": 47
+    },
+    {
+      "name": "Wendy Eisenberg and More Eaze",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Midwife",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "genres": [
+        "slowcore",
+        "shoegaze"
+      ],
+      "popularity": 32
+    },
+    {
+      "name": "Boys and Girls in America 20",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "The Devil Said Jump",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "genres": [],
+      "popularity": 20
+    },
+    {
+      "name": "City of the Sun",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "genres": [],
+      "popularity": 49
+    },
+    {
+      "name": "Lil Hero",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "genres": [
+        "hyperpop"
+      ],
+      "popularity": 54
+    },
+    {
+      "name": "Thee Marloes",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "genres": [
+        "retro soul",
+        "indonesian indie",
+        "indie jazz"
+      ],
+      "popularity": 40
+    },
+    {
+      "name": "Dark Thoughts",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "genres": [
+        "egg punk",
+        "punk",
+        "hardcore punk"
+      ],
+      "popularity": 31
+    },
+    {
+      "name": "Julie Doiron and Carson McHone",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Lena Fjortoft",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Lydia Cash",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "genres": [],
+      "popularity": 2
+    },
+    {
+      "name": "Prostitute",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "genres": [
+        "noise rock"
+      ],
+      "popularity": 34
+    },
+    {
+      "name": "Elujay",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "genres": [
+        "alternative r&b",
+        "indie r&b"
+      ],
+      "popularity": 46
+    },
+    {
+      "name": "Cola, PARKiNG",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "King Woman",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "genres": [
+        "doom metal",
+        "sludge metal",
+        "drone metal",
+        "stoner metal",
+        "darkwave"
+      ],
+      "popularity": 40
+    },
+    {
+      "name": "Trashland Zine Fest",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Cootie Catcher",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "genres": [],
+      "popularity": 29
+    },
+    {
+      "name": "The Body",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "genres": [
+        "drone metal",
+        "sludge metal",
+        "noise rock",
+        "drone",
+        "doom metal",
+        "industrial",
+        "industrial metal",
+        "stoner metal"
+      ],
+      "popularity": 31
+    },
+    {
+      "name": "Hunx and His Punx",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "genres": [
+        "queercore",
+        "garage rock",
+        "riot grrrl"
+      ],
+      "popularity": 29
+    },
+    {
+      "name": "Model Actriz",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Junglepussy",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "genres": [
+        "alternative r&b"
+      ],
+      "popularity": 36
+    },
+    {
+      "name": "Alice Longyu Gao DJ Set",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Man or Astro",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "genres": [
+        "surf rock",
+        "psychobilly",
+        "rockabilly",
+        "space rock"
+      ],
+      "popularity": 28
+    },
+    {
+      "name": "Brotherkenzie",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "genres": [],
+      "popularity": 27
+    },
+    {
+      "name": "Oneida",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "genres": [
+        "noise rock",
+        "krautrock",
+        "neo-psychedelic",
+        "expressionism",
+        "stoner metal",
+        "post-rock",
+        "psychedelic rock"
+      ],
+      "popularity": 15
+    },
+    {
+      "name": "Victoryland",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "genres": [],
+      "popularity": 35
+    },
+    {
+      "name": "Frankie Cosmos Celebrates 10 years of 'Next Thing'",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Otha",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "genres": [],
+      "popularity": 48
+    },
+    {
+      "name": "Carla dal Forno",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "genres": [],
+      "popularity": 39
+    },
+    {
+      "name": "Marlon Magn\u00e9e",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "genres": [
+        "french indie pop",
+        "french pop"
+      ],
+      "popularity": 52
+    },
+    {
+      "name": "Jim E. Brown",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "genres": [],
+      "popularity": 37
+    },
+    {
+      "name": "Beyond the Gate",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Horse Lords",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "genres": [
+        "math rock",
+        "neo-psychedelic",
+        "krautrock",
+        "experimental",
+        "noise rock"
+      ],
+      "popularity": 26
+    },
+    {
+      "name": "The Limi\u00f1anas",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "genres": [
+        "space rock",
+        "neo-psychedelic",
+        "french pop"
+      ],
+      "popularity": 44
+    },
+    {
+      "name": "Sweeping Promises",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "genres": [
+        "egg punk",
+        "post-punk"
+      ],
+      "popularity": 34
+    },
+    {
+      "name": "*SOLD OUT* Twin Peaks",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Policing",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Claire Rosinkranz",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [],
+      "popularity": 62
+    },
+    {
+      "name": "*SOLD OUT* The Black Angels: Passover 2026 Tour",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "*SOLD OUT* hemlocke springs",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Cabeza De Chivo 'In the Round'",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "*SOLD OUT* Earlybirds Club",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Covet",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [
+        "math rock",
+        "post-rock",
+        "midwest emo",
+        "djent"
+      ],
+      "popularity": 39
+    },
+    {
+      "name": "Yot Club \u2013 Simpleton Tour",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "*SOLD OUT* Boys and Girls in America 20",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Josiah and the Bonnevilles",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [],
+      "popularity": 59
+    },
+    {
+      "name": "DeVotchKa",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [],
+      "popularity": 52
+    },
+    {
+      "name": "Rostam",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [
+        "art pop"
+      ],
+      "popularity": 49
+    },
+    {
+      "name": "Deer Tick",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [
+        "alt country",
+        "americana"
+      ],
+      "popularity": 46
+    },
+    {
+      "name": "Son Rompe Pera presented by Thalia Hall and International Latino Cultural Center of Chicago",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Embodied: A Pride x Juneteenth Variety Show",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Tigers Jaw",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [
+        "midwest emo",
+        "emo",
+        "pop punk",
+        "math rock",
+        "indie punk"
+      ],
+      "popularity": 56
+    },
+    {
+      "name": "\u00c1sgeir",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [],
+      "popularity": 54
+    },
+    {
+      "name": "Daniel Donato's Cosmic Country presented by Deep Cut and Thalia Hall",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Tiny Desk Contest On The Road 2026",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "of Montreal",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [
+        "neo-psychedelic",
+        "baroque pop",
+        "art pop"
+      ],
+      "popularity": 54
+    },
+    {
+      "name": "Noche de Kumbia 2-Year Anniversary 'In the Round'",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "*SOLD OUT* Gianmarco Soresi: Drama King",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Benjamin Tod",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [
+        "americana",
+        "alt country",
+        "bluegrass",
+        "outlaw country"
+      ],
+      "popularity": 51
+    },
+    {
+      "name": "The Chicago Mexican Folk Fest",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Kicking It Curbside",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Sistas Who Kill: Back From The Dead",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Wilderado",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [],
+      "popularity": 52
+    },
+    {
+      "name": "Kylesa",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [
+        "sludge metal",
+        "stoner metal",
+        "stoner rock",
+        "doom metal",
+        "drone metal"
+      ],
+      "popularity": 34
+    },
+    {
+      "name": "Rx Bandits",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [
+        "ska punk",
+        "ska"
+      ],
+      "popularity": 37
+    },
+    {
+      "name": "We Rock! Chicago End-of-Camp Extravaganza",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Red Vox ft. special guests Super Guitar Bros. presented by Thalia Hall and Kickstand Productions",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Steel Pulse",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [
+        "reggae",
+        "roots reggae",
+        "ragga",
+        "rocksteady",
+        "dub"
+      ],
+      "popularity": 60
+    },
+    {
+      "name": "Fiddlehead 'In the Round'",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Citizen",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [],
+      "popularity": 56
+    },
+    {
+      "name": "Brooklyn Vegan Presents: Swervedriver raise at 35",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Monolord",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [
+        "stoner metal",
+        "sludge metal",
+        "doom metal",
+        "stoner rock",
+        "drone metal",
+        "drone"
+      ],
+      "popularity": 44
+    },
+    {
+      "name": "Asal: Kiss The Sun Tour",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Black Marble",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [
+        "cold wave",
+        "darkwave",
+        "post-punk",
+        "dream pop"
+      ],
+      "popularity": 44
+    },
+    {
+      "name": "ALDOUS HARDING",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [
+        "ambient folk"
+      ],
+      "popularity": 56
+    },
+    {
+      "name": "REZN",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [
+        "stoner metal",
+        "sludge metal",
+        "stoner rock",
+        "doom metal",
+        "space rock",
+        "drone metal"
+      ],
+      "popularity": 37
+    },
+    {
+      "name": "The Secret Sisters",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [
+        "southern gothic",
+        "americana"
+      ],
+      "popularity": 53
+    },
+    {
+      "name": "Paula Cole",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [],
+      "popularity": 54
+    },
+    {
+      "name": "ARLO PARKS",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [],
+      "popularity": 62
+    },
+    {
+      "name": "SYML",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [],
+      "popularity": 71
+    },
+    {
+      "name": "Armand Hammer",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [
+        "experimental hip hop",
+        "alternative hip hop"
+      ],
+      "popularity": 49
+    },
+    {
+      "name": "EMEI",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [],
+      "popularity": 63
+    },
+    {
+      "name": "Osees ft. Brigid Dawson",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "JOHN SCOFIELD\u2019S \u201cELECTROSPECTIVE\u201d",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Tank and The Bangas",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [
+        "alternative r&b"
+      ],
+      "popularity": 42
+    },
+    {
+      "name": "This Is Lorelei",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [
+        "alt country"
+      ],
+      "popularity": 53
+    },
+    {
+      "name": "Donny Ben\u00e9t",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [
+        "post-disco"
+      ],
+      "popularity": 39
+    },
+    {
+      "name": "Phoebe Robinson: Feral",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Hovvdy",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [
+        "lo-fi indie"
+      ],
+      "popularity": 41
+    },
+    {
+      "name": "Hiss Golden Messenger",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [
+        "americana",
+        "alt country"
+      ],
+      "popularity": 51
+    },
+    {
+      "name": "Squirrel Flower",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [],
+      "popularity": 43
+    },
+    {
+      "name": "Kyle Kinane",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [
+        "comedy"
+      ],
+      "popularity": 40
+    },
+    {
+      "name": "Temples: The BLISS Tour",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Anna von Hausswolff presented by Thalia Hall and Empty Bottle",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Foy Vance: The Wake World Tour",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "French 79",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahall.com/shows/",
+      "genres": [
+        "french house"
+      ],
+      "popularity": 58
+    },
+    {
+      "name": "Good Kid",
+      "venue": "Riviera",
+      "venue_url": "https://www.rivieratheatre.com/events",
+      "genres": [],
+      "popularity": 72
+    },
+    {
+      "name": "Clara La San \u2013 Chosen Silences Tour 2026",
+      "venue": "Riviera",
+      "venue_url": "https://www.rivieratheatre.com/events",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Iration",
+      "venue": "Riviera",
+      "venue_url": "https://www.rivieratheatre.com/events",
+      "genres": [
+        "reggae rock",
+        "reggae",
+        "reggae pop"
+      ],
+      "popularity": 61
+    },
+    {
+      "name": "CONNOR PRICE & NIC D",
+      "venue": "Riviera",
+      "venue_url": "https://www.rivieratheatre.com/events",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "French Montana & Max B",
+      "venue": "Riviera",
+      "venue_url": "https://www.rivieratheatre.com/events",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "El Gran Combo de Puerto Rico - Un verano en Chicago",
+      "venue": "Riviera",
+      "venue_url": "https://www.rivieratheatre.com/events",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "The Pretty Reckless",
+      "venue": "Riviera",
+      "venue_url": "https://www.rivieratheatre.com/events",
+      "genres": [],
+      "popularity": 63
+    },
+    {
+      "name": "Passion Pit - The Pretty Penny Tour",
+      "venue": "Riviera",
+      "venue_url": "https://www.rivieratheatre.com/events",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Aimee Mann, Bachelor No. 2 Album Tour",
+      "venue": "Riviera",
+      "venue_url": "https://www.rivieratheatre.com/events",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Poppy - Constantly Nowhere Tour",
+      "venue": "Riviera",
+      "venue_url": "https://www.rivieratheatre.com/events",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "T.I. - The King Succession Tour",
+      "venue": "Riviera",
+      "venue_url": "https://www.rivieratheatre.com/events",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Tomahawk",
+      "venue": "Riviera",
+      "venue_url": "https://www.rivieratheatre.com/events",
+      "genres": [
+        "avant-garde",
+        "alternative metal",
+        "noise rock"
+      ],
+      "popularity": 37
+    },
+    {
+      "name": "The Psychedelic Furs with Special Guest Living Colour",
+      "venue": "Riviera",
+      "venue_url": "https://www.rivieratheatre.com/events",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "PRESIDENT: North American Campaign 2026",
+      "venue": "Riviera",
+      "venue_url": "https://www.rivieratheatre.com/events",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Beth Hart",
+      "venue": "Riviera",
+      "venue_url": "https://www.rivieratheatre.com/events",
+      "genres": [
+        "blues",
+        "blues rock",
+        "modern blues"
+      ],
+      "popularity": 54
+    },
+    {
+      "name": "Michael Shannon & Jason Narducy and Friends play R.E.M.\u2019s Lifes Rich Pageant",
+      "venue": "Riviera",
+      "venue_url": "https://www.rivieratheatre.com/events",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "AMBLE",
+      "venue": "Riviera",
+      "venue_url": "https://www.rivieratheatre.com/events",
+      "genres": [],
+      "popularity": 65
+    },
+    {
+      "name": "Bad Gyal - M\u00e1s Cara World Tour 2026",
+      "venue": "Riviera",
+      "venue_url": "https://www.rivieratheatre.com/events",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "ZOLTAN KASZAS: WORLDWIDE(ish) TOUR",
+      "venue": "Riviera",
+      "venue_url": "https://www.rivieratheatre.com/events",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Kathy Griffin: New Face, New Tour",
+      "venue": "Riviera",
+      "venue_url": "https://www.rivieratheatre.com/events",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Blue October: Foiled 20th Anniversary World Tour",
+      "venue": "Riviera",
+      "venue_url": "https://www.rivieratheatre.com/events",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Valery Meladze",
+      "venue": "Riviera",
+      "venue_url": "https://www.rivieratheatre.com/events",
+      "genres": [],
+      "popularity": 54
+    },
+    {
+      "name": "Draggy Tingz",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Hang Your Hate",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [],
+      "popularity": 16
+    },
+    {
+      "name": "Jesse Solomon",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [],
+      "popularity": 29
+    },
+    {
+      "name": "Garden Cinema",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "REBOUND",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [],
+      "popularity": 46
+    },
+    {
+      "name": "The Nubile Thangs!",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Broadway Rave",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Daisy Grenade",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [],
+      "popularity": 46
+    },
+    {
+      "name": "RYMAN LEON",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [],
+      "popularity": 55
+    },
+    {
+      "name": "Sin City",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [],
+      "popularity": 12
+    },
+    {
+      "name": "Lower Level: An Industry Night Showcase",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Rotundos",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [
+        "queercore",
+        "indie punk"
+      ],
+      "popularity": 12
+    },
+    {
+      "name": "The Sonder Bombs",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [
+        "midwest emo"
+      ],
+      "popularity": 27
+    },
+    {
+      "name": "Pete & Bas",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [
+        "uk drill",
+        "grime",
+        "drill",
+        "uk grime"
+      ],
+      "popularity": 52
+    },
+    {
+      "name": "Midnite City: Indie Disco",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Pommer",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "House of Espresso",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Vincemp3",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [],
+      "popularity": 51
+    },
+    {
+      "name": "Thomas Parrish",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [],
+      "popularity": 29
+    },
+    {
+      "name": "Mietze Conte",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [],
+      "popularity": 50
+    },
+    {
+      "name": "Moon Walker",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [],
+      "popularity": 55
+    },
+    {
+      "name": "Dead Calm",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [
+        "midwest emo",
+        "slowcore"
+      ],
+      "popularity": 61
+    },
+    {
+      "name": "Alchemy Arts",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Wilde,  Flake Michigan",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Emo Nite",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Jed Harrelson",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [],
+      "popularity": 33
+    },
+    {
+      "name": "Jake Sondy",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [],
+      "popularity": 20
+    },
+    {
+      "name": "Oildrum",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Solya",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [
+        "southern gothic"
+      ],
+      "popularity": 52
+    },
+    {
+      "name": "Public Opinion",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [
+        "hardcore punk"
+      ],
+      "popularity": 22
+    },
+    {
+      "name": "Akili Ni Mali",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [
+        "neo soul"
+      ],
+      "popularity": 31
+    },
+    {
+      "name": "Mr Tout Le Monde",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [],
+      "popularity": 60
+    },
+    {
+      "name": "Vacations",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [],
+      "popularity": 71
+    },
+    {
+      "name": "Collective Fictions",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [
+        "post-rock"
+      ],
+      "popularity": 1
+    },
+    {
+      "name": "Dorian Electra",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [
+        "hyperpop"
+      ],
+      "popularity": 52
+    },
+    {
+      "name": "GRAHAM",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [
+        "folk rock",
+        "singer-songwriter"
+      ],
+      "popularity": 48
+    },
+    {
+      "name": "Girli",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [],
+      "popularity": 53
+    },
+    {
+      "name": "Goldwaite",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [
+        "melodic hardcore",
+        "skate punk"
+      ],
+      "popularity": 2
+    },
+    {
+      "name": "Dinner Time",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [],
+      "popularity": 34
+    },
+    {
+      "name": "Waku Waku: Anime Rave",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Spice Factory Chicago",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "bunii",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [],
+      "popularity": 65
+    },
+    {
+      "name": "Holidays in United States",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [
+        "midwest emo",
+        "screamo"
+      ],
+      "popularity": 23
+    },
+    {
+      "name": "Sewerperson",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [
+        "emo rap"
+      ],
+      "popularity": 52
+    },
+    {
+      "name": "Molly Grace",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [],
+      "popularity": 35
+    },
+    {
+      "name": "Chinese American Bear",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [
+        "chinese indie"
+      ],
+      "popularity": 49
+    },
+    {
+      "name": "Jagalchi",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [
+        "post-rock"
+      ],
+      "popularity": 0
+    },
+    {
+      "name": "DEB\u00cd TIRAR M\u00c1S FIESTAS",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Distress Fest",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Monic",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [],
+      "popularity": 44
+    },
+    {
+      "name": "The Ries Brothers",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [
+        "reggae rock",
+        "modern blues"
+      ],
+      "popularity": 33
+    },
+    {
+      "name": "House Party",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [],
+      "popularity": 16
+    },
+    {
+      "name": "Club Classics: Charli XCX Dance Party",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Josh Spinner",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [],
+      "popularity": 5
+    },
+    {
+      "name": "PureSoul - Infinite 80s",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Kenny Gray",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [],
+      "popularity": 37
+    },
+    {
+      "name": "Irene Diaz",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [
+        "latin indie",
+        "latin alternative"
+      ],
+      "popularity": 24
+    },
+    {
+      "name": "Being as An Ocean",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [
+        "melodic hardcore",
+        "post-hardcore",
+        "metalcore",
+        "spoken word",
+        "hardcore"
+      ],
+      "popularity": 43
+    },
+    {
+      "name": "Smidley",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [
+        "indie punk"
+      ],
+      "popularity": 17
+    },
+    {
+      "name": "Daft Disko",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Until I Wake",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [
+        "metalcore"
+      ],
+      "popularity": 49
+    },
+    {
+      "name": "Steven G",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [],
+      "popularity": 36
+    },
+    {
+      "name": "Blu & Exile",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [
+        "jazz rap",
+        "alternative hip hop",
+        "underground hip hop"
+      ],
+      "popularity": 44
+    },
+    {
+      "name": "Gooseberry",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [
+        "modern blues"
+      ],
+      "popularity": 33
+    },
+    {
+      "name": "marg\u00f8",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [],
+      "popularity": 45
+    },
+    {
+      "name": "Stereosity",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [
+        "midwest emo",
+        "math rock"
+      ],
+      "popularity": 33
+    },
+    {
+      "name": "Kill Bill: The Rapper",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [],
+      "popularity": 47
+    },
+    {
+      "name": "Wax Monkey",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [
+        "jam band"
+      ],
+      "popularity": 15
+    },
+    {
+      "name": "Lightwatch",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [],
+      "popularity": 6
+    },
+    {
+      "name": "DWLLRS",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [],
+      "popularity": 50
+    },
+    {
+      "name": "Casket Cassette",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [
+        "darkwave",
+        "post-punk",
+        "cold wave",
+        "gothic rock",
+        "deathrock"
+      ],
+      "popularity": 39
+    },
+    {
+      "name": "Dutch Melrose",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [
+        "dark r&b"
+      ],
+      "popularity": 66
+    },
+    {
+      "name": "PiNKII",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [],
+      "popularity": 52
+    },
+    {
+      "name": "Rum Jungle",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [
+        "surf rock"
+      ],
+      "popularity": 49
+    },
+    {
+      "name": "Bleach",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [],
+      "popularity": 70
+    },
+    {
+      "name": "Sub Urban",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [],
+      "popularity": 68
+    },
+    {
+      "name": "Windy Pop Weekender",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Edgehill",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [],
+      "popularity": 49
+    },
+    {
+      "name": "Low Phase",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [],
+      "popularity": 8
+    },
+    {
+      "name": "Lime Garden",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [],
+      "popularity": 50
+    },
+    {
+      "name": "West 22nd",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [],
+      "popularity": 58
+    },
+    {
+      "name": "Francis of Delirium",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "genres": [],
+      "popularity": 43
+    },
+    {
+      "name": "Tove Lo",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [],
+      "popularity": 76
+    },
+    {
+      "name": "KALEO",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [],
+      "popularity": 72
+    },
+    {
+      "name": "The 6th Annual Juneteenth Freedom Market",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "All Time Low",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [
+        "pop punk",
+        "emo",
+        "punk"
+      ],
+      "popularity": 72
+    },
+    {
+      "name": "Mon Rov\u00eea",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [],
+      "popularity": 64
+    },
+    {
+      "name": "The KidLAROI",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Warm Love Cool Dreams",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Warm Love Cool Dreams- The Jesus and Mary Chain, Tortoise, Smerz",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "BELLE",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [
+        "baroque pop"
+      ],
+      "popularity": 58
+    },
+    {
+      "name": "Belle",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [
+        "baroque pop"
+      ],
+      "popularity": 58
+    },
+    {
+      "name": "Of The Trees",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [
+        "bass music"
+      ],
+      "popularity": 56
+    },
+    {
+      "name": "SummerSalt Market",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Claypool Gold",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Q101 Presents",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Bleachers Forever",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "James Blake",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [],
+      "popularity": 72
+    },
+    {
+      "name": "Sierra Ferrell presented by Heineken",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Lupe Fiasco",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [],
+      "popularity": 71
+    },
+    {
+      "name": "The Hold Steady",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [],
+      "popularity": 40
+    },
+    {
+      "name": "Amyl and the Sniffers",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [
+        "riot grrrl",
+        "punk"
+      ],
+      "popularity": 59
+    },
+    {
+      "name": "Marcus King Band",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [
+        "modern blues",
+        "southern rock",
+        "blues rock",
+        "blues",
+        "jam band"
+      ],
+      "popularity": 59
+    },
+    {
+      "name": "Tash Sultana",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [],
+      "popularity": 63
+    },
+    {
+      "name": "Something For The Summer Party",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "The Dead South",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [
+        "bluegrass",
+        "southern gothic",
+        "newgrass"
+      ],
+      "popularity": 61
+    },
+    {
+      "name": "Kurt Vile and the Violators",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Wale",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [],
+      "popularity": 77
+    },
+    {
+      "name": "Ella Mai: Do You Still Love Me? Tour",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "93XRT PRESENTS",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "The Black Keys: PEACHES 'N KREAM",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "The 19th Annual Silver Room Sound System Block Party",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Pavement",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [
+        "alternative rock",
+        "indie"
+      ],
+      "popularity": 61
+    },
+    {
+      "name": "JACK WHITE LIVE 2026",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Houndmouth",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [],
+      "popularity": 58
+    },
+    {
+      "name": "Slightly Stoopid",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [
+        "reggae rock",
+        "reggae"
+      ],
+      "popularity": 66
+    },
+    {
+      "name": "Max McNown",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [],
+      "popularity": 74
+    },
+    {
+      "name": "Jack Harlow",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [],
+      "popularity": 79
+    },
+    {
+      "name": "OLIVER TREE",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [],
+      "popularity": 73
+    },
+    {
+      "name": "Modest Mouse",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [
+        "indie rock",
+        "indie",
+        "alternative rock"
+      ],
+      "popularity": 67
+    },
+    {
+      "name": "Big Thief",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [],
+      "popularity": 70
+    },
+    {
+      "name": "American Football",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [
+        "midwest emo",
+        "math rock",
+        "emo"
+      ],
+      "popularity": 60
+    },
+    {
+      "name": "Billy Currington",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [
+        "country",
+        "acoustic country"
+      ],
+      "popularity": 70
+    },
+    {
+      "name": "Galantis",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [],
+      "popularity": 72
+    },
+    {
+      "name": "NEEDTOBREATHE: The Long Surrender Tour",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Yacht Rock Revue",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [
+        "yacht rock"
+      ],
+      "popularity": 26
+    },
+    {
+      "name": "Sam Barber",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [
+        "country"
+      ],
+      "popularity": 77
+    },
+    {
+      "name": "Bikini Kill",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [
+        "riot grrrl",
+        "queercore",
+        "punk"
+      ],
+      "popularity": 50
+    },
+    {
+      "name": "LP",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [],
+      "popularity": 69
+    },
+    {
+      "name": "Liz Phair",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [],
+      "popularity": 49
+    },
+    {
+      "name": "Tucker Wetmore: The Brunette World Tour",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Two Door Cinema Club",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [
+        "indie",
+        "indie rock"
+      ],
+      "popularity": 72
+    },
+    {
+      "name": "Thee Sacred Souls, LA LOM,",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Cavetown",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [
+        "bedroom pop"
+      ],
+      "popularity": 69
+    },
+    {
+      "name": "The Revivalists",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [],
+      "popularity": 63
+    },
+    {
+      "name": "Koe Wetzel: The Night Champion World Tour",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "MUNA: Gets So Hot Tour",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Interpol",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [
+        "indie rock",
+        "post-punk"
+      ],
+      "popularity": 65
+    },
+    {
+      "name": "Jesse Welles",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [
+        "folk punk",
+        "folk"
+      ],
+      "popularity": 54
+    },
+    {
+      "name": "MOVEMENTS",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [
+        "midwest emo",
+        "pop punk",
+        "emo",
+        "post-hardcore"
+      ],
+      "popularity": 60
+    },
+    {
+      "name": "Sammy Rae",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [
+        "pop soul"
+      ],
+      "popularity": 53
+    },
+    {
+      "name": "Fruit Bats",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [],
+      "popularity": 59
+    },
+    {
+      "name": "The Dresden Dolls",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [],
+      "popularity": 60
+    },
+    {
+      "name": "Geese",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [
+        "art rock"
+      ],
+      "popularity": 67
+    },
+    {
+      "name": "Palace",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [],
+      "popularity": 65
+    },
+    {
+      "name": "The Menzingers: Everything I Ever Saw North American Tour",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Slow Pulp",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [],
+      "popularity": 57
+    },
+    {
+      "name": "Sabaton: Legends on Tour",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "genres": [],
+      "popularity": 0
+    }
+  ]
+}
