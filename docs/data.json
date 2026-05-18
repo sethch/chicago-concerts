@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-18T02:44:58Z",
+  "updated": "2026-05-18T02:54:10Z",
   "artists": [
     {
       "name": "Armlock",
@@ -1818,9 +1818,9 @@
       "venue": "Empty Bottle",
       "venue_url": "https://www.emptybottle.com",
       "show_url": "https://www.ticketweb.com/event/lena-fjortoft-hannah-frey-empty-bottle-tickets/14914393",
-      "spotify_url": "https://open.spotify.com/artist/7oXJzon7PKcDkGdhGVHCJz",
+      "spotify_url": "https://open.spotify.com/artist/4xDWqCeYqBAHXnWmJEzqOE",
       "genres": [],
-      "popularity": 11
+      "popularity": 0
     },
     {
       "name": "Lydia Cash",
@@ -3427,9 +3427,9 @@
       "venue": "Subterranean",
       "venue_url": "https://www.subt.net",
       "show_url": "https://wl.seetickets.us/event/monic/690781?afflky=BKBGManagementCo",
-      "spotify_url": "https://open.spotify.com/artist/0xd6DVkSrfCs0C01t85gbj",
+      "spotify_url": "https://open.spotify.com/artist/2Oq3sgFa2HSvRY0vL6bDxN",
       "genres": [],
-      "popularity": 44
+      "popularity": 46
     },
     {
       "name": "The Ries Brothers",
@@ -3757,6 +3757,55 @@
       "popularity": 43
     },
     {
+      "name": "Tove Lo",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "show_url": "https://www.ticketmaster.com/tove-lo-estrus-tour-chicago-illinois-09-16-2026/event/040064A7A83AAFE8?utm_source=saltshed-website&utm_medium=widget&utm_campaign=events",
+      "spotify_url": "https://open.spotify.com/artist/4NHQUGzhtTLFvgF5SZesLK",
+      "genres": [],
+      "popularity": 76
+    },
+    {
+      "name": "KALEO",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "show_url": "https://www.ticketmaster.com/kaleo-with-dawes-way-down-we-chicago-illinois-07-21-2026/event/040064AEDADBD745?utm_source=saltshed-website&utm_medium=widget&utm_campaign=events",
+      "spotify_url": "https://open.spotify.com/artist/7jdFEYD2LTYjfwxOdlVjmc",
+      "genres": [],
+      "popularity": 72
+    },
+    {
+      "name": "The 6th Annual Juneteenth Freedom Market",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "show_url": "https://www.ticketweb.com/event/the-6th-annual-juneteenth-freedom-the-salt-shed-outdoors-fairgrounds-tickets/14921523?utm_source=saltshed-website&utm_medium=widget&utm_campaign=events",
+      "spotify_url": "",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "All Time Low",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "show_url": "https://www.ticketmaster.com/all-time-low-chicago-illinois-09-22-2026/event/040064A737206619?utm_source=saltshed-website&utm_medium=widget&utm_campaign=events",
+      "spotify_url": "https://open.spotify.com/artist/46gyXjRIvN1NL1eCB8GBxo",
+      "genres": [
+        "pop punk",
+        "emo",
+        "punk"
+      ],
+      "popularity": 72
+    },
+    {
+      "name": "Mon Rov\u00eea",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "show_url": "https://www.ticketmaster.com/mon-rovia-bloodline-tour-chicago-illinois-09-29-2026/event/040064A6A088AB48?utm_source=saltshed-website&utm_medium=widget&utm_campaign=events",
+      "spotify_url": "https://open.spotify.com/artist/6pvai2QB2c0defVI0UTFos",
+      "genres": [],
+      "popularity": 64
+    },
+    {
       "name": "The KidLAROI",
       "venue": "Salt Shed",
       "venue_url": "https://www.saltshedchicago.com/home#shows",
@@ -3901,15 +3950,6 @@
       "popularity": 59
     },
     {
-      "name": "The 6th Annual Juneteenth Freedom Market",
-      "venue": "Salt Shed",
-      "venue_url": "https://www.saltshedchicago.com/home#shows",
-      "show_url": "https://www.ticketweb.com/event/the-6th-annual-juneteenth-freedom-the-salt-shed-outdoors-fairgrounds-tickets/14921523?utm_source=saltshed-website&utm_medium=widget&utm_campaign=events",
-      "spotify_url": "",
-      "genres": [],
-      "popularity": 0
-    },
-    {
       "name": "Marcus King Band",
       "venue": "Salt Shed",
       "venue_url": "https://www.saltshedchicago.com/home#shows",
@@ -4008,15 +4048,6 @@
       "spotify_url": "",
       "genres": [],
       "popularity": 0
-    },
-    {
-      "name": "KALEO",
-      "venue": "Salt Shed",
-      "venue_url": "https://www.saltshedchicago.com/home#shows",
-      "show_url": "https://www.ticketmaster.com/kaleo-with-dawes-way-down-we-chicago-illinois-07-21-2026/event/040064AEDADBD745?utm_source=saltshed-website&utm_medium=widget&utm_campaign=events",
-      "spotify_url": "https://open.spotify.com/artist/7jdFEYD2LTYjfwxOdlVjmc",
-      "genres": [],
-      "popularity": 72
     },
     {
       "name": "Pavement",
@@ -4197,15 +4228,6 @@
       "popularity": 69
     },
     {
-      "name": "Tove Lo",
-      "venue": "Salt Shed",
-      "venue_url": "https://www.saltshedchicago.com/home#shows",
-      "show_url": "https://www.ticketmaster.com/tove-lo-estrus-tour-chicago-illinois-09-16-2026/event/040064A7A83AAFE8?utm_source=saltshed-website&utm_medium=widget&utm_campaign=events",
-      "spotify_url": "https://open.spotify.com/artist/4NHQUGzhtTLFvgF5SZesLK",
-      "genres": [],
-      "popularity": 76
-    },
-    {
       "name": "Liz Phair",
       "venue": "Salt Shed",
       "venue_url": "https://www.saltshedchicago.com/home#shows",
@@ -4222,19 +4244,6 @@
       "spotify_url": "",
       "genres": [],
       "popularity": 0
-    },
-    {
-      "name": "All Time Low",
-      "venue": "Salt Shed",
-      "venue_url": "https://www.saltshedchicago.com/home#shows",
-      "show_url": "https://www.ticketmaster.com/all-time-low-chicago-illinois-09-22-2026/event/040064A737206619?utm_source=saltshed-website&utm_medium=widget&utm_campaign=events",
-      "spotify_url": "https://open.spotify.com/artist/46gyXjRIvN1NL1eCB8GBxo",
-      "genres": [
-        "pop punk",
-        "emo",
-        "punk"
-      ],
-      "popularity": 72
     },
     {
       "name": "Two Door Cinema Club",
@@ -4267,15 +4276,6 @@
         "bedroom pop"
       ],
       "popularity": 69
-    },
-    {
-      "name": "Mon Rov\u00eea",
-      "venue": "Salt Shed",
-      "venue_url": "https://www.saltshedchicago.com/home#shows",
-      "show_url": "https://www.ticketmaster.com/mon-rovia-bloodline-tour-chicago-illinois-09-29-2026/event/040064A6A088AB48?utm_source=saltshed-website&utm_medium=widget&utm_campaign=events",
-      "spotify_url": "https://open.spotify.com/artist/6pvai2QB2c0defVI0UTFos",
-      "genres": [],
-      "popularity": 64
     },
     {
       "name": "The Revivalists",
@@ -4814,6 +4814,113 @@
       "spotify_url": "",
       "genres": [],
       "popularity": 0
+    },
+    {
+      "name": "Jiluka",
+      "venue": "Bottom Lounge",
+      "venue_url": "https://bottomlounge.com/events/",
+      "show_url": "https://www.ticketweb.com/event/jiluka-vctms-tss-bottom-lounge-tickets/14107554?REFID=clientsitewp",
+      "spotify_url": "https://open.spotify.com/artist/29GG0pny3WjcVP9fUb3a7v",
+      "genres": [
+        "visual kei",
+        "j-rock"
+      ],
+      "popularity": 42
+    },
+    {
+      "name": "Cradle of Filth",
+      "venue": "Bottom Lounge",
+      "venue_url": "https://bottomlounge.com/events/",
+      "show_url": "https://www.ticketweb.com/event/cradle-of-filth-suffocation-ghost-bottom-lounge-tickets/14673823?REFID=clientsitewp",
+      "spotify_url": "https://open.spotify.com/artist/0NTSMFFapnyZfvmCwzcYPd",
+      "genres": [
+        "black metal",
+        "gothic metal",
+        "metal",
+        "symphonic metal",
+        "death metal"
+      ],
+      "popularity": 53
+    },
+    {
+      "name": "Yoi Toki",
+      "venue": "Bottom Lounge",
+      "venue_url": "https://bottomlounge.com/events/",
+      "show_url": "https://www.ticketweb.com/event/yoi-toki-a-bottom-lounge-tickets/14763083?REFID=clientsitewp",
+      "spotify_url": "",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "The Decibel Magazine Tour 2026",
+      "venue": "Bottom Lounge",
+      "venue_url": "https://bottomlounge.com/events/",
+      "show_url": "https://www.ticketweb.com/event/the-decibel-magazine-tour-2026-bottom-lounge-tickets/14676843?REFID=clientsitewp",
+      "spotify_url": "",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Troy Doherty",
+      "venue": "Bottom Lounge",
+      "venue_url": "https://bottomlounge.com/events/",
+      "show_url": "https://www.ticketweb.com/event/troy-doherty-bottom-lounge-tickets/14716873?REFID=clientsitewp",
+      "spotify_url": "",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Emo Night Brooklyn",
+      "venue": "Bottom Lounge",
+      "venue_url": "https://bottomlounge.com/events/",
+      "show_url": "https://www.ticketweb.com/event/emo-night-brooklyn-bottom-lounge-tickets/14827293?REFID=clientsitewp",
+      "spotify_url": "https://open.spotify.com/artist/57Ssjwp93IK7DekBrNHvtQ",
+      "genres": [],
+      "popularity": 4
+    },
+    {
+      "name": "The Black Queen",
+      "venue": "Bottom Lounge",
+      "venue_url": "https://bottomlounge.com/events/",
+      "show_url": "https://www.ticketweb.com/event/the-black-queen-bottom-lounge-tickets/14168994?REFID=clientsitewp",
+      "spotify_url": "https://open.spotify.com/artist/3j2DZTwQle72CWyB19B5Mq",
+      "genres": [
+        "darkwave"
+      ],
+      "popularity": 39
+    },
+    {
+      "name": "Your Arms Are My Cocoon X Asian Glow",
+      "venue": "Bottom Lounge",
+      "venue_url": "https://bottomlounge.com/events/",
+      "show_url": "https://www.ticketweb.com/event/your-arms-are-my-cocoon-bottom-lounge-tickets/14894323?REFID=clientsitewp",
+      "spotify_url": "",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Citizen Soldier: Secret Songs Tour II",
+      "venue": "Bottom Lounge",
+      "venue_url": "https://bottomlounge.com/events/",
+      "show_url": "https://www.ticketweb.com/event/citizen-soldier-secret-songs-tour-bottom-lounge-tickets/14097254?REFID=clientsitewp",
+      "spotify_url": "",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Kings Kaleidoscope",
+      "venue": "Bottom Lounge",
+      "venue_url": "https://bottomlounge.com/events/",
+      "show_url": "https://www.ticketweb.com/event/kings-kaleidoscope-credo-spirit-bottom-lounge-tickets/14390893?REFID=clientsitewp",
+      "spotify_url": "https://open.spotify.com/artist/6P9fFbQ875B2bnmdiYwN9A",
+      "genres": [
+        "christian alternative rock",
+        "worship",
+        "christian",
+        "christian folk",
+        "hymns"
+      ],
+      "popularity": 51
     },
     {
       "name": "SLIDE AWAY 2026",
