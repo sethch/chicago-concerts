@@ -35,6 +35,9 @@ jobs:
           SPOTIFY_RIVIERA_PLAYLIST_ID: ${{ secrets.SPOTIFY_RIVIERA_PLAYLIST_ID }}
           SPOTIFY_SUBTERRANEAN_PLAYLIST_ID: ${{ secrets.SPOTIFY_SUBTERRANEAN_PLAYLIST_ID }}
           SPOTIFY_SALT_SHED_PLAYLIST_ID: ${{ secrets.SPOTIFY_SALT_SHED_PLAYLIST_ID }}
+          SPOTIFY_METRO_PLAYLIST_ID: ${{ secrets.SPOTIFY_METRO_PLAYLIST_ID }}
+          SPOTIFY_BOTTOM_LOUNGE_PLAYLIST_ID: ${{ secrets.SPOTIFY_BOTTOM_LOUNGE_PLAYLIST_ID }}
+          SPOTIFY_ARAGON_PLAYLIST_ID: ${{ secrets.SPOTIFY_ARAGON_PLAYLIST_ID }}
         run: python scraper/scraper.py
 
       - name: Commit and push data.json
