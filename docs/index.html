@@ -39,6 +39,7 @@
     .search-result {
       display: flex; align-items: center; justify-content: space-between; gap: 0.5rem;
       padding: 0.65rem 1rem; border-bottom: 1px solid #2a2a2a; transition: background 0.1s;
+      cursor: pointer;
     }
     .search-result:last-child { border-bottom: none; }
     .search-result:hover { background: #252525; }
@@ -542,9 +543,9 @@
         if (!a) return 1; if (!b) return -1; return a < b ? -1 : 1;
       });
       browseListEl.innerHTML = dates.flatMap(date => {
-        const label = date ? fmtDate(date) : 'Date TBD';
+        const header = date ? [`<div class="date-header">${fmtDate(date)}</div>`] : [];
         return [
-          `<div class="date-header">${label}</div>`,
+          ...header,
           ...byDate[date].map(a => `
             <div class="discover-artist">
               <span class="da-name">${a.name}${a.genres[0] ? `<span class="da-genre">${a.genres[0]}</span>` : ''}</span>
@@ -587,18 +588,21 @@
       if (!q || !fuse) { searchResultsEl.classList.remove('visible'); return; }
       const results = fuse.search(q, { limit: 8 });
       searchResultsEl.innerHTML = results.length
-        ? results.map(({ item }) => `
-            <div class="search-result">
+        ? results.map(({ item }) => {
+            const url = item.show_url || item.venue_url || '';
+            return `
+            <div class="search-result" ${url ? `data-url="${url}"` : ''}>
               <div class="search-result-info">
                 <span class="search-result-name">${item.name}</span>
-                <span class="search-result-venue">${item.venue}</span>
+                <span class="search-result-venue">${item.venue}${item.date ? ` · ${fmtDate(item.date, true)}` : ''}</span>
               </div>
               <div class="search-result-links">
                 ${item.show_url ? `<a href="${item.show_url}" target="_blank" rel="noopener" class="da-pill">Show ↗</a>` : ''}
                 ${item.spotify_url ? `<a href="${item.spotify_url}" target="_blank" rel="noopener" class="da-pill da-pill-sp">Spotify ↗</a>` : ''}
                 ${!item.show_url && !item.spotify_url && item.venue_url ? `<a href="${item.venue_url}" target="_blank" rel="noopener" class="da-pill">Venue ↗</a>` : ''}
               </div>
-            </div>`).join('')
+            </div>`;
+          }).join('')
         : '<div class="search-empty">No artists found</div>';
       searchResultsEl.classList.add('visible');
     });
@@ -607,6 +611,12 @@
       if (!searchInput.contains(e.target) && !searchResultsEl.contains(e.target)) {
         searchResultsEl.classList.remove('visible');
       }
+    });
+
+    searchResultsEl.addEventListener('click', e => {
+      if (e.target.closest('a')) return;
+      const result = e.target.closest('.search-result[data-url]');
+      if (result) window.open(result.dataset.url, '_blank');
     });
 
     // ── For You ──────────────────────────────────────────────────────────
