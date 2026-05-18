@@ -194,6 +194,7 @@
       border-right: 1px solid #222; border-bottom: 1px solid #222;
     }
     .da-name { font-size: 0.84rem; color: #e0e0e0; }
+    .da-genre { font-size: 0.68rem; color: #555; margin-left: 0.4rem; font-style: italic; }
     .da-venue { font-size: 0.7rem; color: #666; margin-top: 0.1rem; }
     .da-reason { font-size: 0.67rem; color: #1DB954; margin-top: 0.2rem; }
     .da-links { display: flex; gap: 0.3rem; margin-top: 0.35rem; flex-wrap: wrap; }
@@ -408,7 +409,7 @@
       }
       browseListEl.innerHTML = filtered.map(a => `
         <div class="discover-artist">
-          <span class="da-name">${a.name}</span>
+          <span class="da-name">${a.name}${a.genres[0] ? `<span class="da-genre">${a.genres[0]}</span>` : ''}</span>
           <span class="da-venue">${a.venue}</span>
           ${artistLinks(a)}
         </div>`).join('');
@@ -637,7 +638,7 @@
       }
       resultsEl.innerHTML = matches.map(a =>
         `<div class="discover-artist">
-          <span class="da-name">${a.name}</span>
+          <span class="da-name">${a.name}${a.genres[0] ? `<span class="da-genre">${a.genres[0]}</span>` : ''}</span>
           <span class="da-venue">${a.venue}</span>
           <span class="da-reason">${a.reason}</span>
           ${artistLinks(a)}
