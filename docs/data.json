@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-18T02:36:08Z",
+  "updated": "2026-05-18T02:44:58Z",
   "artists": [
     {
       "name": "Armlock",
@@ -843,7 +843,7 @@
       "venue": "Schubas / Lincoln Hall",
       "venue_url": "https://www.lh-st.com/shows/",
       "show_url": "https://lh-st.com/shows/07-16-2026-siames/",
-      "spotify_url": "https://open.spotify.com/artist/6ASBSJjSWfCp1PvfNBHzcJ",
+      "spotify_url": "",
       "genres": [],
       "popularity": 0
     },
@@ -1711,9 +1711,13 @@
       "venue": "Empty Bottle",
       "venue_url": "https://www.emptybottle.com",
       "show_url": "https://www.ticketweb.com/event/nothing-assumed-feat-sports-boyfriend-empty-bottle-tickets/14815373",
-      "spotify_url": "https://open.spotify.com/artist/1kDGbuxWknIKx4FlgWxiSp",
-      "genres": [],
-      "popularity": 67
+      "spotify_url": "https://open.spotify.com/artist/60mqEPQp1eNjuwt1Z4yL4J",
+      "genres": [
+        "shoegaze",
+        "dream pop",
+        "slowcore"
+      ],
+      "popularity": 47
     },
     {
       "name": "Wendy Eisenberg and More Eaze",
@@ -1814,9 +1818,9 @@
       "venue": "Empty Bottle",
       "venue_url": "https://www.emptybottle.com",
       "show_url": "https://www.ticketweb.com/event/lena-fjortoft-hannah-frey-empty-bottle-tickets/14914393",
-      "spotify_url": "https://open.spotify.com/artist/4xDWqCeYqBAHXnWmJEzqOE",
+      "spotify_url": "https://open.spotify.com/artist/7oXJzon7PKcDkGdhGVHCJz",
       "genres": [],
-      "popularity": 0
+      "popularity": 11
     },
     {
       "name": "Lydia Cash",
@@ -3025,11 +3029,9 @@
       "venue": "Subterranean",
       "venue_url": "https://www.subt.net",
       "show_url": "https://wl.seetickets.us/event/sin-city/690683?afflky=BKBGManagementCo",
-      "spotify_url": "https://open.spotify.com/artist/5gaRf6chAeB9pMMtUg4WH6",
-      "genres": [
-        "christian jazz"
-      ],
-      "popularity": 2
+      "spotify_url": "https://open.spotify.com/artist/4ry4QJ0vQQetoi5Yyh8PYQ",
+      "genres": [],
+      "popularity": 12
     },
     {
       "name": "Lower Level: An Industry Night Showcase",
