@@ -67,9 +67,6 @@
     .sep { width: 1px; height: 18px; background: #2a2a2a; flex-shrink: 0; }
     /* Controls pushed to the right */
     .discover-ctrl { display: flex; align-items: center; gap: 0.45rem; margin-left: auto; flex-wrap: wrap; }
-    .pop-wrap { display: flex; align-items: center; gap: 0.45rem; font-size: 0.76rem; color: #777; }
-    .pop-wrap input[type=range] { accent-color: #e0e0e0; width: 88px; cursor: pointer; }
-    #pop-label { font-size: 0.73rem; color: #666; min-width: 2.5ch; text-align: right; }
     .fy-ctrl-row { display: flex; align-items: center; gap: 0.4rem; flex-wrap: wrap; }
     .fy-ctrl-row input {
       background: #111; border: 1px solid #333; border-radius: 5px;
@@ -184,14 +181,7 @@
         <button class="dtab" data-tab="foryou">For You</button>
       </div>
       <div class="sep"></div>
-      <div class="discover-ctrl" id="ctrl-browse">
-        <div class="pop-wrap">
-          <span>Niche</span>
-          <input type="range" id="pop-slider" min="0" max="100" value="100">
-          <span>Mainstream</span>
-          <span id="pop-label">all</span>
-        </div>
-      </div>
+      <div class="discover-ctrl" id="ctrl-browse"></div>
       <div class="discover-ctrl" id="ctrl-foryou" style="display:none">
         <div class="fy-ctrl-row">
           <input type="text" id="seed-input" placeholder="Add an artist…" autocomplete="off">
@@ -281,8 +271,6 @@
     const searchResultsEl = document.getElementById('search-results');
     const genreTagsEl = document.getElementById('genre-tags');
     const browseListEl = document.getElementById('browse-list');
-    const popSlider = document.getElementById('pop-slider');
-    const popLabel = document.getElementById('pop-label');
 
     let allArtists = [];
     let fuse = null;
@@ -336,8 +324,7 @@
     }
 
     function renderBrowse() {
-      const maxPop = parseInt(popSlider.value);
-      let filtered = visibleArtists().filter(a => a.popularity <= maxPop);
+      let filtered = visibleArtists();
       if (activeGenres.size > 0) {
         filtered = filtered.filter(a => a.genres.some(g => activeGenres.has(g)));
       }
@@ -378,11 +365,6 @@
         renderBrowse();
         runRecommendations();
       });
-
-    popSlider.addEventListener('input', () => {
-      popLabel.textContent = popSlider.value == 100 ? 'all' : `≤${popSlider.value}`;
-      renderBrowse();
-    });
 
     searchInput.addEventListener('input', () => {
       const q = searchInput.value.trim();
