@@ -94,6 +94,18 @@
       transition: border-color 0.15s, color 0.15s; white-space: nowrap;
     }
     .btn-secondary:hover { border-color: #555; color: #ccc; }
+    /* Venue chips */
+    .venue-chips {
+      display: flex; flex-wrap: wrap; gap: 0.3rem; padding: 0.45rem 1rem;
+      border-bottom: 1px solid #2a2a2a; background: #161616;
+    }
+    .venue-chip {
+      font-size: 0.7rem; padding: 0.18rem 0.55rem; border-radius: 4px;
+      border: 1px solid #3a3a3a; background: #2a2a2a; color: #bbb;
+      cursor: pointer; transition: all 0.12s; user-select: none; font-weight: 500;
+    }
+    .venue-chip:hover { border-color: #555; color: #e0e0e0; }
+    .venue-chip.off { background: #1a1a1a; color: #444; border-color: #252525; text-decoration: line-through; }
     /* Genre chips – wrapping */
     .discover-chips {
       display: flex; flex-wrap: wrap; gap: 0.35rem; padding: 0.5rem 1rem;
@@ -193,6 +205,7 @@
         </div>
       </div>
     </div>
+    <div class="venue-chips" id="venue-chips"></div>
     <div class="discover-chips" id="genre-tags"></div>
     <div class="seed-chips" id="seed-tags" style="display:none"></div>
     <div class="discover-results">
@@ -275,6 +288,32 @@
     let fuse = null;
     let activeGenres = new Set();
     let activeTab = 'browse';
+    let hiddenVenues = new Set(JSON.parse(localStorage.getItem('hidden_venues') || '[]'));
+
+    function visibleArtists() {
+      if (!hiddenVenues.size) return allArtists;
+      return allArtists.filter(a => !hiddenVenues.has(a.venue));
+    }
+
+    function renderVenueChips() {
+      const venues = [...new Set(allArtists.map(a => a.venue))];
+      const el = document.getElementById('venue-chips');
+      el.innerHTML = venues.map(v =>
+        `<span class="venue-chip${hiddenVenues.has(v) ? ' off' : ''}" data-venue="${v}">${v}</span>`
+      ).join('');
+      el.querySelectorAll('.venue-chip').forEach(chip => {
+        chip.addEventListener('click', () => {
+          const v = chip.dataset.venue;
+          if (hiddenVenues.has(v)) { hiddenVenues.delete(v); chip.classList.remove('off'); }
+          else { hiddenVenues.add(v); chip.classList.add('off'); }
+          localStorage.setItem('hidden_venues', JSON.stringify([...hiddenVenues]));
+          activeGenres.clear();
+          renderGenreTags(visibleArtists());
+          renderBrowse();
+          runRecommendations();
+        });
+      });
+    }
 
     // Tab switching
     document.querySelectorAll('.dtab').forEach(btn => {
@@ -298,7 +337,7 @@
 
     function renderBrowse() {
       const maxPop = parseInt(popSlider.value);
-      let filtered = allArtists.filter(a => a.popularity <= maxPop);
+      let filtered = visibleArtists().filter(a => a.popularity <= maxPop);
       if (activeGenres.size > 0) {
         filtered = filtered.filter(a => a.genres.some(g => activeGenres.has(g)));
       }
@@ -313,7 +352,7 @@
         </a>`).join('');
     }
 
-    function renderGenreTags(artists) {
+    function renderGenreTags(artists = visibleArtists()) {
       const counts = {};
       artists.forEach(a => a.genres.forEach(g => { counts[g] = (counts[g] || 0) + 1; }));
       const topGenres = Object.entries(counts).sort((a, b) => b[1] - a[1]).slice(0, 24).map(([g]) => g);
@@ -334,7 +373,8 @@
       .then(data => {
         allArtists = data.artists || [];
         fuse = new Fuse(allArtists, { keys: ['name'], threshold: 0.35, minMatchCharLength: 2 });
-        renderGenreTags(allArtists);
+        renderVenueChips();
+        renderGenreTags();
         renderBrowse();
         runRecommendations();
       });
@@ -388,7 +428,7 @@
       const r = await fetch('https://api.spotify.com/v1' + path, {
         headers: { Authorization: 'Bearer ' + spotifyToken }
       });
-      if (r.status === 401) { sessionStorage.removeItem(TOKEN_KEY); spotifyToken = null; return null; }
+      if (r.status === 401) { sessionStorage.removeItem(TOKEN_KEY); spotifyToken = null; updateForYouUI(); return null; }
       return r.ok ? r.json() : null;
     }
 
@@ -450,24 +490,29 @@
         const seedGenres = new Set(allSeeds.flatMap(a => a.genres || []));
         const seedIds = allSeeds.slice(0, 5).map(a => a.id);
 
-        const direct = allArtists
+        const visible = visibleArtists();
+
+        const direct = visible
           .filter(a => seedNames.has(a.name.toLowerCase()))
-          .map(a => ({ ...a, reason: 'You follow them' }));
+          .map(a => ({ ...a, reason: 'In your library' }));
 
         let recNames = new Set();
         if (seedIds.length) {
           const recData = await spotifyGet('/recommendations?seed_artists=' + seedIds.join(',') + '&limit=40');
           (recData?.tracks || []).forEach(t => (t.artists || []).forEach(a => recNames.add(a.name.toLowerCase())));
         }
-        const recMatches = allArtists
+        const recMatches = visible
           .filter(a => !seedNames.has(a.name.toLowerCase()) && recNames.has(a.name.toLowerCase()))
-          .map(a => ({ ...a, reason: 'Spotify pick' }));
+          .map(a => ({ ...a, reason: 'Recommended by Spotify' }));
 
-        const genreMatches = allArtists
+        const genreMatches = visible
           .filter(a => !seedNames.has(a.name.toLowerCase()) && !recNames.has(a.name.toLowerCase()) && a.genres.some(g => seedGenres.has(g)))
           .sort((a, b) => b.genres.filter(g => seedGenres.has(g)).length - a.genres.filter(g => seedGenres.has(g)).length)
           .slice(0, 10)
-          .map(a => ({ ...a, reason: 'Similar genre' }));
+          .map(a => ({
+            ...a,
+            reason: a.genres.filter(g => seedGenres.has(g)).slice(0, 2).join(', ')
+          }));
 
         matches = [...direct, ...recMatches, ...genreMatches];
       }
