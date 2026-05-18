@@ -4,7 +4,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from spotify import update_playlist
-from venues import schubas, empty_bottle, thalia_hall, riviera, subterranean, salt_shed, metro, bottom_lounge, aragon, soldier_field, wrigley_field, northerly_island
+from venues import schubas, empty_bottle, thalia_hall, riviera, subterranean, salt_shed, metro, bottom_lounge, aragon, soldier_field, wrigley_field, northerly_island, united_center
 
 VENUES = [
     ("Schubas / Lincoln Hall",              schubas.get_artists,        "SPOTIFY_SCHUBAS_PLAYLIST_ID",        "https://www.lh-st.com/shows/"),
@@ -19,6 +19,7 @@ VENUES = [
     ("Soldier Field",                       soldier_field.get_artists,  "SPOTIFY_SOLDIER_FIELD_PLAYLIST_ID",  "https://www.soldierfield.com/events"),
     ("Wrigley Field",                       wrigley_field.get_artists,  "SPOTIFY_WRIGLEY_FIELD_PLAYLIST_ID",  "https://www.wrigleyfield.com/concerts"),
     ("Northerly Island",                    northerly_island.get_artists, "SPOTIFY_NORTHERLY_ISLAND_PLAYLIST_ID", "https://www.huntingtonbankpavilion.com"),
+    ("United Center",                       united_center.get_artists,   "SPOTIFY_UNITED_CENTER_PLAYLIST_ID",   "https://www.unitedcenter.com/events/"),
 ]
 
 MANIFEST_PATH = Path(__file__).parent.parent / "docs" / "data.json"
