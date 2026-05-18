@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-18T02:17:52Z",
+  "updated": "2026-05-18T02:36:08Z",
   "artists": [
     {
       "name": "Armlock",
@@ -1711,13 +1711,9 @@
       "venue": "Empty Bottle",
       "venue_url": "https://www.emptybottle.com",
       "show_url": "https://www.ticketweb.com/event/nothing-assumed-feat-sports-boyfriend-empty-bottle-tickets/14815373",
-      "spotify_url": "https://open.spotify.com/artist/60mqEPQp1eNjuwt1Z4yL4J",
-      "genres": [
-        "shoegaze",
-        "dream pop",
-        "slowcore"
-      ],
-      "popularity": 47
+      "spotify_url": "https://open.spotify.com/artist/1kDGbuxWknIKx4FlgWxiSp",
+      "genres": [],
+      "popularity": 67
     },
     {
       "name": "Wendy Eisenberg and More Eaze",
@@ -2944,6 +2940,15 @@
       "popularity": 54
     },
     {
+      "name": "Draggy Tingz",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "show_url": "https://wl.seetickets.us/event/draggy-tingz-hosted-by-logan-zass/686127?afflky=BKBGManagementCo",
+      "spotify_url": "",
+      "genres": [],
+      "popularity": 0
+    },
+    {
       "name": "Hang Your Hate",
       "venue": "Subterranean",
       "venue_url": "https://www.subt.net",
@@ -3213,15 +3218,6 @@
       "popularity": 52
     },
     {
-      "name": "Draggy Tingz",
-      "venue": "Subterranean",
-      "venue_url": "https://www.subt.net",
-      "show_url": "https://wl.seetickets.us/event/draggy-tingz-hosted-by-logan-zass/686128?afflky=BKBGManagementCo",
-      "spotify_url": "",
-      "genres": [],
-      "popularity": 0
-    },
-    {
       "name": "Public Opinion",
       "venue": "Subterranean",
       "venue_url": "https://www.subt.net",
@@ -3429,9 +3425,9 @@
       "venue": "Subterranean",
       "venue_url": "https://www.subt.net",
       "show_url": "https://wl.seetickets.us/event/monic/690781?afflky=BKBGManagementCo",
-      "spotify_url": "https://open.spotify.com/artist/2Oq3sgFa2HSvRY0vL6bDxN",
+      "spotify_url": "https://open.spotify.com/artist/0xd6DVkSrfCs0C01t85gbj",
       "genres": [],
-      "popularity": 46
+      "popularity": 44
     },
     {
       "name": "The Ries Brothers",
@@ -4419,6 +4415,564 @@
       "spotify_url": "",
       "genres": [],
       "popularity": 0
+    },
+    {
+      "name": "Yebba",
+      "venue": "Metro",
+      "venue_url": "https://metrochicago.com/events/",
+      "show_url": "https://metrochicago.com/event/yebba-2/metro-chicago/chicago-illinois/",
+      "spotify_url": "https://open.spotify.com/artist/1ooV8YZC1KbpEcrmI8WH0F",
+      "genres": [],
+      "popularity": 74
+    },
+    {
+      "name": "The 27th Annual Grabby Awards",
+      "venue": "Metro",
+      "venue_url": "https://metrochicago.com/events/",
+      "show_url": "https://metrochicago.com/event/the-27th-annual-grabby-awards/metro-chicago/chicago-illinois/",
+      "spotify_url": "",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Furball",
+      "venue": "Metro",
+      "venue_url": "https://metrochicago.com/events/",
+      "show_url": "https://metrochicago.com/event/furball-iml-chicago/metro-chicago/chicago-illinois/",
+      "spotify_url": "https://open.spotify.com/artist/1dDwdC87vXbr5JPDnncRP8",
+      "genres": [
+        "post-hardcore"
+      ],
+      "popularity": 0
+    },
+    {
+      "name": "IML Queen!",
+      "venue": "Metro",
+      "venue_url": "https://metrochicago.com/events/",
+      "show_url": "https://metrochicago.com/event/iml-queen-2/all-building-event/chicago-illinois/",
+      "spotify_url": "",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Kitty Kat Ball",
+      "venue": "Metro",
+      "venue_url": "https://metrochicago.com/events/",
+      "show_url": "https://metrochicago.com/event/kitty-kat-ball/metro-chicago/chicago-illinois/",
+      "spotify_url": "",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Kevin Morby",
+      "venue": "Metro",
+      "venue_url": "https://metrochicago.com/events/",
+      "show_url": "https://metrochicago.com/event/kevin-morby/metro-chicago/chicago-illinois/",
+      "spotify_url": "https://open.spotify.com/artist/6fxk3UXHTFYET8qCT9WlBF",
+      "genres": [],
+      "popularity": 54
+    },
+    {
+      "name": "Terror",
+      "venue": "Metro",
+      "venue_url": "https://metrochicago.com/events/",
+      "show_url": "https://metrochicago.com/event/terror/metro-chicago/chicago-illinois/",
+      "spotify_url": "https://open.spotify.com/artist/1GVRgPtEC6sZFqvItIk3eg",
+      "genres": [
+        "hardcore",
+        "hardcore punk",
+        "groove metal",
+        "metalcore"
+      ],
+      "popularity": 53
+    },
+    {
+      "name": "Nocturna",
+      "venue": "Metro",
+      "venue_url": "https://metrochicago.com/events/",
+      "show_url": "https://metrochicago.com/event/nocturna-38th-anniversary/metro-chicago/chicago-illinois/",
+      "spotify_url": "https://open.spotify.com/artist/3Eo8pwg5OKX59PKpAFfPqX",
+      "genres": [
+        "symphonic metal",
+        "power metal",
+        "gothic metal"
+      ],
+      "popularity": 37
+    },
+    {
+      "name": "Jane Remover",
+      "venue": "Metro",
+      "venue_url": "https://metrochicago.com/events/",
+      "show_url": "https://metrochicago.com/event/jane-remover/metro-chicago/chicago-illinois/",
+      "spotify_url": "https://open.spotify.com/artist/2rLGlNI6htigNxx172qxLu",
+      "genres": [
+        "hyperpop",
+        "electroclash"
+      ],
+      "popularity": 63
+    },
+    {
+      "name": "underscores",
+      "venue": "Metro",
+      "venue_url": "https://metrochicago.com/events/",
+      "show_url": "https://metrochicago.com/event/underscores-galleria-north-american-chapter/radius/chicago-illinois/",
+      "spotify_url": "https://open.spotify.com/artist/7HfUJxeVTgrvhk0eWHFzV7",
+      "genres": [
+        "hyperpop"
+      ],
+      "popularity": 65
+    },
+    {
+      "name": "BOOTS",
+      "venue": "Metro",
+      "venue_url": "https://metrochicago.com/events/",
+      "show_url": "https://metrochicago.com/event/boots-pride-edition-2/all-building-event/chicago-illinois/",
+      "spotify_url": "https://open.spotify.com/artist/5K0rbdBrs2tNXe5LeWMATT",
+      "genres": [
+        "funk"
+      ],
+      "popularity": 67
+    },
+    {
+      "name": "Pride Weekend Queen!",
+      "venue": "Metro",
+      "venue_url": "https://metrochicago.com/events/",
+      "show_url": "https://metrochicago.com/event/pride-weekend-queen-2/all-building-event/chicago-illinois/",
+      "spotify_url": "",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Kim Gordon",
+      "venue": "Metro",
+      "venue_url": "https://metrochicago.com/events/",
+      "show_url": "https://metrochicago.com/event/kim-gordon/metro-chicago/chicago-illinois/",
+      "spotify_url": "https://open.spotify.com/artist/3n8qeKQViV1waeCzZmS4Tx",
+      "genres": [
+        "noise rock"
+      ],
+      "popularity": 43
+    },
+    {
+      "name": "Super Sapphic V",
+      "venue": "Metro",
+      "venue_url": "https://metrochicago.com/events/",
+      "show_url": "https://metrochicago.com/event/super-sapphic-v/all-building-event/chicago-illinois/",
+      "spotify_url": "",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Horse Meat Disco",
+      "venue": "Metro",
+      "venue_url": "https://metrochicago.com/events/",
+      "show_url": "https://metrochicago.com/event/horse-meat-disco-pride/all-building-event/chicago-illinois/",
+      "spotify_url": "https://open.spotify.com/artist/5MnToV7aAt2Zy9ag3DAsna",
+      "genres": [
+        "disco house",
+        "nu disco",
+        "funky house",
+        "disco"
+      ],
+      "popularity": 36
+    },
+    {
+      "name": "Pride Parade Queen!",
+      "venue": "Metro",
+      "venue_url": "https://metrochicago.com/events/",
+      "show_url": "https://metrochicago.com/event/pride-parade-queen-2/all-building-event/chicago-illinois/",
+      "spotify_url": "",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Blue Earth Sound (EP Release Show)",
+      "venue": "Metro",
+      "venue_url": "https://metrochicago.com/events/",
+      "show_url": "https://metrochicago.com/event/blue-earth-sound-ep-release-show/top-note-theatre/chicago-illinois/",
+      "spotify_url": "",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Neo Reunion 2026",
+      "venue": "Metro",
+      "venue_url": "https://metrochicago.com/events/",
+      "show_url": "https://metrochicago.com/event/neo-reunion-2026/metro-chicago/chicago-illinois/",
+      "spotify_url": "",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "J\u200beff Rosenstock",
+      "venue": "Metro",
+      "venue_url": "https://metrochicago.com/events/",
+      "show_url": "https://metrochicago.com/event/jeff-rosenstock/metro-chicago/chicago-illinois/",
+      "spotify_url": "",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Twisted Teens",
+      "venue": "Metro",
+      "venue_url": "https://metrochicago.com/events/",
+      "show_url": "https://metrochicago.com/event/twisted-teens/sleeping-village/chicago--illinois/",
+      "spotify_url": "https://open.spotify.com/artist/40Hgbyjt4LQmrZYecbXebv",
+      "genres": [
+        "egg punk"
+      ],
+      "popularity": 40
+    },
+    {
+      "name": "Pavement",
+      "venue": "Metro",
+      "venue_url": "https://metrochicago.com/events/",
+      "show_url": "https://metrochicago.com/event/pavement/the-salt-shed/chicago-illinois/",
+      "spotify_url": "https://open.spotify.com/artist/3inCNiUr4R6XQ3W43s9Aqi",
+      "genres": [
+        "alternative rock",
+        "indie"
+      ],
+      "popularity": 61
+    },
+    {
+      "name": "Good Hangs",
+      "venue": "Metro",
+      "venue_url": "https://metrochicago.com/events/",
+      "show_url": "https://metrochicago.com/event/good-hangs/metro-chicago/chicago-illinois/",
+      "spotify_url": "https://open.spotify.com/artist/2a1joNabZ5FF1XpYEvgD9W",
+      "genres": [
+        "midwest emo",
+        "pop punk"
+      ],
+      "popularity": 43
+    },
+    {
+      "name": "Second Hand News",
+      "venue": "Metro",
+      "venue_url": "https://metrochicago.com/events/",
+      "show_url": "https://metrochicago.com/event/second-hand-news-we-will-never-forget-tonight/metro-chicago/chicago-illinois/",
+      "spotify_url": "",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Eagles of Death Metal",
+      "venue": "Metro",
+      "venue_url": "https://metrochicago.com/events/",
+      "show_url": "https://metrochicago.com/event/eagles-of-death-metal-death-by-sexy-20th-anniversary-tour/metro-chicago/chicago-illinois/",
+      "spotify_url": "https://open.spotify.com/artist/02uYdhMhCgdB49hZlYRm9o",
+      "genres": [
+        "stoner rock",
+        "garage rock"
+      ],
+      "popularity": 54
+    },
+    {
+      "name": "Nitzer Ebb",
+      "venue": "Metro",
+      "venue_url": "https://metrochicago.com/events/",
+      "show_url": "https://metrochicago.com/event/nitzer-ebb/metro-chicago/chicago-illinois/",
+      "spotify_url": "https://open.spotify.com/artist/7EnAgffrVyerTWH628TJ6f",
+      "genres": [
+        "ebm",
+        "industrial",
+        "industrial rock",
+        "industrial metal",
+        "darkwave",
+        "synthpop"
+      ],
+      "popularity": 37
+    },
+    {
+      "name": "Pond",
+      "venue": "Metro",
+      "venue_url": "https://metrochicago.com/events/",
+      "show_url": "https://metrochicago.com/event/pond/metro-chicago/chicago-illinois/",
+      "spotify_url": "https://open.spotify.com/artist/4skJp5OKvcc9eKokiuhi2s",
+      "genres": [
+        "neo-psychedelic",
+        "psychedelic rock"
+      ],
+      "popularity": 48
+    },
+    {
+      "name": "Peter Hook",
+      "venue": "Metro",
+      "venue_url": "https://metrochicago.com/events/",
+      "show_url": "https://metrochicago.com/event/peter-hook-the-light-north-american-tour-2026/metro-chicago/chicago-illinois/",
+      "spotify_url": "https://open.spotify.com/artist/5u3A3inCFA998oODFCRk6S",
+      "genres": [
+        "madchester",
+        "post-punk"
+      ],
+      "popularity": 27
+    },
+    {
+      "name": "Cabaret Voltaire",
+      "venue": "Metro",
+      "venue_url": "https://metrochicago.com/events/",
+      "show_url": "https://metrochicago.com/event/cabaret-voltaire/metro-chicago/chicago-illinois/",
+      "spotify_url": "https://open.spotify.com/artist/2kS4yz85MaZlxp2VaS3BEe",
+      "genres": [
+        "industrial",
+        "ebm",
+        "post-punk",
+        "synthpop",
+        "experimental",
+        "new wave",
+        "cold wave",
+        "avant-garde",
+        "darkwave",
+        "industrial rock",
+        "krautrock"
+      ],
+      "popularity": 35
+    },
+    {
+      "name": "Culture Wars",
+      "venue": "Metro",
+      "venue_url": "https://metrochicago.com/events/",
+      "show_url": "https://metrochicago.com/event/culture-wars/metro-chicago/chicago-illinois/",
+      "spotify_url": "https://open.spotify.com/artist/0DoNSZa1R1DV69oY1djlbf",
+      "genres": [],
+      "popularity": 58
+    },
+    {
+      "name": "Cold Waves XIV",
+      "venue": "Metro",
+      "venue_url": "https://metrochicago.com/events/",
+      "show_url": "https://metrochicago.com/event/cold-waves-xiv-friday/metro-chicago/chicago-illinois/",
+      "spotify_url": "",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Michael Shannon",
+      "venue": "Metro",
+      "venue_url": "https://metrochicago.com/events/",
+      "show_url": "https://metrochicago.com/event/michael-shannon-jason-narducy-and-friends-play-r-e-m-s-lifes-rich-pageant-3/riviera-theatre/chicago--illinois/",
+      "spotify_url": "https://open.spotify.com/artist/2OlqaV8zhR61Koqs94cC89",
+      "genres": [],
+      "popularity": 18
+    },
+    {
+      "name": "deca joins",
+      "venue": "Metro",
+      "venue_url": "https://metrochicago.com/events/",
+      "show_url": "https://metrochicago.com/event/deca-joins/metro-chicago/chicago-illinois/",
+      "spotify_url": "https://open.spotify.com/artist/5wbF4yfjaOjTSkrnucKA77",
+      "genres": [
+        "taiwanese indie",
+        "chinese indie",
+        "chinese rock",
+        "taiwanese pop"
+      ],
+      "popularity": 51
+    },
+    {
+      "name": "Everything Everything",
+      "venue": "Metro",
+      "venue_url": "https://metrochicago.com/events/",
+      "show_url": "https://metrochicago.com/event/everything-everything-get-to-heaven-10th-anniversary/metro-chicago/chicago-illinois/",
+      "spotify_url": "https://open.spotify.com/artist/1HOeqtP7tHkKNJNLzQ2tnr",
+      "genres": [],
+      "popularity": 51
+    },
+    {
+      "name": "Lambrini Girls",
+      "venue": "Metro",
+      "venue_url": "https://metrochicago.com/events/",
+      "show_url": "https://metrochicago.com/event/lambrini-girls/the-vic/chicago-illinois/",
+      "spotify_url": "https://open.spotify.com/artist/6VR4TJ20WGiho2xZWMuuWb",
+      "genres": [
+        "riot grrrl",
+        "queercore",
+        "punk"
+      ],
+      "popularity": 51
+    },
+    {
+      "name": "Book of Love",
+      "venue": "Metro",
+      "venue_url": "https://metrochicago.com/events/",
+      "show_url": "https://metrochicago.com/event/book-of-love/metro-chicago/chicago-illinois/",
+      "spotify_url": "https://open.spotify.com/artist/0ow8F3xGkmZWVulTtaiFQo",
+      "genres": [
+        "new wave",
+        "synthpop"
+      ],
+      "popularity": 42
+    },
+    {
+      "name": "BUTTTOOTKING",
+      "venue": "Metro",
+      "venue_url": "https://metrochicago.com/events/",
+      "show_url": "https://metrochicago.com/event/butttootking-2/metro-chicago/chicago-illinois/",
+      "spotify_url": "",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "SLIDE AWAY 2026",
+      "venue": "Aragon Ballroom",
+      "venue_url": "https://www.aragonballroomchicago.com/shows",
+      "show_url": "https://www.ticketmaster.com/slide-away-2026-chicago-illinois-05-22-2026/event/04006341DCD94A94",
+      "spotify_url": "",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Madison Beer",
+      "venue": "Aragon Ballroom",
+      "venue_url": "https://www.aragonballroomchicago.com/shows",
+      "show_url": "https://www.ticketmaster.com/madison-beer-the-locket-tour-chicago-illinois-06-29-2026/event/0400642CD0696D95",
+      "spotify_url": "https://open.spotify.com/artist/2kRfqPViCqYdSGhYSM9R0Q",
+      "genres": [],
+      "popularity": 77
+    },
+    {
+      "name": "CA7RIEL",
+      "venue": "Aragon Ballroom",
+      "venue_url": "https://www.aragonballroomchicago.com/shows",
+      "show_url": "https://www.ticketmaster.com/ca7riel-paco-amoroso-free-spirits-world-chicago-illinois-06-30-2026/event/04006472D3738D2F",
+      "spotify_url": "https://open.spotify.com/artist/6I8TDGeUmmLom8auKPzMdX",
+      "genres": [],
+      "popularity": 74
+    },
+    {
+      "name": "Buju Banton",
+      "venue": "Aragon Ballroom",
+      "venue_url": "https://www.aragonballroomchicago.com/shows",
+      "show_url": "https://www.ticketmaster.com/buju-banton-stephen-marley-roots-and-chicago-illinois-07-02-2026/event/04006488B18E7587",
+      "spotify_url": "https://open.spotify.com/artist/4wLAjfeqAsV66AocWNcowA",
+      "genres": [
+        "reggae",
+        "dancehall",
+        "ragga",
+        "lovers rock",
+        "roots reggae",
+        "soca"
+      ],
+      "popularity": 60
+    },
+    {
+      "name": "ALL THE FEELINGS TOUR",
+      "venue": "Aragon Ballroom",
+      "venue_url": "https://www.aragonballroomchicago.com/shows",
+      "show_url": "https://www.ticketmaster.com/all-the-feelings-tour-with-metric-chicago-illinois-07-24-2026/event/0400643BCD868EB7",
+      "spotify_url": "",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "CircuitMOM And CircuitSUN",
+      "venue": "Aragon Ballroom",
+      "venue_url": "https://www.aragonballroomchicago.com/shows",
+      "show_url": "https://www.ticketmaster.com/circuitmom-and-circuitsun-2day-queendomtake-flight-chicago-illinois-08-08-2026/event/04006342BCA4609F",
+      "spotify_url": "",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "CircuitMOM And CircuitSUN Present",
+      "venue": "Aragon Ballroom",
+      "venue_url": "https://www.aragonballroomchicago.com/shows",
+      "show_url": "https://www.ticketmaster.com/circuitmom-and-circuitsun-present-queendom-chicago-illinois-08-08-2026/event/04006342B14A5E73",
+      "spotify_url": "",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "\"Comedy Tragedy Parody\" Dominic Fike in North America",
+      "venue": "Aragon Ballroom",
+      "venue_url": "https://www.aragonballroomchicago.com/shows",
+      "show_url": "https://www.ticketmaster.com/comedy-tragedy-parody-dominic-fike-in-chicago-illinois-08-27-2026/event/04006482DD4E177A",
+      "spotify_url": "",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Stan Society Presents Bop to the Top Summer Tour 2026",
+      "venue": "Aragon Ballroom",
+      "venue_url": "https://www.aragonballroomchicago.com/shows",
+      "show_url": "https://www.ticketmaster.com/stan-society-presents-bop-to-the-chicago-illinois-08-29-2026/event/0400649623B1D1AC",
+      "spotify_url": "",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Black Label Society",
+      "venue": "Aragon Ballroom",
+      "venue_url": "https://www.aragonballroomchicago.com/shows",
+      "show_url": "https://www.ticketmaster.com/black-label-society-chicago-illinois-09-12-2026/event/04006487318F8DAD",
+      "spotify_url": "https://open.spotify.com/artist/0zfT626RwO6zN3RDYeRit5",
+      "genres": [
+        "groove metal",
+        "metal",
+        "heavy metal"
+      ],
+      "popularity": 67
+    },
+    {
+      "name": "Shaboozey",
+      "venue": "Aragon Ballroom",
+      "venue_url": "https://www.aragonballroomchicago.com/shows",
+      "show_url": "https://www.ticketmaster.com/shaboozey-outlaws-never-die-tour-chicago-illinois-10-09-2026/event/040064951F6D7F90",
+      "spotify_url": "https://open.spotify.com/artist/3y2cIKLjiOlp1Np37WiUdH",
+      "genres": [],
+      "popularity": 78
+    },
+    {
+      "name": "JPEGMAFIA",
+      "venue": "Aragon Ballroom",
+      "venue_url": "https://www.aragonballroomchicago.com/shows",
+      "show_url": "https://www.ticketmaster.com/jpegmafia-the-experimental-rap-tour-chicago-illinois-10-10-2026/event/04006487F14CF009",
+      "spotify_url": "https://open.spotify.com/artist/6yJ6QQ3Y5l0s0tn7b0arrO",
+      "genres": [
+        "experimental hip hop",
+        "alternative hip hop",
+        "experimental"
+      ],
+      "popularity": 65
+    },
+    {
+      "name": "Jessie Ware",
+      "venue": "Aragon Ballroom",
+      "venue_url": "https://www.aragonballroomchicago.com/shows",
+      "show_url": "https://www.ticketmaster.com/jessie-ware-the-superbloom-tour-chicago-illinois-10-13-2026/event/04006479C999AD0C",
+      "spotify_url": "https://open.spotify.com/artist/5Mq7iqCWBzofK39FBqblNc",
+      "genres": [],
+      "popularity": 64
+    },
+    {
+      "name": "Suki Waterhouse",
+      "venue": "Aragon Ballroom",
+      "venue_url": "https://www.aragonballroomchicago.com/shows",
+      "show_url": "https://www.ticketmaster.com/suki-waterhouse-the-loveland-tour-chicago-illinois-10-17-2026/event/04006498B69AC853",
+      "spotify_url": "https://open.spotify.com/artist/5GGJosGMs08YEmKTZJe1fL",
+      "genres": [],
+      "popularity": 71
+    },
+    {
+      "name": "The Living Tombstone",
+      "venue": "Aragon Ballroom",
+      "venue_url": "https://www.aragonballroomchicago.com/shows",
+      "show_url": "https://www.ticketmaster.com/the-living-tombstone-the-multiplayer-tour-chicago-illinois-10-30-2026/event/04006458BF7193C2",
+      "spotify_url": "https://open.spotify.com/artist/0I6yADrmeyvw66g7yjkqIF",
+      "genres": [],
+      "popularity": 73
+    },
+    {
+      "name": "RAWAYANA",
+      "venue": "Aragon Ballroom",
+      "venue_url": "https://www.aragonballroomchicago.com/shows",
+      "show_url": "https://www.ticketmaster.com/rawayana-donde-es-el-after-world-chicago-illinois-11-07-2026/event/0400646BC9C67504",
+      "spotify_url": "https://open.spotify.com/artist/2AbQwU2cuEGfD465wCXlg2",
+      "genres": [
+        "reggae en espa\u00f1ol"
+      ],
+      "popularity": 78
     }
   ]
 }
