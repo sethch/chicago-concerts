@@ -31,8 +31,9 @@ def get_artists(*venue_ids: str) -> list[dict]:
                 attrs = event.get("_embedded", {}).get("attractions", [])
                 name = attrs[0]["name"] if attrs else event.get("name", "")
                 show_url = event.get("url", "")
+                date = event.get("dates", {}).get("start", {}).get("localDate", "")
                 if name and name not in seen:
-                    artists.append({"name": name, "show_url": show_url})
+                    artists.append({"name": name, "show_url": show_url, "date": date})
                     seen.add(name)
 
             total_pages = data.get("page", {}).get("totalPages", 1)

@@ -207,21 +207,48 @@
     .da-pill-sp { color: #1DB954; border-color: #1a4428; }
     .da-pill-sp:hover { background: #1a3320; }
     .discover-none { padding: 1.1rem 1rem; color: #555; font-size: 0.83rem; }
+    /* Date grouping in Browse */
+    .date-header {
+      grid-column: 1 / -1;
+      padding: 0.4rem 1rem 0.25rem;
+      font-size: 0.68rem; font-weight: 700; color: #555;
+      letter-spacing: 0.06em; text-transform: uppercase;
+      border-top: 1px solid #1e1e1e; background: #141414;
+    }
+    .date-header:first-child { border-top: none; }
+    .da-date { font-size: 0.67rem; color: #555; margin-top: 0.1rem; }
 
     /* Venue sections */
-    .venues { max-width: 900px; margin: 0 auto; display: flex; flex-direction: column; gap: 2.5rem; }
-    .venue { background: #1a1a1a; border: 1px solid #2a2a2a; border-radius: 8px; overflow: hidden; }
+    .venues-section { max-width: 900px; margin: 0 auto; }
+    .venues-heading {
+      font-size: 0.7rem; font-weight: 700; color: #555;
+      letter-spacing: 0.08em; text-transform: uppercase;
+      padding-bottom: 0.75rem; border-bottom: 1px solid #2a2a2a;
+      margin-bottom: 0;
+    }
+    .venues { display: flex; flex-direction: column; gap: 0; border: 1px solid #2a2a2a; border-radius: 8px; overflow: hidden; }
+    .venue { background: #1a1a1a; border-bottom: 1px solid #2a2a2a; }
+    .venue:last-child { border-bottom: none; }
     .venue-header {
       display: flex; align-items: center; justify-content: space-between;
-      padding: 1rem 1.25rem; border-bottom: 1px solid #2a2a2a;
+      padding: 0.75rem 1.25rem; cursor: pointer; user-select: none;
     }
-    .venue-header h2 { font-size: 1rem; font-weight: 700; color: #f0f0f0; }
+    .venue-header:hover { background: #1f1f1f; }
+    .venue.open .venue-header { border-bottom: 1px solid #2a2a2a; }
+    .venue-header h2 { font-size: 0.95rem; font-weight: 600; color: #d0d0d0; display: flex; align-items: center; gap: 0.55rem; }
+    .venue-chevron {
+      font-size: 1.1rem; color: #555; display: inline-block;
+      transition: transform 0.2s ease; flex-shrink: 0; line-height: 1;
+    }
+    .venue.open .venue-chevron { transform: rotate(90deg); }
     .venue-header a {
       font-size: 0.8rem; color: #888; text-decoration: none;
       border: 1px solid #333; border-radius: 4px; padding: 0.2rem 0.6rem;
       transition: color 0.15s, border-color 0.15s;
     }
     .venue-header a:hover { color: #ccc; border-color: #555; }
+    .venue-playlist { display: none; }
+    .venue.open .venue-playlist { display: block; }
     iframe { display: block; width: 100%; border: none; }
     footer { max-width: 900px; margin: 3rem auto 0; text-align: center; font-size: 0.8rem; color: #555; }
   </style>
@@ -273,125 +300,154 @@
     </div>
   </div>
 
+  <div class="venues-section">
+  <p class="venues-heading">Venue Spotify Playlists</p>
   <div class="venues">
 
     <div class="venue">
       <div class="venue-header">
-        <h2>Schubas / Lincoln Hall</h2>
+        <h2><span class="venue-chevron">›</span> Schubas / Lincoln Hall</h2>
         <a href="https://www.lh-st.com/shows/" target="_blank" rel="noopener">All shows ↗</a>
       </div>
-      <iframe src="https://open.spotify.com/embed/playlist/2U2905zrSa7d0srhj5UQPl?utm_source=generator&theme=0"
-        height="380" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <div class="venue-playlist">
+        <iframe data-src="https://open.spotify.com/embed/playlist/2U2905zrSa7d0srhj5UQPl?utm_source=generator&theme=0"
+          height="380" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+      </div>
     </div>
 
     <div class="venue">
       <div class="venue-header">
-        <h2>Empty Bottle</h2>
+        <h2><span class="venue-chevron">›</span> Empty Bottle</h2>
         <a href="https://www.emptybottle.com" target="_blank" rel="noopener">All shows ↗</a>
       </div>
-      <iframe src="https://open.spotify.com/embed/playlist/064CP2pebRQJ8JxkBz1o8Q?utm_source=generator&theme=0"
-        height="380" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <div class="venue-playlist">
+        <iframe data-src="https://open.spotify.com/embed/playlist/064CP2pebRQJ8JxkBz1o8Q?utm_source=generator&theme=0"
+          height="380" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+      </div>
     </div>
 
     <div class="venue">
       <div class="venue-header">
-        <h2>Thalia Hall</h2>
+        <h2><span class="venue-chevron">›</span> Thalia Hall</h2>
         <a href="https://www.thaliahallchicago.com" target="_blank" rel="noopener">All shows ↗</a>
       </div>
-      <iframe src="https://open.spotify.com/embed/playlist/7M4rtfRDVTNly3zZFPK90n?utm_source=generator&theme=0"
-        height="380" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <div class="venue-playlist">
+        <iframe data-src="https://open.spotify.com/embed/playlist/7M4rtfRDVTNly3zZFPK90n?utm_source=generator&theme=0"
+          height="380" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+      </div>
     </div>
 
     <div class="venue">
       <div class="venue-header">
-        <h2>Riviera Theatre</h2>
+        <h2><span class="venue-chevron">›</span> Riviera Theatre</h2>
         <a href="https://www.rivieratheatre.com/events" target="_blank" rel="noopener">All shows ↗</a>
       </div>
-      <iframe src="https://open.spotify.com/embed/playlist/5de0c0jgd4tmc8hJuTA7Cz?utm_source=generator&theme=0"
-        height="380" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <div class="venue-playlist">
+        <iframe data-src="https://open.spotify.com/embed/playlist/5de0c0jgd4tmc8hJuTA7Cz?utm_source=generator&theme=0"
+          height="380" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+      </div>
     </div>
 
     <div class="venue">
       <div class="venue-header">
-        <h2>Subterranean</h2>
+        <h2><span class="venue-chevron">›</span> Subterranean</h2>
         <a href="https://www.subt.net" target="_blank" rel="noopener">All shows ↗</a>
       </div>
-      <iframe src="https://open.spotify.com/embed/playlist/6PF0qVIeU7r1dOOhceq2g4?utm_source=generator&theme=0"
-        height="380" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <div class="venue-playlist">
+        <iframe data-src="https://open.spotify.com/embed/playlist/6PF0qVIeU7r1dOOhceq2g4?utm_source=generator&theme=0"
+          height="380" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+      </div>
     </div>
 
     <div class="venue">
       <div class="venue-header">
-        <h2>Salt Shed</h2>
+        <h2><span class="venue-chevron">›</span> Salt Shed</h2>
         <a href="https://www.saltshedchicago.com/home#shows" target="_blank" rel="noopener">All shows ↗</a>
       </div>
-      <iframe src="https://open.spotify.com/embed/playlist/6DsSykZfubhHNkMFOWMiKC?utm_source=generator&theme=0"
-        height="380" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <div class="venue-playlist">
+        <iframe data-src="https://open.spotify.com/embed/playlist/6DsSykZfubhHNkMFOWMiKC?utm_source=generator&theme=0"
+          height="380" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+      </div>
     </div>
 
     <div class="venue">
       <div class="venue-header">
-        <h2>Metro</h2>
+        <h2><span class="venue-chevron">›</span> Metro</h2>
         <a href="https://metrochicago.com/events/" target="_blank" rel="noopener">All shows ↗</a>
       </div>
-      <iframe src="https://open.spotify.com/embed/playlist/4Tbc5msJNzyK71Y5CrrqSE?utm_source=generator&theme=0"
-        height="380" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <div class="venue-playlist">
+        <iframe data-src="https://open.spotify.com/embed/playlist/4Tbc5msJNzyK71Y5CrrqSE?utm_source=generator&theme=0"
+          height="380" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+      </div>
     </div>
 
     <div class="venue">
       <div class="venue-header">
-        <h2>Bottom Lounge</h2>
+        <h2><span class="venue-chevron">›</span> Bottom Lounge</h2>
         <a href="https://bottomlounge.com/events/" target="_blank" rel="noopener">All shows ↗</a>
       </div>
-      <iframe src="https://open.spotify.com/embed/playlist/2TNEfISgdr47jf1VF6kCJi?utm_source=generator&theme=0"
-        height="380" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <div class="venue-playlist">
+        <iframe data-src="https://open.spotify.com/embed/playlist/2TNEfISgdr47jf1VF6kCJi?utm_source=generator&theme=0"
+          height="380" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+      </div>
     </div>
 
     <div class="venue">
       <div class="venue-header">
-        <h2>Aragon Ballroom</h2>
+        <h2><span class="venue-chevron">›</span> Aragon Ballroom</h2>
         <a href="https://www.aragonballroomchicago.com/shows" target="_blank" rel="noopener">All shows ↗</a>
       </div>
-      <iframe src="https://open.spotify.com/embed/playlist/2Ro17CpR5WAk3g9TsFh9cV?utm_source=generator&theme=0"
-        height="380" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <div class="venue-playlist">
+        <iframe data-src="https://open.spotify.com/embed/playlist/2Ro17CpR5WAk3g9TsFh9cV?utm_source=generator&theme=0"
+          height="380" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+      </div>
     </div>
 
     <div class="venue">
       <div class="venue-header">
-        <h2>Soldier Field</h2>
+        <h2><span class="venue-chevron">›</span> Soldier Field</h2>
         <a href="https://www.soldierfield.com/events" target="_blank" rel="noopener">All shows ↗</a>
       </div>
-      <iframe src="https://open.spotify.com/embed/playlist/42xXblkM0kbUK3uASUeTZl?utm_source=generator&theme=0"
-        height="380" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <div class="venue-playlist">
+        <iframe data-src="https://open.spotify.com/embed/playlist/42xXblkM0kbUK3uASUeTZl?utm_source=generator&theme=0"
+          height="380" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+      </div>
     </div>
 
     <div class="venue">
       <div class="venue-header">
-        <h2>Wrigley Field</h2>
+        <h2><span class="venue-chevron">›</span> Wrigley Field</h2>
         <a href="https://www.wrigleyfield.com/concerts" target="_blank" rel="noopener">All shows ↗</a>
       </div>
-      <iframe src="https://open.spotify.com/embed/playlist/3lpxqTqCXaqLCEY12YsIGo?utm_source=generator&theme=0"
-        height="380" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <div class="venue-playlist">
+        <iframe data-src="https://open.spotify.com/embed/playlist/3lpxqTqCXaqLCEY12YsIGo?utm_source=generator&theme=0"
+          height="380" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+      </div>
     </div>
 
     <div class="venue">
       <div class="venue-header">
-        <h2>Northerly Island</h2>
+        <h2><span class="venue-chevron">›</span> Northerly Island</h2>
         <a href="https://www.huntingtonbankpavilion.com" target="_blank" rel="noopener">All shows ↗</a>
       </div>
-      <iframe src="https://open.spotify.com/embed/playlist/7rXNvmNkXyzeVVOpyQiwcc?utm_source=generator&theme=0"
-        height="380" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <div class="venue-playlist">
+        <iframe data-src="https://open.spotify.com/embed/playlist/7rXNvmNkXyzeVVOpyQiwcc?utm_source=generator&theme=0"
+          height="380" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+      </div>
     </div>
 
     <div class="venue">
       <div class="venue-header">
-        <h2>United Center</h2>
+        <h2><span class="venue-chevron">›</span> United Center</h2>
         <a href="https://www.unitedcenter.com/events/" target="_blank" rel="noopener">All shows ↗</a>
       </div>
-      <iframe src="https://open.spotify.com/embed/playlist/4faN8rZVXXUcb7XpYK4HaC?utm_source=generator&theme=0"
-        height="380" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <div class="venue-playlist">
+        <iframe data-src="https://open.spotify.com/embed/playlist/4faN8rZVXXUcb7XpYK4HaC?utm_source=generator&theme=0"
+          height="380" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+      </div>
     </div>
 
+  </div>
   </div>
 
   <footer>
@@ -451,6 +507,14 @@
       });
     });
 
+    function fmtDate(d, short) {
+      if (!d) return '';
+      const dt = new Date(d + 'T12:00:00');
+      return short
+        ? dt.toLocaleDateString('en-US', { month: 'short', day: 'numeric' })
+        : dt.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' });
+    }
+
     function artistLinks(a) {
       const show = a.show_url
         ? `<a href="${a.show_url}" target="_blank" rel="noopener" class="da-pill">Show ↗</a>` : '';
@@ -470,12 +534,26 @@
         browseListEl.innerHTML = '<div class="discover-none">No artists match these filters.</div>';
         return;
       }
-      browseListEl.innerHTML = filtered.map(a => `
-        <div class="discover-artist">
-          <span class="da-name">${a.name}${a.genres[0] ? `<span class="da-genre">${a.genres[0]}</span>` : ''}</span>
-          <span class="da-venue">${a.venue}</span>
-          ${artistLinks(a)}
-        </div>`).join('');
+      const byDate = {};
+      filtered.forEach(a => {
+        const key = a.date || '';
+        (byDate[key] = byDate[key] || []).push(a);
+      });
+      const dates = Object.keys(byDate).sort((a, b) => {
+        if (!a) return 1; if (!b) return -1; return a < b ? -1 : 1;
+      });
+      browseListEl.innerHTML = dates.flatMap(date => {
+        const label = date ? fmtDate(date) : 'Date TBD';
+        return [
+          `<div class="date-header">${label}</div>`,
+          ...byDate[date].map(a => `
+            <div class="discover-artist">
+              <span class="da-name">${a.name}${a.genres[0] ? `<span class="da-genre">${a.genres[0]}</span>` : ''}</span>
+              <span class="da-venue">${a.venue}</span>
+              ${artistLinks(a)}
+            </div>`),
+        ];
+      }).join('');
     }
 
     function renderGenreTags(artists = visibleArtists()) {
@@ -702,7 +780,7 @@
       resultsEl.innerHTML = matches.map(a =>
         `<div class="discover-artist">
           <span class="da-name">${a.name}${a.genres[0] ? `<span class="da-genre">${a.genres[0]}</span>` : ''}</span>
-          <span class="da-venue">${a.venue}</span>
+          <span class="da-venue">${a.venue}${a.date ? ` · <span class="da-date">${fmtDate(a.date, true)}</span>` : ''}</span>
           <span class="da-reason">${a.reason}</span>
           ${artistLinks(a)}
         </div>`
@@ -775,6 +853,19 @@
       renderSeedTags();
       runRecommendations();
     })();
+
+    // Venue accordion — click header row to expand, lazy-load iframe
+    document.querySelectorAll('.venue-header').forEach(header => {
+      header.addEventListener('click', e => {
+        if (e.target.closest('a')) return;
+        const venue = header.closest('.venue');
+        const isOpen = venue.classList.toggle('open');
+        const iframe = venue.querySelector('iframe');
+        if (isOpen && !iframe.src && iframe.dataset.src) {
+          iframe.src = iframe.dataset.src;
+        }
+      });
+    });
   </script>
 </body>
 </html>
