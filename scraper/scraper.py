@@ -4,18 +4,21 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from spotify import update_playlist
-from venues import schubas, empty_bottle, thalia_hall, riviera, subterranean, salt_shed, metro, bottom_lounge, aragon
+from venues import schubas, empty_bottle, thalia_hall, riviera, subterranean, salt_shed, metro, bottom_lounge, aragon, soldier_field, wrigley_field, northerly_island
 
 VENUES = [
-    ("Schubas / Lincoln Hall", schubas.get_artists,       "SPOTIFY_SCHUBAS_PLAYLIST_ID",       "https://www.lh-st.com/shows/"),
-    ("Empty Bottle",           empty_bottle.get_artists,  "SPOTIFY_EMPTY_BOTTLE_PLAYLIST_ID",  "https://www.emptybottle.com"),
-    ("Thalia Hall",            thalia_hall.get_artists,   "SPOTIFY_THALIA_HALL_PLAYLIST_ID",   "https://www.thaliahallchicago.com"),
-    ("Riviera",                riviera.get_artists,       "SPOTIFY_RIVIERA_PLAYLIST_ID",       "https://www.rivieratheatre.com/events"),
-    ("Subterranean",           subterranean.get_artists,  "SPOTIFY_SUBTERRANEAN_PLAYLIST_ID",  "https://www.subt.net"),
-    ("Salt Shed",              salt_shed.get_artists,     "SPOTIFY_SALT_SHED_PLAYLIST_ID",     "https://www.saltshedchicago.com/home#shows"),
-    ("Metro",                  metro.get_artists,         "SPOTIFY_METRO_PLAYLIST_ID",         "https://metrochicago.com/events/"),
-    ("Bottom Lounge",          bottom_lounge.get_artists, "SPOTIFY_BOTTOM_LOUNGE_PLAYLIST_ID", "https://bottomlounge.com/events/"),
-    ("Aragon Ballroom",        aragon.get_artists,        "SPOTIFY_ARAGON_PLAYLIST_ID",        "https://www.aragonballroomchicago.com/shows"),
+    ("Schubas / Lincoln Hall",              schubas.get_artists,        "SPOTIFY_SCHUBAS_PLAYLIST_ID",        "https://www.lh-st.com/shows/"),
+    ("Empty Bottle",                        empty_bottle.get_artists,   "SPOTIFY_EMPTY_BOTTLE_PLAYLIST_ID",   "https://www.emptybottle.com"),
+    ("Thalia Hall",                         thalia_hall.get_artists,    "SPOTIFY_THALIA_HALL_PLAYLIST_ID",    "https://www.thaliahallchicago.com"),
+    ("Riviera",                             riviera.get_artists,        "SPOTIFY_RIVIERA_PLAYLIST_ID",        "https://www.rivieratheatre.com/events"),
+    ("Subterranean",                        subterranean.get_artists,   "SPOTIFY_SUBTERRANEAN_PLAYLIST_ID",   "https://www.subt.net"),
+    ("Salt Shed",                           salt_shed.get_artists,      "SPOTIFY_SALT_SHED_PLAYLIST_ID",      "https://www.saltshedchicago.com/home#shows"),
+    ("Metro",                               metro.get_artists,          "SPOTIFY_METRO_PLAYLIST_ID",          "https://metrochicago.com/events/"),
+    ("Bottom Lounge",                       bottom_lounge.get_artists,  "SPOTIFY_BOTTOM_LOUNGE_PLAYLIST_ID",  "https://bottomlounge.com/events/"),
+    ("Aragon Ballroom",                     aragon.get_artists,         "SPOTIFY_ARAGON_PLAYLIST_ID",         "https://www.aragonballroomchicago.com/shows"),
+    ("Soldier Field",                       soldier_field.get_artists,  "SPOTIFY_SOLDIER_FIELD_PLAYLIST_ID",  "https://www.soldierfield.com/events"),
+    ("Wrigley Field",                       wrigley_field.get_artists,  "SPOTIFY_WRIGLEY_FIELD_PLAYLIST_ID",  "https://www.wrigleyfield.com/concerts"),
+    ("Northerly Island",                    northerly_island.get_artists, "SPOTIFY_NORTHERLY_ISLAND_PLAYLIST_ID", "https://www.huntingtonbankpavilion.com"),
 ]
 
 MANIFEST_PATH = Path(__file__).parent.parent / "docs" / "data.json"

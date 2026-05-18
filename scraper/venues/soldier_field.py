@@ -1,6 +1,6 @@
 from venues.ticketmaster import get_artists as _get
 
-VENUE_ID = "KovZpaoyCe"
+VENUE_ID = "KovZpZAF6tIA"
 
 
 def get_artists() -> list[dict]:
