@@ -73,6 +73,7 @@
     .fy-subtab.active { color: #e0e0e0; border-color: #444; }
     .fy-subtab:hover:not(.active) { color: #bbb; }
     .fy-seed-count { font-size: 0.72rem; color: #555; }
+    .fy-hint { font-size: 0.72rem; color: #555; align-self: center; }
     /* Controls pushed to the right */
     .discover-ctrl { display: flex; align-items: center; gap: 0.45rem; margin-left: auto; flex-wrap: wrap; }
     .fy-ctrl-row { display: flex; align-items: center; gap: 0.4rem; flex-wrap: wrap; }
@@ -126,9 +127,17 @@
     .genre-tag.active { background: #e0e0e0; color: #111; border-color: #e0e0e0; }
     /* Seed tags */
     .seed-chips {
-      display: flex; gap: 0.35rem; flex-wrap: wrap;
+      display: flex; gap: 0.35rem; flex-wrap: wrap; align-items: center;
       padding: 0.45rem 1rem; border-bottom: 1px solid #2a2a2a;
     }
+    .seed-chips input {
+      background: #111; border: 1px solid #333; border-radius: 5px;
+      color: #e0e0e0; font-size: 0.8rem; padding: 0.28rem 0.6rem;
+      outline: none; width: 160px; transition: border-color 0.15s;
+    }
+    .seed-chips input:focus { border-color: #555; }
+    .seed-chips input::placeholder { color: #555; }
+    .seed-chips input:disabled, .seed-chips button:disabled { opacity: 0.4; cursor: not-allowed; }
     .seed-tag {
       display: inline-flex; align-items: center; gap: 0.3rem;
       font-size: 0.71rem; padding: 0.18rem 0.52rem; border-radius: 999px;
@@ -205,9 +214,6 @@
           <button class="fy-subtab active" id="subtab-spotify">Spotify</button>
           <button class="fy-subtab" id="subtab-custom">Custom</button>
           <div class="sep" style="height:14px"></div>
-          <input type="text" id="seed-input" placeholder="Add an artist…" autocomplete="off" style="display:none">
-          <button class="btn-secondary" id="btn-add-seed" style="display:none">Add</button>
-          <span class="fy-seed-count" id="fy-seed-count" style="display:none">0 / 5</span>
           <button class="btn-spotify" id="btn-connect">
             <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg>
             Connect Spotify
@@ -219,7 +225,11 @@
     </div>
     <div class="venue-chips" id="venue-chips"></div>
     <div class="discover-chips" id="genre-tags"></div>
-    <div class="seed-chips" id="seed-tags" style="display:none"></div>
+    <div class="seed-chips" id="seed-tags" style="display:none">
+      <input type="text" id="seed-input" placeholder="Add an artist…" autocomplete="off">
+      <button class="btn-secondary" id="btn-add-seed">Add</button>
+      <span class="fy-seed-count" id="fy-seed-count">0 / 5</span>
+    </div>
     <div class="discover-results">
       <div class="discover-grid" id="browse-list"><div class="discover-none">Loading…</div></div>
       <div class="discover-grid" id="foryou-results" style="display:none"><div class="discover-none">Connect Spotify or add an artist above to see personalized picks.</div></div>
@@ -438,56 +448,60 @@
     }
 
     function updateForYouUI() {
-      const disc = document.getElementById('btn-disconnect');
-      const conn = document.getElementById('btn-connect');
-      const status = document.getElementById('foryou-status');
       const isCustom = fyMode === 'custom';
       document.getElementById('subtab-spotify').classList.toggle('active', !isCustom);
       document.getElementById('subtab-custom').classList.toggle('active', isCustom);
       if (spotifyToken) {
-        disc.style.display = ''; conn.style.display = 'none'; status.textContent = '';
-        document.getElementById('seed-input').style.display = isCustom ? '' : 'none';
-        document.getElementById('btn-add-seed').style.display = isCustom ? '' : 'none';
-        document.getElementById('fy-seed-count').style.display = isCustom ? '' : 'none';
+        document.getElementById('btn-disconnect').style.display = '';
+        document.getElementById('btn-connect').style.display = 'none';
+        document.getElementById('foryou-status').textContent = '';
       } else {
-        disc.style.display = 'none'; conn.style.display = ''; status.textContent = '';
-        document.getElementById('seed-input').style.display = 'none';
-        document.getElementById('btn-add-seed').style.display = 'none';
-        document.getElementById('fy-seed-count').style.display = 'none';
+        document.getElementById('btn-disconnect').style.display = 'none';
+        document.getElementById('btn-connect').style.display = '';
+        document.getElementById('foryou-status').textContent = '';
       }
       renderSeedTags();
     }
 
     function renderSeedTags() {
       const el = document.getElementById('seed-tags');
-      const countEl = document.getElementById('fy-seed-count');
       const isCustom = fyMode === 'custom';
       const count = seedArtists.length;
-      if (countEl) countEl.textContent = `${count} / 5`;
       const atLimit = count >= 5;
-      const inp = document.getElementById('seed-input');
-      const addBtn = document.getElementById('btn-add-seed');
-      if (inp) inp.disabled = atLimit;
-      if (addBtn) addBtn.disabled = atLimit;
+
+      document.getElementById('fy-seed-count').textContent = `${count} / 5`;
+      document.getElementById('seed-input').disabled = atLimit;
+      document.getElementById('btn-add-seed').disabled = atLimit;
 
       if (!spotifyToken || activeTab !== 'foryou') { el.style.display = 'none'; return; }
+      el.style.display = '';
+
+      // Rebuild only the dynamic tags portion; input/Add/count stay in DOM
+      const existingTags = el.querySelectorAll('.seed-tag, .fy-hint');
+      existingTags.forEach(t => t.remove());
 
       if (!isCustom) {
-        el.innerHTML = '<span style="font-size:0.72rem;color:#555">Using your top 5 Spotify artists as seeds</span>';
-        el.style.display = '';
+        el.insertAdjacentHTML('beforeend',
+          '<span class="fy-hint">Using your top 5 Spotify artists as seeds</span>');
+        document.getElementById('seed-input').style.display = 'none';
+        document.getElementById('btn-add-seed').style.display = 'none';
+        document.getElementById('fy-seed-count').style.display = 'none';
         return;
       }
-      // Custom mode
+
+      document.getElementById('seed-input').style.display = '';
+      document.getElementById('btn-add-seed').style.display = '';
+      document.getElementById('fy-seed-count').style.display = '';
+
       const tags = seedArtists.map((s, i) =>
         `<span class="seed-tag">${s}<button onclick="removeSeed(${i})" aria-label="Remove">×</button></span>`
       ).join('');
-      const hint = count === 0
-        ? '<span style="font-size:0.72rem;color:#555">Add up to 5 artists — recommendations will be based on your picks only</span>'
-        : atLimit
-          ? '<span style="font-size:0.72rem;color:#555">5 / 5 · limit reached</span>'
+      const hint = atLimit
+        ? '<span class="fy-hint">limit reached</span>'
+        : count === 0
+          ? '<span class="fy-hint">recommendations use only your picks</span>'
           : '';
-      el.innerHTML = tags + hint;
-      el.style.display = '';
+      el.insertAdjacentHTML('beforeend', tags + hint);
     }
 
     window.removeSeed = function(i) {
