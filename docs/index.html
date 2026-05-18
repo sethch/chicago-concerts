@@ -102,16 +102,22 @@
     .btn-secondary:hover { border-color: #555; color: #ccc; }
     /* Venue chips */
     .venue-chips {
-      display: flex; flex-wrap: wrap; gap: 0.3rem; padding: 0.45rem 1rem;
-      border-bottom: 1px solid #2a2a2a; background: #161616;
+      display: flex; flex-wrap: wrap; gap: 0.35rem; padding: 0.5rem 1rem;
+      border-bottom: 1px solid #2a2a2a; align-items: center;
+    }
+    .venue-chips-label {
+      font-size: 0.68rem; color: #555; margin-right: 0.1rem; flex-shrink: 0; user-select: none;
     }
     .venue-chip {
-      font-size: 0.7rem; padding: 0.18rem 0.55rem; border-radius: 4px;
-      border: 1px solid #3a3a3a; background: #2a2a2a; color: #bbb;
-      cursor: pointer; transition: all 0.12s; user-select: none; font-weight: 500;
+      font-size: 0.71rem; padding: 0.2rem 0.6rem; border-radius: 4px;
+      background: #e0e0e0; color: #111; border: 1px solid #e0e0e0;
+      cursor: pointer; transition: all 0.12s; user-select: none; font-weight: 600;
     }
-    .venue-chip:hover { border-color: #555; color: #e0e0e0; }
-    .venue-chip.off { background: #1a1a1a; color: #444; border-color: #252525; text-decoration: line-through; }
+    .venue-chip:hover { background: #cacaca; border-color: #cacaca; }
+    .venue-chip.off {
+      background: transparent; color: #4a4a4a; border: 1px solid #2e2e2e; font-weight: 400;
+    }
+    .venue-chip.off:hover { color: #777; border-color: #444; }
     /* Genre chips – wrapping */
     .discover-chips {
       display: flex; flex-wrap: wrap; gap: 0.35rem; padding: 0.5rem 1rem;
@@ -340,9 +346,10 @@
     function renderVenueChips() {
       const venues = [...new Set(allArtists.map(a => a.venue))];
       const el = document.getElementById('venue-chips');
-      el.innerHTML = venues.map(v =>
-        `<span class="venue-chip${hiddenVenues.has(v) ? ' off' : ''}" data-venue="${v}">${v}</span>`
-      ).join('');
+      el.innerHTML = '<span class="venue-chips-label">Venues</span>' +
+        venues.map(v =>
+          `<span class="venue-chip${hiddenVenues.has(v) ? ' off' : ''}" data-venue="${v}">${v}</span>`
+        ).join('');
       el.querySelectorAll('.venue-chip').forEach(chip => {
         chip.addEventListener('click', () => {
           const v = chip.dataset.venue;
@@ -366,8 +373,7 @@
         document.getElementById('ctrl-browse').style.display = isBrowse ? '' : 'none';
         document.getElementById('ctrl-foryou').style.display = isBrowse ? 'none' : '';
         document.getElementById('genre-tags').style.display = isBrowse ? '' : 'none';
-        const seedTags = document.getElementById('seed-tags');
-        seedTags.style.display = (!isBrowse && seedArtists.length) ? '' : 'none';
+        renderSeedTags();
         document.getElementById('browse-list').style.display = isBrowse ? '' : 'none';
         document.getElementById('foryou-results').style.display = isBrowse ? 'none' : '';
       });
