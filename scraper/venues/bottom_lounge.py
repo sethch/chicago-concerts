@@ -1,14 +1,30 @@
 import re
-import requests
 from bs4 import BeautifulSoup
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 URL = "https://bottomlounge.com/events/"
-HEADERS = {"User-Agent": "Mozilla/5.0"}
 
 
 def get_artists() -> list[dict]:
-    page = requests.get(URL, headers=HEADERS)
-    soup = BeautifulSoup(page.text, "html.parser")
+    options = webdriver.ChromeOptions()
+    options.add_argument("--headless")
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
+    driver = webdriver.Chrome(options=options)
+    driver.get(URL)
+    try:
+        WebDriverWait(driver, 15).until(
+            EC.presence_of_element_located((By.CLASS_NAME, "w-post-elm"))
+        )
+    except Exception:
+        pass
+
+    soup = BeautifulSoup(driver.page_source, "html.parser")
+    driver.quit()
+
     artists = []
     seen = set()
     for art in soup.find_all("article"):
