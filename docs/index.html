@@ -292,6 +292,10 @@
       });
     });
 
+    function artistUrl(a) {
+      return a.spotify_url || a.venue_url;
+    }
+
     function renderBrowse() {
       const maxPop = parseInt(popSlider.value);
       let filtered = allArtists.filter(a => a.popularity <= maxPop);
@@ -303,7 +307,7 @@
         return;
       }
       browseListEl.innerHTML = filtered.map(a => `
-        <a class="discover-artist" href="${a.venue_url}" target="_blank" rel="noopener">
+        <a class="discover-artist" href="${artistUrl(a)}" target="_blank" rel="noopener">
           <span class="da-name">${a.name}</span>
           <span class="da-venue">${a.venue}</span>
         </a>`).join('');
@@ -346,7 +350,7 @@
       const results = fuse.search(q, { limit: 8 });
       searchResultsEl.innerHTML = results.length
         ? results.map(({ item }) => `
-            <a class="search-result" href="${item.venue_url}" target="_blank" rel="noopener">
+            <a class="search-result" href="${artistUrl(item)}" target="_blank" rel="noopener">
               <span class="search-result-name">${item.name}</span>
               <span class="search-result-venue">${item.venue}</span>
             </a>`).join('')
@@ -484,7 +488,7 @@
         return;
       }
       resultsEl.innerHTML = matches.map(a =>
-        `<a class="discover-artist" href="${a.venue_url}" target="_blank" rel="noopener">
+        `<a class="discover-artist" href="${artistUrl(a)}" target="_blank" rel="noopener">
           <span class="da-name">${a.name}</span>
           <span class="da-venue">${a.venue}</span>
           <span class="da-reason">${a.reason}</span>

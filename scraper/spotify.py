@@ -45,6 +45,7 @@ def update_playlist(artists: list[str], playlist_id: str) -> list[dict]:
             "name": name,
             "genres": match.get("genres", []),
             "popularity": match.get("popularity", 0),
+            "spotify_url": match.get("external_urls", {}).get("spotify", ""),
         })
 
         top_tracks = sp.artist_top_tracks(match["id"]).get("tracks", [])[:3]

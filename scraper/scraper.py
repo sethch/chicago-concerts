@@ -39,6 +39,7 @@ def main():
                     "name": artist,
                     "venue": name,
                     "venue_url": venue_url,
+                    "spotify_url": m.get("spotify_url", ""),
                     "genres": m.get("genres", []),
                     "popularity": m.get("popularity", 0),
                 })
