@@ -37,14 +37,15 @@
     }
     .search-results.visible { display: block; }
     .search-result {
-      display: flex; align-items: center; justify-content: space-between;
-      padding: 0.65rem 1rem; border-bottom: 1px solid #2a2a2a;
-      text-decoration: none; color: inherit; transition: background 0.1s;
+      display: flex; align-items: center; justify-content: space-between; gap: 0.5rem;
+      padding: 0.65rem 1rem; border-bottom: 1px solid #2a2a2a; transition: background 0.1s;
     }
     .search-result:last-child { border-bottom: none; }
     .search-result:hover { background: #252525; }
+    .search-result-info { display: flex; flex-direction: column; min-width: 0; }
     .search-result-name { font-size: 0.9rem; color: #e0e0e0; }
     .search-result-venue { font-size: 0.8rem; color: #666; }
+    .search-result-links { display: flex; gap: 0.3rem; flex-shrink: 0; }
     .search-empty { padding: 0.75rem 1rem; font-size: 0.88rem; color: #666; }
 
     /* ── Discover panel ──────────────────────────────────────── */
@@ -191,12 +192,19 @@
     .discover-artist {
       display: flex; flex-direction: column; padding: 0.5rem 1rem;
       border-right: 1px solid #222; border-bottom: 1px solid #222;
-      text-decoration: none; color: inherit; transition: background 0.1s;
     }
-    .discover-artist:hover { background: #222; }
     .da-name { font-size: 0.84rem; color: #e0e0e0; }
     .da-venue { font-size: 0.7rem; color: #666; margin-top: 0.1rem; }
     .da-reason { font-size: 0.67rem; color: #1DB954; margin-top: 0.2rem; }
+    .da-links { display: flex; gap: 0.3rem; margin-top: 0.35rem; flex-wrap: wrap; }
+    .da-pill {
+      font-size: 0.65rem; padding: 0.1rem 0.45rem; border-radius: 3px;
+      background: #252525; color: #999; text-decoration: none;
+      border: 1px solid #353535; transition: background 0.1s, color 0.1s; flex-shrink: 0;
+    }
+    .da-pill:hover { background: #333; color: #e0e0e0; }
+    .da-pill-sp { color: #1DB954; border-color: #1a4428; }
+    .da-pill-sp:hover { background: #1a3320; }
     .discover-none { padding: 1.1rem 1rem; color: #555; font-size: 0.83rem; }
 
     /* Venue sections */
@@ -379,8 +387,14 @@
       });
     });
 
-    function artistUrl(a) {
-      return a.spotify_url || a.venue_url;
+    function artistLinks(a) {
+      const show = a.show_url
+        ? `<a href="${a.show_url}" target="_blank" rel="noopener" class="da-pill">Show ↗</a>` : '';
+      const sp = a.spotify_url
+        ? `<a href="${a.spotify_url}" target="_blank" rel="noopener" class="da-pill da-pill-sp">Spotify ↗</a>` : '';
+      const fallback = !a.show_url && !a.spotify_url && a.venue_url
+        ? `<a href="${a.venue_url}" target="_blank" rel="noopener" class="da-pill">Venue ↗</a>` : '';
+      return `<div class="da-links">${show}${sp}${fallback}</div>`;
     }
 
     function renderBrowse() {
@@ -393,10 +407,11 @@
         return;
       }
       browseListEl.innerHTML = filtered.map(a => `
-        <a class="discover-artist" href="${artistUrl(a)}" target="_blank" rel="noopener">
+        <div class="discover-artist">
           <span class="da-name">${a.name}</span>
           <span class="da-venue">${a.venue}</span>
-        </a>`).join('');
+          ${artistLinks(a)}
+        </div>`).join('');
     }
 
     function renderGenreTags(artists = visibleArtists()) {
@@ -432,10 +447,17 @@
       const results = fuse.search(q, { limit: 8 });
       searchResultsEl.innerHTML = results.length
         ? results.map(({ item }) => `
-            <a class="search-result" href="${artistUrl(item)}" target="_blank" rel="noopener">
-              <span class="search-result-name">${item.name}</span>
-              <span class="search-result-venue">${item.venue}</span>
-            </a>`).join('')
+            <div class="search-result">
+              <div class="search-result-info">
+                <span class="search-result-name">${item.name}</span>
+                <span class="search-result-venue">${item.venue}</span>
+              </div>
+              <div class="search-result-links">
+                ${item.show_url ? `<a href="${item.show_url}" target="_blank" rel="noopener" class="da-pill">Show ↗</a>` : ''}
+                ${item.spotify_url ? `<a href="${item.spotify_url}" target="_blank" rel="noopener" class="da-pill da-pill-sp">Spotify ↗</a>` : ''}
+                ${!item.show_url && !item.spotify_url && item.venue_url ? `<a href="${item.venue_url}" target="_blank" rel="noopener" class="da-pill">Venue ↗</a>` : ''}
+              </div>
+            </div>`).join('')
         : '<div class="search-empty">No artists found</div>';
       searchResultsEl.classList.add('visible');
     });
@@ -472,7 +494,8 @@
         headers: { Authorization: 'Bearer ' + spotifyToken }
       });
       if (r.status === 401) { sessionStorage.removeItem(TOKEN_KEY); spotifyToken = null; updateForYouUI(); return null; }
-      return r.ok ? r.json() : null;
+      if (!r.ok) { const e = new Error(`Spotify API error`); e.status = r.status; throw e; }
+      return r.json();
     }
 
     function updateForYouUI() {
@@ -579,8 +602,14 @@
 
         let recNames = new Set();
         if (seedIds.length) {
-          const recData = await spotifyGet('/recommendations?seed_artists=' + seedIds.join(',') + '&limit=40');
-          (recData?.tracks || []).forEach(t => (t.artists || []).forEach(a => recNames.add(a.name.toLowerCase())));
+          try {
+            const recData = await spotifyGet('/recommendations?seed_artists=' + seedIds.join(',') + '&limit=40');
+            (recData?.tracks || []).forEach(t => (t.artists || []).forEach(a => recNames.add(a.name.toLowerCase())));
+          } catch (e) {
+            if (e.status === 403) {
+              document.getElementById('foryou-status').textContent = 'Spotify recommendations unavailable for this app — showing genre matches instead.';
+            }
+          }
         }
         const recMatches = visible
           .filter(a => !seedNames.has(a.name.toLowerCase()) && recNames.has(a.name.toLowerCase()))
@@ -607,11 +636,12 @@
         return;
       }
       resultsEl.innerHTML = matches.map(a =>
-        `<a class="discover-artist" href="${artistUrl(a)}" target="_blank" rel="noopener">
+        `<div class="discover-artist">
           <span class="da-name">${a.name}</span>
           <span class="da-venue">${a.venue}</span>
           <span class="da-reason">${a.reason}</span>
-        </a>`
+          ${artistLinks(a)}
+        </div>`
       ).join('');
     }
 
@@ -679,6 +709,7 @@
       await handleOAuthCallback();
       updateForYouUI();
       renderSeedTags();
+      runRecommendations();
     })();
   </script>
 </body>

@@ -8,7 +8,7 @@ from selenium.webdriver.support import expected_conditions as EC
 URL = "https://www.thaliahallchicago.com"
 
 
-def get_artists() -> list[str]:
+def get_artists() -> list[dict]:
     options = webdriver.ChromeOptions()
     options.add_argument("--headless")
     options.add_argument("--no-sandbox")
@@ -27,11 +27,22 @@ def get_artists() -> list[str]:
 
     artists = []
     seen = set()
-    for tag in soup.find_all("div", class_="title"):
-        text = tag.get_text(strip=True)
-        # Strip "with ...", featuring, collab markers, subtitles
+    for card in soup.find_all("div", class_="eb-item"):
+        title_div = card.find("div", class_="title")
+        if not title_div:
+            continue
+        text = title_div.get_text(strip=True)
         name = re.split(r"\s+(?:with|feat|featuring|&|\+|-|:|\()", text, flags=re.IGNORECASE)[0].strip()
+        name = re.sub(r"^\*?SOLD\s*OUT\*?\s*", "", name, flags=re.IGNORECASE).strip()
+
+        show_url = ""
+        for a in card.find_all("a", href=True):
+            href = a.get("href", "")
+            if "google.com/maps" not in href:
+                show_url = href
+                break
+
         if name and name not in seen:
-            artists.append(name)
+            artists.append({"name": name, "show_url": show_url})
             seen.add(name)
     return artists
