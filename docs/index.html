@@ -130,6 +130,16 @@
       background: none; border: none; color: #888; cursor: pointer; padding: 0; font-size: 1em; line-height: 1;
     }
     .seed-tag button:hover { color: #ccc; }
+    /* Spinner */
+    .fy-spinner {
+      display: flex; align-items: center; justify-content: center; padding: 1.5rem;
+    }
+    .fy-spinner::after {
+      content: ''; width: 20px; height: 20px; border-radius: 50%;
+      border: 2px solid #333; border-top-color: #1DB954;
+      animation: spin 0.7s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
     /* Scrollable results grid */
     .discover-results { max-height: 210px; overflow-y: auto; scrollbar-width: thin; scrollbar-color: #2a2a2a transparent; }
     .discover-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(195px, 1fr)); }
@@ -459,6 +469,7 @@
       let matches = [];
 
       if (spotifyToken) {
+        resultsEl.innerHTML = '<div class="fy-spinner"></div>';
         const topData = await spotifyGet('/me/top/artists?limit=10&time_range=medium_term');
         const topArtists = topData?.items || [];
         const manualObjects = [];
