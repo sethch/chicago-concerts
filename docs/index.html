@@ -396,10 +396,14 @@
       const disc = document.getElementById('btn-disconnect');
       const conn = document.getElementById('btn-connect');
       const status = document.getElementById('foryou-status');
+      const seedInput = document.getElementById('seed-input');
+      const btnAddSeed = document.getElementById('btn-add-seed');
       if (spotifyToken) {
         disc.style.display = ''; conn.style.display = 'none'; status.textContent = 'Connected';
+        seedInput.style.display = ''; btnAddSeed.style.display = '';
       } else {
         disc.style.display = 'none'; conn.style.display = ''; status.textContent = '';
+        seedInput.style.display = 'none'; btnAddSeed.style.display = 'none';
       }
     }
 
@@ -466,25 +470,14 @@
           .map(a => ({ ...a, reason: 'Similar genre' }));
 
         matches = [...direct, ...recMatches, ...genreMatches];
-
-      } else if (seedArtists.length) {
-        const seedGenres = new Set();
-        seedArtists.forEach(seed => {
-          const found = allArtists.find(a => a.name.toLowerCase() === seed.toLowerCase());
-          if (found) found.genres.forEach(g => seedGenres.add(g));
-        });
-        const seedNamesLC = new Set(seedArtists.map(s => s.toLowerCase()));
-        if (seedGenres.size) {
-          matches = allArtists
-            .filter(a => !seedNamesLC.has(a.name.toLowerCase()) && a.genres.some(g => seedGenres.has(g)))
-            .sort((a, b) => b.genres.filter(g => seedGenres.has(g)).length - a.genres.filter(g => seedGenres.has(g)).length)
-            .slice(0, 20)
-            .map(a => ({ ...a, reason: 'Similar genre' }));
-        }
       }
 
+      if (!spotifyToken) {
+        resultsEl.innerHTML = '<div class="discover-none">Connect Spotify to see which Chicago artists match your taste.</div>';
+        return;
+      }
       if (!matches.length) {
-        resultsEl.innerHTML = '<div class="discover-none">Connect Spotify or add an artist above to see personalized picks.</div>';
+        resultsEl.innerHTML = '<div class="discover-none">No matches found — try adding more artists or expanding your Spotify listening history.</div>';
         return;
       }
       resultsEl.innerHTML = matches.map(a =>
