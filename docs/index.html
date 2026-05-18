@@ -65,6 +65,14 @@
     .dtab.active { color: #e0e0e0; background: #2a2a2a; }
     .dtab:hover:not(.active) { color: #bbb; }
     .sep { width: 1px; height: 18px; background: #2a2a2a; flex-shrink: 0; }
+    .fy-subtab {
+      background: none; border: 1px solid transparent; color: #666; font-size: 0.75rem;
+      cursor: pointer; padding: 0.2rem 0.55rem; border-radius: 999px;
+      transition: color 0.12s, border-color 0.12s;
+    }
+    .fy-subtab.active { color: #e0e0e0; border-color: #444; }
+    .fy-subtab:hover:not(.active) { color: #bbb; }
+    .fy-seed-count { font-size: 0.72rem; color: #555; }
     /* Controls pushed to the right */
     .discover-ctrl { display: flex; align-items: center; gap: 0.45rem; margin-left: auto; flex-wrap: wrap; }
     .fy-ctrl-row { display: flex; align-items: center; gap: 0.4rem; flex-wrap: wrap; }
@@ -194,8 +202,12 @@
       <div class="discover-ctrl" id="ctrl-browse"></div>
       <div class="discover-ctrl" id="ctrl-foryou" style="display:none">
         <div class="fy-ctrl-row">
-          <input type="text" id="seed-input" placeholder="Add an artist…" autocomplete="off">
-          <button class="btn-secondary" id="btn-add-seed">Add</button>
+          <button class="fy-subtab active" id="subtab-spotify">Spotify</button>
+          <button class="fy-subtab" id="subtab-custom">Custom</button>
+          <div class="sep" style="height:14px"></div>
+          <input type="text" id="seed-input" placeholder="Add an artist…" autocomplete="off" style="display:none">
+          <button class="btn-secondary" id="btn-add-seed" style="display:none">Add</button>
+          <span class="fy-seed-count" id="fy-seed-count" style="display:none">0 / 5</span>
           <button class="btn-spotify" id="btn-connect">
             <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg>
             Connect Spotify
@@ -404,6 +416,7 @@
 
     let spotifyToken = sessionStorage.getItem(TOKEN_KEY);
     let seedArtists = JSON.parse(localStorage.getItem(SEEDS_KEY) || '[]');
+    let fyMode = 'spotify'; // 'spotify' | 'custom'
 
     function b64url(buf) {
       return btoa(String.fromCharCode(...new Uint8Array(buf)))
@@ -428,23 +441,53 @@
       const disc = document.getElementById('btn-disconnect');
       const conn = document.getElementById('btn-connect');
       const status = document.getElementById('foryou-status');
-      const seedInput = document.getElementById('seed-input');
-      const btnAddSeed = document.getElementById('btn-add-seed');
+      const isCustom = fyMode === 'custom';
+      document.getElementById('subtab-spotify').classList.toggle('active', !isCustom);
+      document.getElementById('subtab-custom').classList.toggle('active', isCustom);
       if (spotifyToken) {
-        disc.style.display = ''; conn.style.display = 'none'; status.textContent = 'Connected';
-        seedInput.style.display = ''; btnAddSeed.style.display = '';
+        disc.style.display = ''; conn.style.display = 'none'; status.textContent = '';
+        document.getElementById('seed-input').style.display = isCustom ? '' : 'none';
+        document.getElementById('btn-add-seed').style.display = isCustom ? '' : 'none';
+        document.getElementById('fy-seed-count').style.display = isCustom ? '' : 'none';
       } else {
         disc.style.display = 'none'; conn.style.display = ''; status.textContent = '';
-        seedInput.style.display = 'none'; btnAddSeed.style.display = 'none';
+        document.getElementById('seed-input').style.display = 'none';
+        document.getElementById('btn-add-seed').style.display = 'none';
+        document.getElementById('fy-seed-count').style.display = 'none';
       }
+      renderSeedTags();
     }
 
     function renderSeedTags() {
       const el = document.getElementById('seed-tags');
-      el.innerHTML = seedArtists.map((s, i) =>
+      const countEl = document.getElementById('fy-seed-count');
+      const isCustom = fyMode === 'custom';
+      const count = seedArtists.length;
+      if (countEl) countEl.textContent = `${count} / 5`;
+      const atLimit = count >= 5;
+      const inp = document.getElementById('seed-input');
+      const addBtn = document.getElementById('btn-add-seed');
+      if (inp) inp.disabled = atLimit;
+      if (addBtn) addBtn.disabled = atLimit;
+
+      if (!spotifyToken || activeTab !== 'foryou') { el.style.display = 'none'; return; }
+
+      if (!isCustom) {
+        el.innerHTML = '<span style="font-size:0.72rem;color:#555">Using your top 5 Spotify artists as seeds</span>';
+        el.style.display = '';
+        return;
+      }
+      // Custom mode
+      const tags = seedArtists.map((s, i) =>
         `<span class="seed-tag">${s}<button onclick="removeSeed(${i})" aria-label="Remove">×</button></span>`
       ).join('');
-      el.style.display = (activeTab === 'foryou' && seedArtists.length) ? '' : 'none';
+      const hint = count === 0
+        ? '<span style="font-size:0.72rem;color:#555">Add up to 5 artists — recommendations will be based on your picks only</span>'
+        : atLimit
+          ? '<span style="font-size:0.72rem;color:#555">5 / 5 · limit reached</span>'
+          : '';
+      el.innerHTML = tags + hint;
+      el.style.display = '';
     }
 
     window.removeSeed = function(i) {
@@ -456,7 +499,7 @@
 
     function addSeed(name) {
       name = name.trim();
-      if (!name || seedArtists.map(s => s.toLowerCase()).includes(name.toLowerCase())) return;
+      if (!name || seedArtists.length >= 5 || seedArtists.map(s => s.toLowerCase()).includes(name.toLowerCase())) return;
       seedArtists.push(name);
       localStorage.setItem(SEEDS_KEY, JSON.stringify(seedArtists));
       renderSeedTags();
@@ -470,22 +513,23 @@
 
       if (spotifyToken) {
         resultsEl.innerHTML = '<div class="fy-spinner"></div>';
-        const topData = await spotifyGet('/me/top/artists?limit=10&time_range=medium_term');
-        const topArtists = topData?.items || [];
-        const manualObjects = [];
-        for (const seed of seedArtists) {
-          const d = await spotifyGet('/search?q=' + encodeURIComponent(seed) + '&type=artist&limit=1');
-          const a = d?.artists?.items?.[0];
-          if (a) manualObjects.push(a);
-        }
-        const allSeeds = [...topArtists, ...manualObjects];
-        const seedNames = new Set(allSeeds.map(a => a.name.toLowerCase()));
-        const seedGenres = new Set(allSeeds.flatMap(a => a.genres || []));
-        const manualIds = manualObjects.map(a => a.id);
-        const topIds = topArtists.map(a => a.id).filter(id => !manualIds.includes(id));
-        const seedIds = [...manualIds, ...topIds].slice(0, 5);
-
         const visible = visibleArtists();
+        let effectiveSeeds = [];
+
+        if (fyMode === 'spotify') {
+          const topData = await spotifyGet('/me/top/artists?limit=5&time_range=medium_term');
+          effectiveSeeds = topData?.items || [];
+        } else {
+          for (const seed of seedArtists) {
+            const d = await spotifyGet('/search?q=' + encodeURIComponent(seed) + '&type=artist&limit=1');
+            const a = d?.artists?.items?.[0];
+            if (a) effectiveSeeds.push(a);
+          }
+        }
+
+        const seedNames = new Set(effectiveSeeds.map(a => a.name.toLowerCase()));
+        const seedGenres = new Set(effectiveSeeds.flatMap(a => a.genres || []));
+        const seedIds = effectiveSeeds.slice(0, 5).map(a => a.id);
 
         const direct = visible
           .filter(a => seedNames.has(a.name.toLowerCase()))
@@ -528,6 +572,17 @@
         </a>`
       ).join('');
     }
+
+    document.getElementById('subtab-spotify').addEventListener('click', () => {
+      fyMode = 'spotify';
+      updateForYouUI();
+      runRecommendations();
+    });
+    document.getElementById('subtab-custom').addEventListener('click', () => {
+      fyMode = 'custom';
+      updateForYouUI();
+      runRecommendations();
+    });
 
     document.getElementById('btn-connect').addEventListener('click', async () => {
       const verifier = randomVerifier();
