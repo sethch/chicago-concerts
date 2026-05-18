@@ -481,7 +481,9 @@
         const allSeeds = [...topArtists, ...manualObjects];
         const seedNames = new Set(allSeeds.map(a => a.name.toLowerCase()));
         const seedGenres = new Set(allSeeds.flatMap(a => a.genres || []));
-        const seedIds = allSeeds.slice(0, 5).map(a => a.id);
+        const manualIds = manualObjects.map(a => a.id);
+        const topIds = topArtists.map(a => a.id).filter(id => !manualIds.includes(id));
+        const seedIds = [...manualIds, ...topIds].slice(0, 5);
 
         const visible = visibleArtists();
 
