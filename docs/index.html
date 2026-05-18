@@ -157,6 +157,25 @@
       animation: spin 0.7s linear infinite;
     }
     @keyframes spin { to { transform: rotate(360deg); } }
+    /* Mobile */
+    @media (max-width: 640px) {
+      body { padding: 1.25rem 0.75rem; }
+      header h1 { font-size: 1.5rem; }
+      .discover-chips, .venue-chips {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+        mask-image: linear-gradient(to right, black 88%, transparent 100%);
+        -webkit-mask-image: linear-gradient(to right, black 88%, transparent 100%);
+      }
+      .discover-chips::-webkit-scrollbar, .venue-chips::-webkit-scrollbar { display: none; }
+      .genre-tag, .venue-chip { flex-shrink: 0; }
+      .discover-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
+      .discover-header { gap: 0.5rem; padding: 0.5rem 0.75rem; }
+      .discover-chips, .venue-chips, .seed-chips { padding-left: 0.75rem; padding-right: 0.75rem; }
+      .discover-results { max-height: 240px; }
+    }
     /* Scrollable results grid */
     .discover-results { max-height: 210px; overflow-y: auto; scrollbar-width: thin; scrollbar-color: #2a2a2a transparent; }
     .discover-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(195px, 1fr)); }
