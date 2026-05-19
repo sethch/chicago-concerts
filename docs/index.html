@@ -539,6 +539,7 @@
         document.getElementById('browse-list').style.display = isBrowse ? '' : 'none';
         document.getElementById('foryou-results').style.display = isBrowse ? 'none' : '';
         if (isBrowse) document.getElementById('fy-seeds-display').style.display = 'none';
+        else runRecommendations();
       });
     });
 
