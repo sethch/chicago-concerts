@@ -116,6 +116,7 @@
       cursor: pointer; transition: all 0.12s; user-select: none; font-weight: 400;
     }
     .venue-chip-action:hover { color: #ccc; border-color: #555; }
+    .venue-chip-action.dimmed { color: #3a3a3a; border-color: #222; cursor: default; pointer-events: none; }
     .venue-chips-sep { color: #333; font-size: 0.7rem; align-self: center; }
     .venue-chip {
       font-size: 0.71rem; padding: 0.2rem 0.6rem; border-radius: 4px;
@@ -481,7 +482,7 @@
     let activeGenres = new Set();
     let activeTab = 'browse';
     let hiddenVenues = new Set(JSON.parse(localStorage.getItem('hidden_venues') || '[]'));
-    let genresCollapsed = localStorage.getItem('genres_collapsed') === '1';
+    let genresCollapsed = false;
 
     function updateGenreToggle() {
       const btn = document.getElementById('btn-genres');
@@ -502,6 +503,13 @@
     function renderVenueChips() {
       const venues = [...new Set(allArtists.map(a => a.venue))];
       const el = document.getElementById('venue-chips');
+      function refreshActionStates() {
+        const allHidden = hiddenVenues.size === venues.length;
+        const noneHidden = hiddenVenues.size === 0;
+        document.getElementById('chip-none').classList.toggle('dimmed', allHidden);
+        document.getElementById('chip-all').classList.toggle('dimmed', noneHidden);
+      }
+
       el.innerHTML =
         '<span class="venue-chips-label">Venues</span>' +
         '<span class="venue-chip-action" id="chip-all">All</span>' +
@@ -511,8 +519,11 @@
           `<span class="venue-chip${hiddenVenues.has(v) ? ' off' : ''}" data-venue="${v}">${v}</span>`
         ).join('');
 
+      refreshActionStates();
+
       function applyAndRefresh() {
         localStorage.setItem('hidden_venues', JSON.stringify([...hiddenVenues]));
+        refreshActionStates();
         activeGenres.clear();
         renderGenreTags(visibleArtists());
         renderBrowse();
@@ -645,7 +656,6 @@
 
     document.getElementById('btn-genres').addEventListener('click', () => {
       genresCollapsed = !genresCollapsed;
-      localStorage.setItem('genres_collapsed', genresCollapsed ? '1' : '0');
       updateGenreToggle();
     });
 
