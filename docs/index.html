@@ -110,6 +110,13 @@
     .venue-chips-label {
       font-size: 0.68rem; color: #555; margin-right: 0.1rem; flex-shrink: 0; user-select: none;
     }
+    .venue-chip-action {
+      font-size: 0.71rem; padding: 0.2rem 0.6rem; border-radius: 4px;
+      background: transparent; color: #666; border: 1px solid #333;
+      cursor: pointer; transition: all 0.12s; user-select: none; font-weight: 400;
+    }
+    .venue-chip-action:hover { color: #ccc; border-color: #555; }
+    .venue-chips-sep { color: #333; font-size: 0.7rem; align-self: center; }
     .venue-chip {
       font-size: 0.71rem; padding: 0.2rem 0.6rem; border-radius: 4px;
       background: #e0e0e0; color: #111; border: 1px solid #e0e0e0;
@@ -155,6 +162,12 @@
       background: none; border: none; color: #888; cursor: pointer; padding: 0; font-size: 1em; line-height: 1;
     }
     .seed-tag button:hover { color: #ccc; }
+    /* Seeds display (For You > Spotify) */
+    .fy-seeds-display {
+      display: flex; flex-wrap: wrap; gap: 0.3rem; align-items: center;
+      padding: 0.4rem 1rem; border-bottom: 1px solid #2a2a2a;
+    }
+    .fy-seeds-label { font-size: 0.68rem; color: #555; flex-shrink: 0; }
     /* Spinner */
     .fy-spinner {
       display: flex; align-items: center; justify-content: center; padding: 1.5rem;
@@ -294,6 +307,7 @@
       <button class="btn-secondary" id="btn-add-seed">Add</button>
       <span class="fy-seed-count" id="fy-seed-count">0 / 5</span>
     </div>
+    <div class="fy-seeds-display" id="fy-seeds-display" style="display:none"></div>
     <div class="discover-results">
       <div class="discover-grid" id="browse-list"><div class="discover-none">Loading…</div></div>
       <div class="discover-grid" id="foryou-results" style="display:none"><div class="discover-none">Connect Spotify or add an artist above to see personalized picks.</div></div>
@@ -474,20 +488,40 @@
     function renderVenueChips() {
       const venues = [...new Set(allArtists.map(a => a.venue))];
       const el = document.getElementById('venue-chips');
-      el.innerHTML = '<span class="venue-chips-label">Venues</span>' +
+      el.innerHTML =
+        '<span class="venue-chips-label">Venues</span>' +
+        '<span class="venue-chip-action" id="chip-all">All</span>' +
+        '<span class="venue-chip-action" id="chip-none">None</span>' +
+        '<span class="venue-chips-sep">·</span>' +
         venues.map(v =>
           `<span class="venue-chip${hiddenVenues.has(v) ? ' off' : ''}" data-venue="${v}">${v}</span>`
         ).join('');
+
+      function applyAndRefresh() {
+        localStorage.setItem('hidden_venues', JSON.stringify([...hiddenVenues]));
+        activeGenres.clear();
+        renderGenreTags(visibleArtists());
+        renderBrowse();
+        runRecommendations();
+      }
+
+      document.getElementById('chip-all').addEventListener('click', () => {
+        hiddenVenues.clear();
+        el.querySelectorAll('.venue-chip').forEach(c => c.classList.remove('off'));
+        applyAndRefresh();
+      });
+      document.getElementById('chip-none').addEventListener('click', () => {
+        venues.forEach(v => hiddenVenues.add(v));
+        el.querySelectorAll('.venue-chip').forEach(c => c.classList.add('off'));
+        applyAndRefresh();
+      });
+
       el.querySelectorAll('.venue-chip').forEach(chip => {
         chip.addEventListener('click', () => {
           const v = chip.dataset.venue;
           if (hiddenVenues.has(v)) { hiddenVenues.delete(v); chip.classList.remove('off'); }
           else { hiddenVenues.add(v); chip.classList.add('off'); }
-          localStorage.setItem('hidden_venues', JSON.stringify([...hiddenVenues]));
-          activeGenres.clear();
-          renderGenreTags(visibleArtists());
-          renderBrowse();
-          runRecommendations();
+          applyAndRefresh();
         });
       });
     }
@@ -504,6 +538,7 @@
         renderSeedTags();
         document.getElementById('browse-list').style.display = isBrowse ? '' : 'none';
         document.getElementById('foryou-results').style.display = isBrowse ? 'none' : '';
+        if (isBrowse) document.getElementById('fy-seeds-display').style.display = 'none';
       });
     });
 
@@ -623,9 +658,26 @@
     const CLIENT_ID = 'fc07e34626644848b814ab3b688972e5';
     const REDIRECT_URI = window.location.origin + window.location.pathname;
     const TOKEN_KEY = 'fy_token';
+    const TOKEN_EXPIRY_KEY = 'fy_token_expiry';
+    const TOKEN_TTL = 3500 * 1000; // ~58 min — Spotify tokens last 1hr
     const SEEDS_KEY = 'fy_seeds';
 
-    let spotifyToken = sessionStorage.getItem(TOKEN_KEY);
+    function loadToken() {
+      const token = localStorage.getItem(TOKEN_KEY);
+      const expiry = parseInt(localStorage.getItem(TOKEN_EXPIRY_KEY) || '0');
+      if (token && Date.now() < expiry) return token;
+      localStorage.removeItem(TOKEN_KEY); localStorage.removeItem(TOKEN_EXPIRY_KEY);
+      return null;
+    }
+    function saveToken(token) {
+      localStorage.setItem(TOKEN_KEY, token);
+      localStorage.setItem(TOKEN_EXPIRY_KEY, String(Date.now() + TOKEN_TTL));
+    }
+    function clearToken() {
+      localStorage.removeItem(TOKEN_KEY); localStorage.removeItem(TOKEN_EXPIRY_KEY);
+    }
+
+    let spotifyToken = loadToken();
     let seedArtists = JSON.parse(localStorage.getItem(SEEDS_KEY) || '[]');
     let fyMode = 'spotify'; // 'spotify' | 'custom'
 
@@ -644,7 +696,7 @@
       const r = await fetch('https://api.spotify.com/v1' + path, {
         headers: { Authorization: 'Bearer ' + spotifyToken }
       });
-      if (r.status === 401) { sessionStorage.removeItem(TOKEN_KEY); spotifyToken = null; updateForYouUI(); return null; }
+      if (r.status === 401) { clearToken(); spotifyToken = null; updateForYouUI(); return null; }
       if (!r.ok) { const e = new Error(`Spotify API error`); e.status = r.status; throw e; }
       return r.json();
     }
@@ -747,6 +799,15 @@
         const seedGenres = new Set(effectiveSeeds.flatMap(a => a.genres || []));
         const seedIds = effectiveSeeds.slice(0, 5).map(a => a.id);
 
+        const seedsDisplayEl = document.getElementById('fy-seeds-display');
+        if (fyMode === 'spotify' && effectiveSeeds.length) {
+          seedsDisplayEl.innerHTML = '<span class="fy-seeds-label">Based on</span>' +
+            effectiveSeeds.map(a => `<span class="seed-tag">${a.name}</span>`).join('');
+          seedsDisplayEl.style.display = '';
+        } else {
+          seedsDisplayEl.style.display = 'none';
+        }
+
         const direct = visible
           .filter(a => seedNames.has(a.name.toLowerCase()))
           .map(a => ({ ...a, reason: 'In your library' }));
@@ -820,8 +881,9 @@
     });
 
     document.getElementById('btn-disconnect').addEventListener('click', () => {
-      sessionStorage.removeItem(TOKEN_KEY);
+      clearToken();
       spotifyToken = null;
+      document.getElementById('fy-seeds-display').style.display = 'none';
       updateForYouUI();
       runRecommendations();
     });
@@ -851,7 +913,7 @@
       });
       const d = await r.json();
       if (d.access_token) {
-        sessionStorage.setItem(TOKEN_KEY, d.access_token);
+        saveToken(d.access_token);
         spotifyToken = d.access_token;
       }
     }
