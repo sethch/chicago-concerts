@@ -800,7 +800,7 @@
         const seedIds = effectiveSeeds.slice(0, 5).map(a => a.id);
 
         const seedsDisplayEl = document.getElementById('fy-seeds-display');
-        if (fyMode === 'spotify' && effectiveSeeds.length) {
+        if (fyMode === 'spotify' && effectiveSeeds.length && activeTab === 'foryou') {
           seedsDisplayEl.innerHTML = '<span class="fy-seeds-label">Based on</span>' +
             effectiveSeeds.map(a => `<span class="seed-tag">${a.name}</span>`).join('');
           seedsDisplayEl.style.display = '';
