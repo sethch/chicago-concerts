@@ -45,7 +45,7 @@ def main():
                 m = meta_by_name.get(artist["name"], {})
                 all_artists.append({
                     "name": artist["name"],
-                    "venue": name,
+                    "venue": artist.get("venue", name),
                     "venue_url": venue_url,
                     "show_url": artist.get("show_url", ""),
                     "date": artist.get("date", ""),

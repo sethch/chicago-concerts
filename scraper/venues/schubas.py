@@ -17,6 +17,13 @@ def _parse_date(text):
         return ""
 
 
+def _parse_venue(text):
+    t = text.strip()
+    if "Lincoln Hall" in t:
+        return "Lincoln Hall"
+    return "Schubas"
+
+
 def get_artists() -> list[dict]:
     page = requests.get(URL, headers=HEADERS)
     soup = BeautifulSoup(page.text, "html.parser")
@@ -30,7 +37,11 @@ def get_artists() -> list[dict]:
             show_url = link["href"] if link else ""
             date_el = card.find("span", class_="date")
             show_date = _parse_date(date_el.text) if date_el else ""
+            # Find venue name in card footer
+            card_el = card.parent
+            venue_el = card_el.find("span", class_="tessera-venue") if card_el else None
+            venue = _parse_venue(venue_el.text) if venue_el else "Schubas"
             if name and name not in seen:
-                artists.append({"name": name, "show_url": show_url, "date": show_date})
+                artists.append({"name": name, "show_url": show_url, "date": show_date, "venue": venue})
                 seen.add(name)
     return artists

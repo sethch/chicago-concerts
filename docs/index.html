@@ -322,7 +322,7 @@
 
     <div class="venue">
       <div class="venue-header">
-        <h2><span class="venue-chevron">›</span> Schubas / Lincoln Hall</h2>
+        <h2><span class="venue-chevron">›</span> Schubas &amp; Lincoln Hall</h2>
         <a href="https://www.lh-st.com/shows/" target="_blank" rel="noopener">All shows ↗</a>
       </div>
       <div class="venue-playlist">
@@ -565,11 +565,19 @@
         : dt.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' });
     }
 
+    function spotifyAppUri(url) {
+      const m = url.match(/open\.spotify\.com\/([^?#]+)/);
+      return m ? 'spotify:' + m[1].replace(/\//g, ':') : url;
+    }
+
+    function spLink(url) {
+      return `<a href="${url}" data-spotify-uri="${spotifyAppUri(url)}" rel="noopener" class="da-pill da-pill-sp">Spotify ↗</a>`;
+    }
+
     function artistLinks(a) {
       const show = a.show_url
         ? `<a href="${a.show_url}" target="_blank" rel="noopener" class="da-pill">Show ↗</a>` : '';
-      const sp = a.spotify_url
-        ? `<a href="${a.spotify_url}" target="_blank" rel="noopener" class="da-pill da-pill-sp">Spotify ↗</a>` : '';
+      const sp = a.spotify_url ? spLink(a.spotify_url) : '';
       const fallback = !a.show_url && !a.spotify_url && a.venue_url
         ? `<a href="${a.venue_url}" target="_blank" rel="noopener" class="da-pill">Venue ↗</a>` : '';
       return `<div class="da-links">${show}${sp}${fallback}</div>`;
@@ -656,7 +664,7 @@
               </div>
               <div class="search-result-links">
                 ${item.show_url ? `<a href="${item.show_url}" target="_blank" rel="noopener" class="da-pill">Show ↗</a>` : ''}
-                ${item.spotify_url ? `<a href="${item.spotify_url}" target="_blank" rel="noopener" class="da-pill da-pill-sp">Spotify ↗</a>` : ''}
+                ${item.spotify_url ? spLink(item.spotify_url) : ''}
                 ${!item.show_url && !item.spotify_url && item.venue_url ? `<a href="${item.venue_url}" target="_blank" rel="noopener" class="da-pill">Venue ↗</a>` : ''}
               </div>
             </div>`;
@@ -675,6 +683,23 @@
       if (e.target.closest('a')) return;
       const result = e.target.closest('.search-result[data-url]');
       if (result) window.open(result.dataset.url, '_blank');
+    });
+
+    // Spotify app deep-link: try spotify:// URI first, fall back to web URL if page stays visible
+    document.addEventListener('click', e => {
+      const link = e.target.closest('[data-spotify-uri]');
+      if (!link) return;
+      e.preventDefault();
+      const appUri = link.dataset.spotifyUri;
+      const webUrl = link.href;
+      let wentHidden = false;
+      const onHide = () => { wentHidden = true; };
+      document.addEventListener('visibilitychange', onHide, { once: true });
+      window.location.href = appUri;
+      setTimeout(() => {
+        document.removeEventListener('visibilitychange', onHide);
+        if (!wentHidden) window.open(webUrl, '_blank');
+      }, 1200);
     });
 
     // ── For You ──────────────────────────────────────────────────────────
