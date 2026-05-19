@@ -198,7 +198,7 @@
       .discover-results { max-height: none; overflow-y: visible; }
     }
     /* Scrollable results grid */
-    .discover-results { max-height: 210px; overflow-y: auto; scrollbar-width: thin; scrollbar-color: #444 transparent; }
+    .discover-results { max-height: 480px; overflow-y: auto; scrollbar-width: thin; scrollbar-color: #444 transparent; }
     .discover-results::-webkit-scrollbar { width: 4px; }
     .discover-results::-webkit-scrollbar-track { background: transparent; }
     .discover-results::-webkit-scrollbar-thumb { background: #444; border-radius: 2px; }
@@ -285,7 +285,9 @@
         <button class="dtab" data-tab="foryou">For You</button>
       </div>
       <div class="sep"></div>
-      <div class="discover-ctrl" id="ctrl-browse"></div>
+      <div class="discover-ctrl" id="ctrl-browse">
+          <button class="btn-secondary" id="btn-genres">Genres ▾</button>
+        </div>
       <div class="discover-ctrl" id="ctrl-foryou" style="display:none">
         <div class="fy-ctrl-row">
           <button class="fy-subtab active" id="subtab-spotify">Spotify</button>
@@ -479,6 +481,18 @@
     let activeGenres = new Set();
     let activeTab = 'browse';
     let hiddenVenues = new Set(JSON.parse(localStorage.getItem('hidden_venues') || '[]'));
+    let genresCollapsed = localStorage.getItem('genres_collapsed') === '1';
+
+    function updateGenreToggle() {
+      const btn = document.getElementById('btn-genres');
+      const el = document.getElementById('genre-tags');
+      if (!btn) return;
+      const count = activeGenres.size;
+      btn.textContent = genresCollapsed
+        ? (count ? `Genres · ${count} ▸` : 'Genres ▸')
+        : 'Genres ▾';
+      el.style.display = (genresCollapsed || activeTab !== 'browse') ? 'none' : '';
+    }
 
     function visibleArtists() {
       if (!hiddenVenues.size) return allArtists;
@@ -534,7 +548,7 @@
         const isBrowse = activeTab === 'browse';
         document.getElementById('ctrl-browse').style.display = isBrowse ? '' : 'none';
         document.getElementById('ctrl-foryou').style.display = isBrowse ? 'none' : '';
-        document.getElementById('genre-tags').style.display = isBrowse ? '' : 'none';
+        updateGenreToggle();
         renderSeedTags();
         document.getElementById('browse-list').style.display = isBrowse ? '' : 'none';
         document.getElementById('foryou-results').style.display = isBrowse ? 'none' : '';
@@ -603,9 +617,11 @@
           const g = tag.dataset.genre;
           if (activeGenres.has(g)) { activeGenres.delete(g); tag.classList.remove('active'); }
           else { activeGenres.add(g); tag.classList.add('active'); }
+          updateGenreToggle();
           renderBrowse();
         });
       });
+      updateGenreToggle();
     }
 
     fetch('data.json')
@@ -618,6 +634,12 @@
         renderBrowse();
         runRecommendations();
       });
+
+    document.getElementById('btn-genres').addEventListener('click', () => {
+      genresCollapsed = !genresCollapsed;
+      localStorage.setItem('genres_collapsed', genresCollapsed ? '1' : '0');
+      updateGenreToggle();
+    });
 
     searchInput.addEventListener('input', () => {
       const q = searchInput.value.trim();
