@@ -1,134 +1,6 @@
 {
-  "updated": "2026-08-03T14:16:45Z",
+  "updated": "2026-08-10T12:45:40Z",
   "artists": [
-    {
-      "name": "Double Extra Large",
-      "venue": "Schubas",
-      "venue_url": "https://www.lh-st.com/shows/",
-      "show_url": "https://lh-st.com/shows/08-03-2026-high-five/",
-      "date": "2026-08-03",
-      "spotify_url": "https://open.spotify.com/artist/3mI0nIJbsRg3Y3WECA38j6",
-      "genres": [],
-      "popularity": 2
-    },
-    {
-      "name": "Anywho Whooptie Woo",
-      "venue": "Schubas",
-      "venue_url": "https://www.lh-st.com/shows/",
-      "show_url": "https://lh-st.com/shows/08-04-2026-anywho-whooptie-woo/",
-      "date": "2026-08-04",
-      "spotify_url": "",
-      "genres": [],
-      "popularity": 0
-    },
-    {
-      "name": "Joe Glass",
-      "venue": "Schubas",
-      "venue_url": "https://www.lh-st.com/shows/",
-      "show_url": "https://lh-st.com/shows/08-04-2026-high-five/",
-      "date": "2026-08-04",
-      "spotify_url": "https://open.spotify.com/artist/1mg79COT50QueA0iS9oQo5",
-      "genres": [
-        "power pop"
-      ],
-      "popularity": 11
-    },
-    {
-      "name": "BOTH SIDES NOW: A CHIRP VINYL LISTENING BAR",
-      "venue": "Schubas",
-      "venue_url": "https://www.lh-st.com/shows/",
-      "show_url": "https://lh-st.com/shows/08-05-2026-both-sides-now-a-chirp-vinyl-listening-bar/",
-      "date": "2026-08-05",
-      "spotify_url": "",
-      "genres": [],
-      "popularity": 0
-    },
-    {
-      "name": "The Talbott Brothers",
-      "venue": "Schubas",
-      "venue_url": "https://www.lh-st.com/shows/",
-      "show_url": "https://lh-st.com/shows/08-05-2026-the-talbott-brothers/",
-      "date": "2026-08-05",
-      "spotify_url": "https://open.spotify.com/artist/3AfRASYhvMeaTFaNtgyVWy",
-      "genres": [],
-      "popularity": 29
-    },
-    {
-      "name": "A Fond Farewell to a Friend",
-      "venue": "Schubas",
-      "venue_url": "https://www.lh-st.com/shows/",
-      "show_url": "https://lh-st.com/shows/08-06-2026-a-fond-farewell-to-a-friend-elliott-smith/",
-      "date": "2026-08-06",
-      "spotify_url": "",
-      "genres": [],
-      "popularity": 0
-    },
-    {
-      "name": "The Droptines",
-      "venue": "Lincoln Hall",
-      "venue_url": "https://www.lh-st.com/shows/",
-      "show_url": "https://lh-st.com/shows/08-06-2026-the-droptines/",
-      "date": "2026-08-06",
-      "spotify_url": "https://open.spotify.com/artist/5MKl9FP3O6MpQhVx7QRFyc",
-      "genres": [
-        "red dirt",
-        "alt country"
-      ],
-      "popularity": 48
-    },
-    {
-      "name": "Wrestle League Presents: Blood Money",
-      "venue": "Lincoln Hall",
-      "venue_url": "https://www.lh-st.com/shows/",
-      "show_url": "https://lh-st.com/shows/08-07-2026-wrestle-league-presents-blood-money/",
-      "date": "2026-08-07",
-      "spotify_url": "",
-      "genres": [],
-      "popularity": 0
-    },
-    {
-      "name": "Friendly Faces",
-      "venue": "Schubas",
-      "venue_url": "https://www.lh-st.com/shows/",
-      "show_url": "https://lh-st.com/shows/08-07-2026-high-five/",
-      "date": "2026-08-07",
-      "spotify_url": "https://open.spotify.com/artist/45CUFOUGK6AwfDKhfCi96R",
-      "genres": [],
-      "popularity": 0
-    },
-    {
-      "name": "Clark Street Jams",
-      "venue": "Schubas",
-      "venue_url": "https://www.lh-st.com/shows/",
-      "show_url": "https://lh-st.com/shows/08-07-2026-clark-street-jams/",
-      "date": "2026-08-07",
-      "spotify_url": "",
-      "genres": [],
-      "popularity": 0
-    },
-    {
-      "name": "Bob Keen",
-      "venue": "Lincoln Hall",
-      "venue_url": "https://www.lh-st.com/shows/",
-      "show_url": "https://lh-st.com/shows/08-08-2026-windy-city-comedy-fest-bob-keen/",
-      "date": "2026-08-08",
-      "spotify_url": "",
-      "genres": [],
-      "popularity": 0
-    },
-    {
-      "name": "Zoh Amba",
-      "venue": "Schubas",
-      "venue_url": "https://www.lh-st.com/shows/",
-      "show_url": "https://lh-st.com/shows/08-09-2026-zoh-amba/",
-      "date": "2026-08-09",
-      "spotify_url": "https://open.spotify.com/artist/3Xfp6T1hoOKpC4Ywcz93EL",
-      "genres": [
-        "free jazz",
-        "experimental jazz"
-      ],
-      "popularity": 30
-    },
     {
       "name": "D'Andre Adonis",
       "venue": "Schubas",
@@ -190,6 +62,16 @@
       "popularity": 0
     },
     {
+      "name": "Schubas Open Mic",
+      "venue": "Schubas",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "show_url": "https://lh-st.com/shows/08-13-2026-schubas-open-mic/",
+      "date": "2026-08-13",
+      "spotify_url": "",
+      "genres": [],
+      "popularity": 0
+    },
+    {
       "name": "Smooth Rogers",
       "venue": "Schubas",
       "venue_url": "https://www.lh-st.com/shows/",
@@ -198,6 +80,16 @@
       "spotify_url": "https://open.spotify.com/artist/03YzhDFQ59zUEXspFaxLET",
       "genres": [],
       "popularity": 11
+    },
+    {
+      "name": "Collectivenergy Crew",
+      "venue": "Schubas",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "show_url": "https://lh-st.com/shows/08-14-2026-meet-me-upstairs/",
+      "date": "2026-08-14",
+      "spotify_url": "",
+      "genres": [],
+      "popularity": 0
     },
     {
       "name": "Babymorocco",
@@ -210,14 +102,14 @@
         "electroclash",
         "hyperpop"
       ],
-      "popularity": 39
+      "popularity": 40
     },
     {
-      "name": "Collectivenergy Crew",
+      "name": "HunkyDory Tintype Pop-Up",
       "venue": "Schubas",
       "venue_url": "https://www.lh-st.com/shows/",
-      "show_url": "https://lh-st.com/shows/08-14-2026-meet-me-upstairs/",
-      "date": "2026-08-14",
+      "show_url": "https://lh-st.com/shows/08-15-2026-hunkydory-tintype-pop-up/",
+      "date": "2026-08-15",
       "spotify_url": "",
       "genres": [],
       "popularity": 0
@@ -263,6 +155,16 @@
       "popularity": 42
     },
     {
+      "name": "Foto Flo",
+      "venue": "Schubas",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "show_url": "https://lh-st.com/shows/08-19-2026-foto-flo/",
+      "date": "2026-08-19",
+      "spotify_url": "",
+      "genres": [],
+      "popularity": 0
+    },
+    {
       "name": "Born at Midnite",
       "venue": "Schubas",
       "venue_url": "https://www.lh-st.com/shows/",
@@ -271,16 +173,6 @@
       "spotify_url": "https://open.spotify.com/artist/3ejfr3ZL4rEFokdVb33dPa",
       "genres": [],
       "popularity": 39
-    },
-    {
-      "name": "Meltt",
-      "venue": "Lincoln Hall",
-      "venue_url": "https://www.lh-st.com/shows/",
-      "show_url": "https://lh-st.com/shows/08-20-2026-meltt/",
-      "date": "2026-08-20",
-      "spotify_url": "https://open.spotify.com/artist/2iHrc69sZgyWFBAhLpS3oH",
-      "genres": [],
-      "popularity": 58
     },
     {
       "name": "Lucky Square",
@@ -293,6 +185,16 @@
         "psychedelic rock"
       ],
       "popularity": 0
+    },
+    {
+      "name": "Meltt",
+      "venue": "Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "show_url": "https://lh-st.com/shows/08-20-2026-meltt/",
+      "date": "2026-08-20",
+      "spotify_url": "https://open.spotify.com/artist/2iHrc69sZgyWFBAhLpS3oH",
+      "genres": [],
+      "popularity": 58
     },
     {
       "name": "Will Sheff (of Okkervil River)",
@@ -314,7 +216,7 @@
       "genres": [
         "dream pop"
       ],
-      "popularity": 40
+      "popularity": 41
     },
     {
       "name": "ted.fm & friends",
@@ -354,7 +256,17 @@
       "date": "2026-08-23",
       "spotify_url": "https://open.spotify.com/artist/0KNhmP2Fvad6ym6UQ2MTDj",
       "genres": [],
-      "popularity": 14
+      "popularity": 15
+    },
+    {
+      "name": "COLOR.",
+      "venue": "Schubas",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "show_url": "https://lh-st.com/shows/08-24-2026-high-five/",
+      "date": "2026-08-24",
+      "spotify_url": "",
+      "genres": [],
+      "popularity": 0
     },
     {
       "name": "Niina Soleil",
@@ -364,7 +276,7 @@
       "date": "2026-08-25",
       "spotify_url": "https://open.spotify.com/artist/3SCtnUPSAO4z0LqyzVFLGS",
       "genres": [],
-      "popularity": 33
+      "popularity": 34
     },
     {
       "name": "Rival Consoles",
@@ -379,6 +291,16 @@
         "ambient"
       ],
       "popularity": 48
+    },
+    {
+      "name": "Schtick",
+      "venue": "Schubas",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "show_url": "https://lh-st.com/shows/08-26-2026-schtick/",
+      "date": "2026-08-26",
+      "spotify_url": "https://open.spotify.com/artist/3qHW0HZPQCpzpckaZoEN28",
+      "genres": [],
+      "popularity": 1
     },
     {
       "name": "NO HEADLINERS TOUR",
@@ -405,6 +327,16 @@
       "venue": "Lincoln Hall",
       "venue_url": "https://www.lh-st.com/shows/",
       "show_url": "https://lh-st.com/shows/08-28-2026-magnolia-and-johnson-electric-co/",
+      "date": "2026-08-28",
+      "spotify_url": "",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Anthony Cruz and Double Dipp Present: Full Circle",
+      "venue": "Schubas",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "show_url": "https://lh-st.com/shows/08-28-2026-anthony-cruz-double-dipp-present-full-circle/",
       "date": "2026-08-28",
       "spotify_url": "",
       "genres": [],
@@ -448,6 +380,16 @@
       "popularity": 11
     },
     {
+      "name": "Anywho Whooptie Woo",
+      "venue": "Schubas",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "show_url": "https://lh-st.com/shows/09-01-2026-anywho-whooptie-woo/",
+      "date": "2026-09-01",
+      "spotify_url": "",
+      "genres": [],
+      "popularity": 0
+    },
+    {
       "name": "The Athletic Football Show with Robert Mays",
       "venue": "Lincoln Hall",
       "venue_url": "https://www.lh-st.com/shows/",
@@ -468,6 +410,16 @@
       "popularity": 57
     },
     {
+      "name": "BOTH SIDES NOW: A CHIRP VINYL LISTENING BAR",
+      "venue": "Schubas",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "show_url": "https://lh-st.com/shows/09-02-2026-both-sides-now-a-chirp-vinyl-listening-bar/",
+      "date": "2026-09-02",
+      "spotify_url": "",
+      "genres": [],
+      "popularity": 0
+    },
+    {
       "name": "Recoechi",
       "venue": "Schubas",
       "venue_url": "https://www.lh-st.com/shows/",
@@ -475,7 +427,19 @@
       "date": "2026-09-02",
       "spotify_url": "https://open.spotify.com/artist/16RxzjUYa7obi9QXP02WO1",
       "genres": [],
-      "popularity": 19
+      "popularity": 24
+    },
+    {
+      "name": "Discus",
+      "venue": "Schubas",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "show_url": "https://lh-st.com/shows/09-03-2026-high-five/",
+      "date": "2026-09-03",
+      "spotify_url": "https://open.spotify.com/artist/44DiTkhzBlpuvazvQLaBHF",
+      "genres": [
+        "jangle pop"
+      ],
+      "popularity": 2
     },
     {
       "name": "Wolves of Glendale",
@@ -485,7 +449,7 @@
       "date": "2026-09-04",
       "spotify_url": "https://open.spotify.com/artist/5bL90oV2FVQvP6PYUlDiRz",
       "genres": [],
-      "popularity": 36
+      "popularity": 37
     },
     {
       "name": "Black Milk",
@@ -495,8 +459,7 @@
       "date": "2026-09-04",
       "spotify_url": "https://open.spotify.com/artist/77zgRkcehIGCAtROXkXkb3",
       "genres": [
-        "alternative hip hop",
-        "underground hip hop"
+        "alternative hip hop"
       ],
       "popularity": 40
     },
@@ -508,7 +471,7 @@
       "date": "2026-09-08",
       "spotify_url": "https://open.spotify.com/artist/1PpFka2STGQ57kJcgYBgEF",
       "genres": [],
-      "popularity": 42
+      "popularity": 43
     },
     {
       "name": "Nate Sib",
@@ -524,6 +487,18 @@
       "popularity": 55
     },
     {
+      "name": "papa mbye",
+      "venue": "Schubas",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "show_url": "https://lh-st.com/shows/09-09-2026-papa-mbye/",
+      "date": "2026-09-09",
+      "spotify_url": "https://open.spotify.com/artist/5JVtTuCBPvUOTZ2YjrAPTp",
+      "genres": [
+        "alternative r&b"
+      ],
+      "popularity": 32
+    },
+    {
       "name": "Fantasy Fangirls",
       "venue": "Lincoln Hall",
       "venue_url": "https://www.lh-st.com/shows/",
@@ -534,18 +509,6 @@
       "popularity": 0
     },
     {
-      "name": "papa mbye",
-      "venue": "Schubas",
-      "venue_url": "https://www.lh-st.com/shows/",
-      "show_url": "https://lh-st.com/shows/09-09-2026-papa-mbye/",
-      "date": "2026-09-09",
-      "spotify_url": "https://open.spotify.com/artist/5JVtTuCBPvUOTZ2YjrAPTp",
-      "genres": [
-        "alternative r&b"
-      ],
-      "popularity": 33
-    },
-    {
       "name": "Meg Smith",
       "venue": "Schubas",
       "venue_url": "https://www.lh-st.com/shows/",
@@ -554,6 +517,16 @@
       "spotify_url": "https://open.spotify.com/artist/4MfdeUAPPDpi4xdc1jvnwg",
       "genres": [],
       "popularity": 40
+    },
+    {
+      "name": "Mich Shirey and the Nightwatch",
+      "venue": "Schubas",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "show_url": "https://lh-st.com/shows/09-11-2026-mich-shirey-and-the-nightwatch/",
+      "date": "2026-09-11",
+      "spotify_url": "",
+      "genres": [],
+      "popularity": 0
     },
     {
       "name": "SAINT HARISON",
@@ -568,24 +541,14 @@
       "popularity": 54
     },
     {
-      "name": "Mich Shirey and the Nightwatch",
+      "name": "Hungu",
       "venue": "Schubas",
       "venue_url": "https://www.lh-st.com/shows/",
-      "show_url": "https://lh-st.com/shows/09-11-2026-mich-shirey-and-the-nightwatch/",
+      "show_url": "https://lh-st.com/shows/09-11-2026-meet-me-upstairs/",
       "date": "2026-09-11",
-      "spotify_url": "",
+      "spotify_url": "https://open.spotify.com/artist/7AxxpCAh6Eophr1g8vozFb",
       "genres": [],
       "popularity": 0
-    },
-    {
-      "name": "Emma Harner",
-      "venue": "Schubas",
-      "venue_url": "https://www.lh-st.com/shows/",
-      "show_url": "https://lh-st.com/shows/09-12-2026-emma-harner/",
-      "date": "2026-09-12",
-      "spotify_url": "https://open.spotify.com/artist/22LN4kmzdiXhbuFUU4GWCQ",
-      "genres": [],
-      "popularity": 37
     },
     {
       "name": "Rotundos",
@@ -601,6 +564,16 @@
       "popularity": 9
     },
     {
+      "name": "Emma Harner",
+      "venue": "Schubas",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "show_url": "https://lh-st.com/shows/09-12-2026-emma-harner/",
+      "date": "2026-09-12",
+      "spotify_url": "https://open.spotify.com/artist/22LN4kmzdiXhbuFUU4GWCQ",
+      "genres": [],
+      "popularity": 36
+    },
+    {
       "name": "Thesaurus Rex",
       "venue": "Schubas",
       "venue_url": "https://www.lh-st.com/shows/",
@@ -609,16 +582,6 @@
       "spotify_url": "https://open.spotify.com/artist/4cuLIQaTu3tq9mimOFwNVk",
       "genres": [],
       "popularity": 42
-    },
-    {
-      "name": "RYMAN",
-      "venue": "Schubas",
-      "venue_url": "https://www.lh-st.com/shows/",
-      "show_url": "https://lh-st.com/shows/09-15-2026-ryman/",
-      "date": "2026-09-15",
-      "spotify_url": "https://open.spotify.com/artist/1ZUNE7b5nNiN31AnJ0Smqj",
-      "genres": [],
-      "popularity": 35
     },
     {
       "name": "Sondre Lerche",
@@ -633,14 +596,14 @@
       "popularity": 38
     },
     {
-      "name": "BL\u00dc EYES",
+      "name": "RYMAN",
       "venue": "Schubas",
       "venue_url": "https://www.lh-st.com/shows/",
-      "show_url": "https://lh-st.com/shows/09-16-2026-blu-eyes/",
-      "date": "2026-09-16",
-      "spotify_url": "https://open.spotify.com/artist/2gI1WfmpFmmgSRojy4Jup2",
+      "show_url": "https://lh-st.com/shows/09-15-2026-ryman/",
+      "date": "2026-09-15",
+      "spotify_url": "https://open.spotify.com/artist/1ZUNE7b5nNiN31AnJ0Smqj",
       "genres": [],
-      "popularity": 45
+      "popularity": 37
     },
     {
       "name": "Luna",
@@ -653,6 +616,16 @@
         "jangle pop"
       ],
       "popularity": 41
+    },
+    {
+      "name": "BL\u00dc EYES",
+      "venue": "Schubas",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "show_url": "https://lh-st.com/shows/09-16-2026-blu-eyes/",
+      "date": "2026-09-16",
+      "spotify_url": "https://open.spotify.com/artist/2gI1WfmpFmmgSRojy4Jup2",
+      "genres": [],
+      "popularity": 45
     },
     {
       "name": "Ghostly Kisses",
@@ -682,7 +655,7 @@
       "date": "2026-09-18",
       "spotify_url": "https://open.spotify.com/artist/37wN6xD9duyyxRWmObUUxE",
       "genres": [],
-      "popularity": 61
+      "popularity": 62
     },
     {
       "name": "Kevin Atwater",
@@ -692,7 +665,7 @@
       "date": "2026-09-19",
       "spotify_url": "https://open.spotify.com/artist/6ZBM319vNIirp7FOvvLVD6",
       "genres": [],
-      "popularity": 51
+      "popularity": 50
     },
     {
       "name": "The 4411",
@@ -725,16 +698,6 @@
       "popularity": 38
     },
     {
-      "name": "Shearling",
-      "venue": "Schubas",
-      "venue_url": "https://www.lh-st.com/shows/",
-      "show_url": "https://lh-st.com/shows/09-22-2026-shearling/",
-      "date": "2026-09-22",
-      "spotify_url": "",
-      "genres": [],
-      "popularity": 0
-    },
-    {
       "name": "Towa Bird",
       "venue": "Lincoln Hall",
       "venue_url": "https://www.lh-st.com/shows/",
@@ -743,6 +706,16 @@
       "spotify_url": "https://open.spotify.com/artist/1Yq3rS7K1SQKqjMOHXpqqt",
       "genres": [],
       "popularity": 46
+    },
+    {
+      "name": "Shearling",
+      "venue": "Schubas",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "show_url": "https://lh-st.com/shows/09-22-2026-shearling/",
+      "date": "2026-09-22",
+      "spotify_url": "",
+      "genres": [],
+      "popularity": 0
     },
     {
       "name": "When Chai Met Toast",
@@ -768,6 +741,16 @@
       "popularity": 50
     },
     {
+      "name": "The Takes",
+      "venue": "Schubas",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "show_url": "https://lh-st.com/shows/09-24-2026-the-takes/",
+      "date": "2026-09-24",
+      "spotify_url": "https://open.spotify.com/artist/22CxvQCHRWjDdy0nco4nch",
+      "genres": [],
+      "popularity": 33
+    },
+    {
       "name": "AJ Lee & Blue Summit",
       "venue": "Lincoln Hall",
       "venue_url": "https://www.lh-st.com/shows/",
@@ -780,16 +763,6 @@
         "americana"
       ],
       "popularity": 44
-    },
-    {
-      "name": "The Takes",
-      "venue": "Schubas",
-      "venue_url": "https://www.lh-st.com/shows/",
-      "show_url": "https://lh-st.com/shows/09-24-2026-the-takes/",
-      "date": "2026-09-24",
-      "spotify_url": "https://open.spotify.com/artist/22CxvQCHRWjDdy0nco4nch",
-      "genres": [],
-      "popularity": 32
     },
     {
       "name": "Seedhe Maut",
@@ -806,6 +779,16 @@
       "popularity": 66
     },
     {
+      "name": "Tim Atlas",
+      "venue": "Schubas",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "show_url": "https://lh-st.com/shows/09-25-2026-tim-atlas/",
+      "date": "2026-09-25",
+      "spotify_url": "https://open.spotify.com/artist/3CiuXDKttPUT0tWGHicFUH",
+      "genres": [],
+      "popularity": 49
+    },
+    {
       "name": "Nick Hakim",
       "venue": "Lincoln Hall",
       "venue_url": "https://www.lh-st.com/shows/",
@@ -815,16 +798,6 @@
       "genres": [
         "indie soul"
       ],
-      "popularity": 48
-    },
-    {
-      "name": "Tim Atlas",
-      "venue": "Schubas",
-      "venue_url": "https://www.lh-st.com/shows/",
-      "show_url": "https://lh-st.com/shows/09-25-2026-tim-atlas/",
-      "date": "2026-09-25",
-      "spotify_url": "https://open.spotify.com/artist/3CiuXDKttPUT0tWGHicFUH",
-      "genres": [],
       "popularity": 48
     },
     {
@@ -848,6 +821,16 @@
       "spotify_url": "https://open.spotify.com/artist/48c9PKsgH8QMkAN6pg6Xz8",
       "genres": [],
       "popularity": 36
+    },
+    {
+      "name": "With Jet Packs",
+      "venue": "Schubas",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "show_url": "https://lh-st.com/shows/09-27-2026-with-jet-packs/",
+      "date": "2026-09-27",
+      "spotify_url": "https://open.spotify.com/artist/4q1oYULm7LDZqAi7BM0A1b",
+      "genres": [],
+      "popularity": 0
     },
     {
       "name": "Briscoe",
@@ -886,16 +869,6 @@
       "popularity": 44
     },
     {
-      "name": "Bahamas",
-      "venue": "Lincoln Hall",
-      "venue_url": "https://www.lh-st.com/shows/",
-      "show_url": "https://lh-st.com/shows/09-29-2026-bahamas/",
-      "date": "2026-09-29",
-      "spotify_url": "https://open.spotify.com/artist/4C50EbCS11M0VbGyH3OfLt",
-      "genres": [],
-      "popularity": 59
-    },
-    {
       "name": "Rachel Bochner",
       "venue": "Schubas",
       "venue_url": "https://www.lh-st.com/shows/",
@@ -904,6 +877,16 @@
       "spotify_url": "https://open.spotify.com/artist/6AdwNKE3DsPrlNNCIzdZXz",
       "genres": [],
       "popularity": 36
+    },
+    {
+      "name": "Bahamas",
+      "venue": "Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "show_url": "https://lh-st.com/shows/09-29-2026-bahamas/",
+      "date": "2026-09-29",
+      "spotify_url": "https://open.spotify.com/artist/4C50EbCS11M0VbGyH3OfLt",
+      "genres": [],
+      "popularity": 59
     },
     {
       "name": "NATALIE JINJU",
@@ -915,7 +898,7 @@
       "genres": [
         "jazz pop"
       ],
-      "popularity": 53
+      "popularity": 54
     },
     {
       "name": "Bayonne",
@@ -928,16 +911,6 @@
       "popularity": 55
     },
     {
-      "name": "Elder Island",
-      "venue": "Lincoln Hall",
-      "venue_url": "https://www.lh-st.com/shows/",
-      "show_url": "https://lh-st.com/shows/10-01-2026-elder-island/",
-      "date": "2026-10-01",
-      "spotify_url": "https://open.spotify.com/artist/3EnbnmqrrvApHJs6FMvYik",
-      "genres": [],
-      "popularity": 51
-    },
-    {
       "name": "MARO",
       "venue": "Schubas",
       "venue_url": "https://www.lh-st.com/shows/",
@@ -946,6 +919,26 @@
       "spotify_url": "https://open.spotify.com/artist/3NP4jJcW3R6qO6rbtnH0wn",
       "genres": [],
       "popularity": 56
+    },
+    {
+      "name": "Elder Island",
+      "venue": "Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "show_url": "https://lh-st.com/shows/10-01-2026-elder-island/",
+      "date": "2026-10-01",
+      "spotify_url": "https://open.spotify.com/artist/3EnbnmqrrvApHJs6FMvYik",
+      "genres": [],
+      "popularity": 52
+    },
+    {
+      "name": "Love Spells",
+      "venue": "Schubas",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "show_url": "https://lh-st.com/shows/10-02-2026-love-spells/",
+      "date": "2026-10-02",
+      "spotify_url": "https://open.spotify.com/artist/5iiqhuffUTPEOjAUDj19IW",
+      "genres": [],
+      "popularity": 62
     },
     {
       "name": "Icona Pop",
@@ -958,14 +951,17 @@
       "popularity": 71
     },
     {
-      "name": "Love Spells",
+      "name": "Homesafe",
       "venue": "Schubas",
       "venue_url": "https://www.lh-st.com/shows/",
-      "show_url": "https://lh-st.com/shows/10-02-2026-love-spells/",
-      "date": "2026-10-02",
-      "spotify_url": "https://open.spotify.com/artist/5iiqhuffUTPEOjAUDj19IW",
-      "genres": [],
-      "popularity": 61
+      "show_url": "https://lh-st.com/shows/10-03-2026-homesafe/",
+      "date": "2026-10-03",
+      "spotify_url": "https://open.spotify.com/artist/5vV4gEs3O35SdrdwhvhYwe",
+      "genres": [
+        "pop punk",
+        "emo"
+      ],
+      "popularity": 32
     },
     {
       "name": "Juice",
@@ -1037,7 +1033,7 @@
       "date": "2026-10-09",
       "spotify_url": "https://open.spotify.com/artist/27C5xkyXM5kWgVqqdR9aqY",
       "genres": [],
-      "popularity": 31
+      "popularity": 32
     },
     {
       "name": "Deerhoof",
@@ -1086,16 +1082,6 @@
       "popularity": 55
     },
     {
-      "name": "Jai'Len Josey",
-      "venue": "Schubas",
-      "venue_url": "https://www.lh-st.com/shows/",
-      "show_url": "https://lh-st.com/shows/10-12-2026-jailen-josey/",
-      "date": "2026-10-12",
-      "spotify_url": "https://open.spotify.com/artist/1BAN8UUSAMDeNfP1Wo5WWr",
-      "genres": [],
-      "popularity": 41
-    },
-    {
       "name": "Katie Pruitt",
       "venue": "Lincoln Hall",
       "venue_url": "https://www.lh-st.com/shows/",
@@ -1104,6 +1090,16 @@
       "spotify_url": "https://open.spotify.com/artist/1c5w8KrxGwq44fxM5lGB4s",
       "genres": [],
       "popularity": 42
+    },
+    {
+      "name": "Jai'Len Josey",
+      "venue": "Schubas",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "show_url": "https://lh-st.com/shows/10-12-2026-jailen-josey/",
+      "date": "2026-10-12",
+      "spotify_url": "https://open.spotify.com/artist/1BAN8UUSAMDeNfP1Wo5WWr",
+      "genres": [],
+      "popularity": 41
     },
     {
       "name": "Jacob Alon",
@@ -1126,6 +1122,16 @@
       "popularity": 48
     },
     {
+      "name": "Jeff Bernat",
+      "venue": "Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "show_url": "https://lh-st.com/shows/10-15-2026-jeff-bernat/",
+      "date": "2026-10-15",
+      "spotify_url": "https://open.spotify.com/artist/2vVT4qoxWje0gVD2FiWZ4u",
+      "genres": [],
+      "popularity": 58
+    },
+    {
       "name": "LA REEZY",
       "venue": "Schubas",
       "venue_url": "https://www.lh-st.com/shows/",
@@ -1136,14 +1142,14 @@
       "popularity": 42
     },
     {
-      "name": "Jeff Bernat",
-      "venue": "Lincoln Hall",
+      "name": "Telescreens",
+      "venue": "Schubas",
       "venue_url": "https://www.lh-st.com/shows/",
-      "show_url": "https://lh-st.com/shows/10-15-2026-jeff-bernat/",
-      "date": "2026-10-15",
-      "spotify_url": "https://open.spotify.com/artist/2vVT4qoxWje0gVD2FiWZ4u",
+      "show_url": "https://lh-st.com/shows/10-17-2026-telescreens/",
+      "date": "2026-10-17",
+      "spotify_url": "https://open.spotify.com/artist/2a5z6KAJm5HFFgMGUDeMVz",
       "genres": [],
-      "popularity": 58
+      "popularity": 37
     },
     {
       "name": "Red Leather",
@@ -1156,14 +1162,16 @@
       "popularity": 61
     },
     {
-      "name": "Telescreens",
-      "venue": "Schubas",
+      "name": "Tempesst",
+      "venue": "Lincoln Hall",
       "venue_url": "https://www.lh-st.com/shows/",
-      "show_url": "https://lh-st.com/shows/10-17-2026-telescreens/",
-      "date": "2026-10-17",
-      "spotify_url": "https://open.spotify.com/artist/2a5z6KAJm5HFFgMGUDeMVz",
-      "genres": [],
-      "popularity": 37
+      "show_url": "https://lh-st.com/shows/10-18-2026-tempesst/",
+      "date": "2026-10-18",
+      "spotify_url": "https://open.spotify.com/artist/6yYoIxAvtAgGPSSring5SB",
+      "genres": [
+        "neo-psychedelic"
+      ],
+      "popularity": 44
     },
     {
       "name": "We Are Scientists",
@@ -1225,6 +1233,18 @@
       "popularity": 38
     },
     {
+      "name": "DICE",
+      "venue": "Schubas",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "show_url": "https://lh-st.com/shows/10-22-2026-dice/",
+      "date": "2026-10-22",
+      "spotify_url": "https://open.spotify.com/artist/5E5dw9k43AX9GGGEA606KC",
+      "genres": [
+        "surf rock"
+      ],
+      "popularity": 49
+    },
+    {
       "name": "The Bobby Lees",
       "venue": "Lincoln Hall",
       "venue_url": "https://www.lh-st.com/shows/",
@@ -1239,18 +1259,6 @@
       "popularity": 40
     },
     {
-      "name": "DICE",
-      "venue": "Schubas",
-      "venue_url": "https://www.lh-st.com/shows/",
-      "show_url": "https://lh-st.com/shows/10-22-2026-dice/",
-      "date": "2026-10-22",
-      "spotify_url": "https://open.spotify.com/artist/5E5dw9k43AX9GGGEA606KC",
-      "genres": [
-        "surf rock"
-      ],
-      "popularity": 48
-    },
-    {
       "name": "Chanpan",
       "venue": "Schubas",
       "venue_url": "https://www.lh-st.com/shows/",
@@ -1258,7 +1266,7 @@
       "date": "2026-10-23",
       "spotify_url": "https://open.spotify.com/artist/1fWoiW6kTjrVDoRc4ba3kh",
       "genres": [],
-      "popularity": 48
+      "popularity": 47
     },
     {
       "name": "Greg Freeman",
@@ -1270,7 +1278,7 @@
       "genres": [
         "alt country"
       ],
-      "popularity": 43
+      "popularity": 44
     },
     {
       "name": "Taylor Bickett",
@@ -1281,6 +1289,16 @@
       "spotify_url": "https://open.spotify.com/artist/3Fxg10eJ6YmvUdM2PPB4Zk",
       "genres": [],
       "popularity": 45
+    },
+    {
+      "name": "Worldpeace DMT",
+      "venue": "Schubas",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "show_url": "https://lh-st.com/shows/10-27-2026-worldpeace-dmt/",
+      "date": "2026-10-27",
+      "spotify_url": "https://open.spotify.com/artist/48Nf4afKn9nV8OqgnTP7dV",
+      "genres": [],
+      "popularity": 38
     },
     {
       "name": "Wishy",
@@ -1296,16 +1314,6 @@
       "popularity": 41
     },
     {
-      "name": "Worldpeace DMT",
-      "venue": "Schubas",
-      "venue_url": "https://www.lh-st.com/shows/",
-      "show_url": "https://lh-st.com/shows/10-27-2026-worldpeace-dmt/",
-      "date": "2026-10-27",
-      "spotify_url": "https://open.spotify.com/artist/48Nf4afKn9nV8OqgnTP7dV",
-      "genres": [],
-      "popularity": 38
-    },
-    {
       "name": "Yana",
       "venue": "Lincoln Hall",
       "venue_url": "https://www.lh-st.com/shows/",
@@ -1313,7 +1321,7 @@
       "date": "2026-10-28",
       "spotify_url": "https://open.spotify.com/artist/6bR96LMvgvYgDlumR7JwPX",
       "genres": [],
-      "popularity": 55
+      "popularity": 57
     },
     {
       "name": "MARIS",
@@ -1348,16 +1356,6 @@
       "popularity": 41
     },
     {
-      "name": "Man/Woman/Chainsaw",
-      "venue": "Schubas",
-      "venue_url": "https://www.lh-st.com/shows/",
-      "show_url": "https://lh-st.com/shows/11-02-2026-man-woman-chainsaw/",
-      "date": "2026-11-02",
-      "spotify_url": "https://open.spotify.com/artist/0KheksMhWogVV4frHAihPJ",
-      "genres": [],
-      "popularity": 43
-    },
-    {
       "name": "The Hails",
       "venue": "Lincoln Hall",
       "venue_url": "https://www.lh-st.com/shows/",
@@ -1366,6 +1364,16 @@
       "spotify_url": "https://open.spotify.com/artist/3g65HWtAf8uyVmpR4sRbrT",
       "genres": [],
       "popularity": 50
+    },
+    {
+      "name": "Man/Woman/Chainsaw",
+      "venue": "Schubas",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "show_url": "https://lh-st.com/shows/11-02-2026-man-woman-chainsaw/",
+      "date": "2026-11-02",
+      "spotify_url": "https://open.spotify.com/artist/0KheksMhWogVV4frHAihPJ",
+      "genres": [],
+      "popularity": 47
     },
     {
       "name": "Jesse Gold",
@@ -1400,7 +1408,7 @@
       "genres": [
         "bedroom pop"
       ],
-      "popularity": 49
+      "popularity": 50
     },
     {
       "name": "THE BENDS",
@@ -1432,7 +1440,7 @@
       "date": "2026-11-08",
       "spotify_url": "https://open.spotify.com/artist/5C2iFRY2UldL2hv9THw4aB",
       "genres": [],
-      "popularity": 59
+      "popularity": 60
     },
     {
       "name": "West 22nd",
@@ -1458,16 +1466,6 @@
       "popularity": 48
     },
     {
-      "name": "Jackie Evans",
-      "venue": "Schubas",
-      "venue_url": "https://www.lh-st.com/shows/",
-      "show_url": "https://lh-st.com/shows/11-12-2026-jackie-evans/",
-      "date": "2026-11-12",
-      "spotify_url": "https://open.spotify.com/artist/3hr95JCfCIlFRK9EmDFJ3R",
-      "genres": [],
-      "popularity": 48
-    },
-    {
       "name": "Nori Reed: Nori Is Present LIVE at Lincoln Hall",
       "venue": "Lincoln Hall",
       "venue_url": "https://www.lh-st.com/shows/",
@@ -1476,6 +1474,16 @@
       "spotify_url": "",
       "genres": [],
       "popularity": 0
+    },
+    {
+      "name": "Jackie Evans",
+      "venue": "Schubas",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "show_url": "https://lh-st.com/shows/11-12-2026-jackie-evans/",
+      "date": "2026-11-12",
+      "spotify_url": "https://open.spotify.com/artist/3hr95JCfCIlFRK9EmDFJ3R",
+      "genres": [],
+      "popularity": 47
     },
     {
       "name": "Porch Light",
@@ -1571,7 +1579,7 @@
       "date": "2026-11-28",
       "spotify_url": "https://open.spotify.com/artist/27nYMwQ6QyHV76mzwXarkO",
       "genres": [],
-      "popularity": 56
+      "popularity": 57
     },
     {
       "name": "Pokey LaFarge",
@@ -1582,9 +1590,10 @@
       "spotify_url": "https://open.spotify.com/artist/6hAUCkzZpoYGObd8qFW5TT",
       "genres": [
         "americana",
-        "bluegrass"
+        "bluegrass",
+        "ragtime"
       ],
-      "popularity": 44
+      "popularity": 45
     },
     {
       "name": "Miniature Tigers",
@@ -1612,6 +1621,29 @@
       "popularity": 43
     },
     {
+      "name": "Arkose",
+      "venue": "Schubas",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "show_url": "https://lh-st.com/shows/12-18-2026-arkose/",
+      "date": "2026-12-18",
+      "spotify_url": "https://open.spotify.com/artist/2lxWdnhRu2dib4KUFWXdux",
+      "genres": [
+        "acid jazz",
+        "neo soul"
+      ],
+      "popularity": 42
+    },
+    {
+      "name": "Neptune's Core",
+      "venue": "Lincoln Hall",
+      "venue_url": "https://www.lh-st.com/shows/",
+      "show_url": "https://lh-st.com/shows/12-29-2026-neptunes-core/",
+      "date": "2026-12-29",
+      "spotify_url": "https://open.spotify.com/artist/61B6Dl5TrM3Dr1LdmJn814",
+      "genres": [],
+      "popularity": 14
+    },
+    {
       "name": "Anna Von Hausswolff",
       "venue": "Empty Bottle",
       "venue_url": "https://www.emptybottle.com",
@@ -1623,7 +1655,7 @@
         "drone",
         "art pop"
       ],
-      "popularity": 42
+      "popularity": 43
     },
     {
       "name": "Oneida",
@@ -1641,7 +1673,7 @@
         "post-rock",
         "psychedelic rock"
       ],
-      "popularity": 12
+      "popularity": 13
     },
     {
       "name": "Jessica Lea Mayfield",
@@ -1651,10 +1683,10 @@
       "date": "2026-11-04",
       "spotify_url": "https://open.spotify.com/artist/3SmFJf7fxX3J0xXP0IlwK5",
       "genres": [],
-      "popularity": 34
+      "popularity": 35
     },
     {
-      "name": "Replicant / Slim Neck / Kaput / Club Drippy DJ",
+      "name": "Replicant / Slim Neck / Kaput / DJ Invicta",
       "venue": "Empty Bottle",
       "venue_url": "https://www.emptybottle.com",
       "show_url": "https://www.ticketweb.com/event/replicant-slim-neck-empty-bottle-tickets/14935523",
@@ -1695,7 +1727,7 @@
       "name": "Packaging",
       "venue": "Empty Bottle",
       "venue_url": "https://www.emptybottle.com",
-      "show_url": "https://www.ticketweb.com/event/packaging-empty-bottle-tickets/14977183",
+      "show_url": "https://www.ticketweb.com/event/packaging-discus-leo-empty-bottle-tickets/14977183",
       "date": "2026-11-19",
       "spotify_url": "https://open.spotify.com/artist/0Ptdlmg0GmSHwgazEsZFZ0",
       "genres": [
@@ -1730,88 +1762,6 @@
       "popularity": 55
     },
     {
-      "name": "FREE MONDAY w/ This House is Creaking / Plush / Giant Pit of Glass",
-      "venue": "Empty Bottle",
-      "venue_url": "https://www.emptybottle.com",
-      "show_url": "https://www.ticketweb.com/event/free-monday-w-this-house-empty-bottle-tickets/14914253",
-      "date": "2026-08-03",
-      "spotify_url": "",
-      "genres": [],
-      "popularity": 0
-    },
-    {
-      "name": "Colin Self / Surgery Season",
-      "venue": "Empty Bottle",
-      "venue_url": "https://www.emptybottle.com",
-      "show_url": "https://www.ticketweb.com/event/colin-self-surgery-season-empty-bottle-tickets/14227844",
-      "date": "2026-08-04",
-      "spotify_url": "",
-      "genres": [],
-      "popularity": 0
-    },
-    {
-      "name": "FURY / Avantist / Directrix / Forrester Grey and James Judas",
-      "venue": "Empty Bottle",
-      "venue_url": "https://www.emptybottle.com",
-      "show_url": "https://www.ticketweb.com/event/fury-avantist-directrix-empty-bottle-tickets/14999703",
-      "date": "2026-08-05",
-      "spotify_url": "",
-      "genres": [],
-      "popularity": 0
-    },
-    {
-      "name": "Ira Glass / Zastava / Daundry / mail.",
-      "venue": "Empty Bottle",
-      "venue_url": "https://www.emptybottle.com",
-      "show_url": "https://www.ticketweb.com/event/ira-glass-zastava-empty-bottle-tickets/14246494",
-      "date": "2026-08-06",
-      "spotify_url": "",
-      "genres": [],
-      "popularity": 0
-    },
-    {
-      "name": "The Hoyle Brothers",
-      "venue": "Empty Bottle",
-      "venue_url": "https://www.emptybottle.com",
-      "show_url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027804",
-      "date": "2026-08-07",
-      "spotify_url": "https://open.spotify.com/artist/47xT8n3IGT49b3OMPJOd0e",
-      "genres": [
-        "honky tonk"
-      ],
-      "popularity": 2
-    },
-    {
-      "name": "Strapped Hot Goth Summer starring Harley Go Lightly / Evangeline (NYC) / Miss Nyxon / Demme Onyx",
-      "venue": "Empty Bottle",
-      "venue_url": "https://www.emptybottle.com",
-      "show_url": "https://www.ticketweb.com/event/strapped-hot-goth-summer-starring-empty-bottle-tickets/14273994",
-      "date": "2026-08-07",
-      "spotify_url": "",
-      "genres": [],
-      "popularity": 0
-    },
-    {
-      "name": "Luz at the Edge: A Night of Music and Dance in Support of the Lit & Luz Festival",
-      "venue": "Empty Bottle",
-      "venue_url": "https://www.emptybottle.com",
-      "show_url": "https://www.ticketweb.com/event/luz-at-the-edge-a-empty-bottle-tickets/14977553",
-      "date": "2026-08-08",
-      "spotify_url": "",
-      "genres": [],
-      "popularity": 0
-    },
-    {
-      "name": "Chicago Children\u2019s Advocacy Center Benefit featuring NA, HF / Adam Schubert / Free Range (solo) / Mass Text / Jason Balla & Brian Case Duo / TV-Union",
-      "venue": "Empty Bottle",
-      "venue_url": "https://www.emptybottle.com",
-      "show_url": "https://www.ticketweb.com/event/chicago-childrens-advocacy-center-benefit-empty-bottle-tickets/14220804",
-      "date": "2026-08-09",
-      "spotify_url": "",
-      "genres": [],
-      "popularity": 0
-    },
-    {
       "name": "FREE MONDAY w/ Goose Harrington / World Energy Corporation / Hungu",
       "venue": "Empty Bottle",
       "venue_url": "https://www.emptybottle.com",
@@ -1832,7 +1782,7 @@
       "popularity": 0
     },
     {
-      "name": "Holy Wave / Surgery Boys",
+      "name": "Holy Wave / Surgery Boys / Fast Preacher",
       "venue": "Empty Bottle",
       "venue_url": "https://www.emptybottle.com",
       "show_url": "https://www.ticketweb.com/event/holy-wave-surgery-boys-empty-bottle-tickets/14941513",
@@ -1840,6 +1790,18 @@
       "spotify_url": "",
       "genres": [],
       "popularity": 0
+    },
+    {
+      "name": "The Hoyle Brothers",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "show_url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027984",
+      "date": "2026-08-14",
+      "spotify_url": "https://open.spotify.com/artist/47xT8n3IGT49b3OMPJOd0e",
+      "genres": [
+        "honky tonk"
+      ],
+      "popularity": 2
     },
     {
       "name": "Consensus Madness (Record Release) / The Hell / Bungee Jumpers / Navaja",
@@ -1882,10 +1844,10 @@
       "popularity": 0
     },
     {
-      "name": "Victoryland / Drook",
+      "name": "Victoryland / Drook / Godstar Megamax",
       "venue": "Empty Bottle",
       "venue_url": "https://www.emptybottle.com",
-      "show_url": "https://www.ticketweb.com/event/victoryland-drook-empty-bottle-tickets/14872383",
+      "show_url": "https://www.ticketweb.com/event/victoryland-drook-godstar-empty-bottle-tickets/14872383",
       "date": "2026-08-19",
       "spotify_url": "",
       "genres": [],
@@ -1952,6 +1914,46 @@
       "popularity": 0
     },
     {
+      "name": "FREE MONDAY w/ Gerfety / Double Extra Large / Sacred Heart Academy",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "show_url": "https://www.ticketweb.com/event/free-monday-w-gerfety-empty-bottle-tickets/15016003",
+      "date": "2026-08-31",
+      "spotify_url": "",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Tyler Stock / The Devil Said Jump / JJ Smith",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "show_url": "https://www.ticketweb.com/event/tyler-stock-the-devil-empty-bottle-tickets/15013003",
+      "date": "2026-09-03",
+      "spotify_url": "",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "FREE MONDAY w/ Chaepter / Flesh Tape / MENSA",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "show_url": "https://www.ticketweb.com/event/free-monday-w-chaepter-empty-bottle-tickets/15000333",
+      "date": "2026-09-07",
+      "spotify_url": "",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Faux Real",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "show_url": "https://www.ticketweb.com/event/faux-real-empty-bottle-tickets/14200364",
+      "date": "2026-10-15",
+      "spotify_url": "https://open.spotify.com/artist/0853SMh8o0PpHpSTDHttsO",
+      "genres": [],
+      "popularity": 33
+    },
+    {
       "name": "Brandon Curtis (Interpol) and Jesse Beaman",
       "venue": "Empty Bottle",
       "venue_url": "https://www.emptybottle.com",
@@ -2002,16 +2004,6 @@
       "popularity": 0
     },
     {
-      "name": "Faux Real",
-      "venue": "Empty Bottle",
-      "venue_url": "https://www.emptybottle.com",
-      "show_url": "https://www.ticketweb.com/event/faux-real-empty-bottle-tickets/14200364",
-      "date": "2026-10-15",
-      "spotify_url": "https://open.spotify.com/artist/0853SMh8o0PpHpSTDHttsO",
-      "genres": [],
-      "popularity": 33
-    },
-    {
       "name": "Carla dal Forno / Zelienople / Erik Kramer",
       "venue": "Empty Bottle",
       "venue_url": "https://www.emptybottle.com",
@@ -2060,9 +2052,12 @@
       "venue_url": "https://www.emptybottle.com",
       "show_url": "https://www.ticketweb.com/event/eye-empty-bottle-tickets/14252764",
       "date": "2026-09-23",
-      "spotify_url": "https://open.spotify.com/artist/6TcnmlCSxihzWOQJ8k0rNS",
-      "genres": [],
-      "popularity": 72
+      "spotify_url": "https://open.spotify.com/artist/4pxU0h86QnMOe6iNIy7pCU",
+      "genres": [
+        "underground hip hop",
+        "experimental hip hop"
+      ],
+      "popularity": 34
     },
     {
       "name": "*SOLD OUT* Way Dynamic / Star Moles",
@@ -2145,6 +2140,16 @@
       "popularity": 0
     },
     {
+      "name": "Delicate Steve",
+      "venue": "Empty Bottle",
+      "venue_url": "https://www.emptybottle.com",
+      "show_url": "https://www.ticketweb.com/event/delicate-steve-yellow-ostrich-empty-bottle-tickets/14987483",
+      "date": "2026-10-28",
+      "spotify_url": "https://open.spotify.com/artist/1bNgeTuV3MlkAq64Ybvcq5",
+      "genres": [],
+      "popularity": 43
+    },
+    {
       "name": "The Tubs",
       "venue": "Empty Bottle",
       "venue_url": "https://www.emptybottle.com",
@@ -2155,17 +2160,7 @@
         "jangle pop",
         "power pop"
       ],
-      "popularity": 31
-    },
-    {
-      "name": "Delicate Steve",
-      "venue": "Empty Bottle",
-      "venue_url": "https://www.emptybottle.com",
-      "show_url": "https://www.ticketweb.com/event/delicate-steve-yellow-ostrich-empty-bottle-tickets/14987483",
-      "date": "2026-10-28",
-      "spotify_url": "https://open.spotify.com/artist/1bNgeTuV3MlkAq64Ybvcq5",
-      "genres": [],
-      "popularity": 43
+      "popularity": 32
     },
     {
       "name": "The Limi\u00f1anas / Native Sun",
@@ -2275,32 +2270,6 @@
       "popularity": 0
     },
     {
-      "name": "All",
-      "venue": "Thalia Hall",
-      "venue_url": "https://www.thaliahallchicago.com",
-      "show_url": "https://www.ticketweb.com/event/all-presented-by-thalia-hall-thalia-hall-tickets/14951183",
-      "date": "2026-08-05",
-      "spotify_url": "https://open.spotify.com/artist/4wQ3PyMz3WwJGI5uEqHUVR",
-      "genres": [
-        "southern rock",
-        "jam band",
-        "classic rock",
-        "blues rock",
-        "country rock"
-      ],
-      "popularity": 65
-    },
-    {
-      "name": "Motel Breakfast - There's Always This: An MB Farewell with Fellow Kinsman and Shannon Baker",
-      "venue": "Thalia Hall",
-      "venue_url": "https://www.thaliahallchicago.com",
-      "show_url": "https://www.ticketweb.com/event/motel-breakfast-theres-thalia-hall-tickets/14931523",
-      "date": "2026-08-08",
-      "spotify_url": "",
-      "genres": [],
-      "popularity": 0
-    },
-    {
       "name": "Fiddlehead",
       "venue": "Thalia Hall",
       "venue_url": "https://www.thaliahallchicago.com",
@@ -2336,7 +2305,7 @@
         "drone",
         "art pop"
       ],
-      "popularity": 42
+      "popularity": 43
     },
     {
       "name": "Ethan Regan",
@@ -2346,7 +2315,19 @@
       "date": "2026-11-13",
       "spotify_url": "https://open.spotify.com/artist/3UNkRVGHGCrGCE0930Bt9e",
       "genres": [],
-      "popularity": 58
+      "popularity": 59
+    },
+    {
+      "name": "Tank and the Bangas",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahallchicago.com",
+      "show_url": "https://www.ticketweb.com/event/tank-and-the-bangas-thalia-hall-tickets/14794233",
+      "date": "2026-10-24",
+      "spotify_url": "https://open.spotify.com/artist/5cAtakaadWHJLxmGKrKcX7",
+      "genres": [
+        "alternative r&b"
+      ],
+      "popularity": 42
     },
     {
       "name": "*SOLD OUT* Bella Kay: The Reckless Tour with Hailey Picardi",
@@ -2381,19 +2362,7 @@
       "genres": [
         "alt country"
       ],
-      "popularity": 53
-    },
-    {
-      "name": "Tank and the Bangas",
-      "venue": "Thalia Hall",
-      "venue_url": "https://www.thaliahallchicago.com",
-      "show_url": "https://www.ticketweb.com/event/tank-and-the-bangas-thalia-hall-tickets/14794233",
-      "date": "2026-10-24",
-      "spotify_url": "https://open.spotify.com/artist/5cAtakaadWHJLxmGKrKcX7",
-      "genres": [
-        "alternative r&b"
-      ],
-      "popularity": 42
+      "popularity": 54
     },
     {
       "name": "Swervedriver",
@@ -2410,21 +2379,6 @@
         "slowcore"
       ],
       "popularity": 36
-    },
-    {
-      "name": "Agalloch",
-      "venue": "Thalia Hall",
-      "venue_url": "https://www.thaliahallchicago.com",
-      "show_url": "https://www.ticketweb.com/event/agalloch-with-barren-heir-and-thalia-hall-tickets/14941443",
-      "date": "2026-08-12",
-      "spotify_url": "https://open.spotify.com/artist/3Meu28o8P5z9Zjm6NTGihT",
-      "genres": [
-        "black metal",
-        "neofolk",
-        "folk metal",
-        "doom metal"
-      ],
-      "popularity": 42
     },
     {
       "name": "Monolord",
@@ -2444,6 +2398,22 @@
       "popularity": 44
     },
     {
+      "name": "Agalloch",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahallchicago.com",
+      "show_url": "https://www.ticketweb.com/event/agalloch-with-barren-heir-and-thalia-hall-tickets/14941443",
+      "date": "2026-08-12",
+      "spotify_url": "https://open.spotify.com/artist/3Meu28o8P5z9Zjm6NTGihT",
+      "genres": [
+        "black metal",
+        "neofolk",
+        "folk metal",
+        "doom metal",
+        "metal"
+      ],
+      "popularity": 43
+    },
+    {
       "name": "Black Marble",
       "venue": "Thalia Hall",
       "venue_url": "https://www.thaliahallchicago.com",
@@ -2459,6 +2429,16 @@
       "popularity": 45
     },
     {
+      "name": "Thalia Hall Free For All",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahallchicago.com",
+      "show_url": "https://www.ticketweb.com/event/thalia-hall-free-for-all-thalia-hall-tickets/14931693",
+      "date": "2026-08-29",
+      "spotify_url": "",
+      "genres": [],
+      "popularity": 0
+    },
+    {
       "name": "Sweet Pill",
       "venue": "Thalia Hall",
       "venue_url": "https://www.thaliahallchicago.com",
@@ -2472,16 +2452,6 @@
       "popularity": 48
     },
     {
-      "name": "Big Crown Records 10 Year Anniversary ft El Michels Affair, Brainstory, and Thee Heart Tones",
-      "venue": "Thalia Hall",
-      "venue_url": "https://www.thaliahallchicago.com",
-      "show_url": "https://www.ticketweb.com/event/big-crown-records-10-year-thalia-hall-tickets/14226804",
-      "date": "2026-09-11",
-      "spotify_url": "",
-      "genres": [],
-      "popularity": 0
-    },
-    {
       "name": "Armand Hammer",
       "venue": "Thalia Hall",
       "venue_url": "https://www.thaliahallchicago.com",
@@ -2492,7 +2462,17 @@
         "experimental hip hop",
         "alternative hip hop"
       ],
-      "popularity": 48
+      "popularity": 49
+    },
+    {
+      "name": "Big Crown Records 10 Year Anniversary ft El Michels Affair, Brainstory, and Thee Heart Tones",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahallchicago.com",
+      "show_url": "https://www.ticketweb.com/event/big-crown-records-10-year-thalia-hall-tickets/14226804",
+      "date": "2026-09-11",
+      "spotify_url": "",
+      "genres": [],
+      "popularity": 0
     },
     {
       "name": "REZN",
@@ -2510,32 +2490,6 @@
         "drone metal"
       ],
       "popularity": 43
-    },
-    {
-      "name": "Thalia Hall Free For All",
-      "venue": "Thalia Hall",
-      "venue_url": "https://www.thaliahallchicago.com",
-      "show_url": "https://www.ticketweb.com/event/thalia-hall-free-for-all-thalia-hall-tickets/14931693",
-      "date": "2026-08-29",
-      "spotify_url": "",
-      "genres": [],
-      "popularity": 0
-    },
-    {
-      "name": "Steel Pulse",
-      "venue": "Thalia Hall",
-      "venue_url": "https://www.thaliahallchicago.com",
-      "show_url": "https://www.ticketweb.com/event/steel-pulse-reggae-thalia-hall-tickets/14789303",
-      "date": "2026-08-09",
-      "spotify_url": "https://open.spotify.com/artist/6UL7BodGc5iVmQGlMwHR0g",
-      "genres": [
-        "reggae",
-        "roots reggae",
-        "ragga",
-        "rocksteady",
-        "dub"
-      ],
-      "popularity": 60
     },
     {
       "name": "Paul Cauthen",
@@ -2711,7 +2665,7 @@
       "date": "2026-09-25",
       "spotify_url": "https://open.spotify.com/artist/08DLZqQd6XDAVteF9nSEJ1",
       "genres": [],
-      "popularity": 54
+      "popularity": 55
     },
     {
       "name": "Asal: Kiss The Sun Tour with Benny Bellson",
@@ -2744,6 +2698,16 @@
         "lo-fi indie"
       ],
       "popularity": 45
+    },
+    {
+      "name": "Vox Rea",
+      "venue": "Thalia Hall",
+      "venue_url": "https://www.thaliahallchicago.com",
+      "show_url": "https://www.ticketweb.com/event/new-constellations-it-comes-in-thalia-hall-tickets/14264304",
+      "date": "2026-11-01",
+      "spotify_url": "https://open.spotify.com/artist/4SRrbYd7KBkGdOCAekSnY1",
+      "genres": [],
+      "popularity": 32
     },
     {
       "name": "Squirrel Flower",
@@ -2881,7 +2845,7 @@
       "date": "2026-09-20",
       "spotify_url": "https://open.spotify.com/artist/3f6n3RzZESaZnpoKit0Sk5",
       "genres": [],
-      "popularity": 46
+      "popularity": 47
     },
     {
       "name": "House Calls 'In the Round' with Felix Da Housecat, Smoko Ono B2B Syko, and Adorio",
@@ -2958,7 +2922,7 @@
       "date": "2026-11-14",
       "spotify_url": "https://open.spotify.com/artist/3evNDSSvRf7wcAHpVtiXPH",
       "genres": [],
-      "popularity": 8
+      "popularity": 7
     },
     {
       "name": "Edgar Alejandro",
@@ -3015,40 +2979,6 @@
       "popularity": 0
     },
     {
-      "name": "Tomahawk",
-      "venue": "Riviera",
-      "venue_url": "https://www.rivieratheatre.com/events",
-      "show_url": "https://www.jamusa.com/events/detail/tomahawk-1338367",
-      "date": "2026-08-04",
-      "spotify_url": "https://open.spotify.com/artist/6yyZgcrQ10gThrJxzqogiP",
-      "genres": [
-        "avant-garde",
-        "alternative metal",
-        "noise rock"
-      ],
-      "popularity": 41
-    },
-    {
-      "name": "BossMan Dlow",
-      "venue": "Riviera",
-      "venue_url": "https://www.rivieratheatre.com/events",
-      "show_url": "https://www.jamusa.com/events/detail/bossman-dlow-1471568",
-      "date": "2026-08-07",
-      "spotify_url": "https://open.spotify.com/artist/23xFbA9rYgRX8mreqysWPc",
-      "genres": [],
-      "popularity": 70
-    },
-    {
-      "name": "The Psychedelic Furs with Special Guest Living Colour",
-      "venue": "Riviera",
-      "venue_url": "https://www.rivieratheatre.com/events",
-      "show_url": "https://www.jamusa.com/events/detail/the-psychedelic-furs-with-special-guest-living-colour-1428016",
-      "date": "2026-08-08",
-      "spotify_url": "",
-      "genres": [],
-      "popularity": 0
-    },
-    {
       "name": "LINEA PERSONAL: TODO \u00d8 NADA",
       "venue": "Riviera",
       "venue_url": "https://www.rivieratheatre.com/events",
@@ -3076,7 +3006,7 @@
       "date": "2026-09-16",
       "spotify_url": "https://open.spotify.com/artist/18Zv2g2vUcEGqJf6WnjfXN",
       "genres": [],
-      "popularity": 56
+      "popularity": 57
     },
     {
       "name": "Calle 24",
@@ -3118,7 +3048,7 @@
       "genres": [
         "christmas"
       ],
-      "popularity": 71
+      "popularity": 72
     },
     {
       "name": "Michael Shannon & Jason Narducy and Friends play R.E.M.\u2019s Lifes Rich Pageant",
@@ -3139,6 +3069,16 @@
       "spotify_url": "https://open.spotify.com/artist/4UVlSeEFDPmlkYKaRMRoOz",
       "genres": [],
       "popularity": 58
+    },
+    {
+      "name": "Kylie Cantrall Presents: The Valley Girl Problems Tour",
+      "venue": "Riviera",
+      "venue_url": "https://www.rivieratheatre.com/events",
+      "show_url": "https://www.jamusa.com/events/detail/kylie-cantrall-presents-the-valley-girl-problems-tour-1541677",
+      "date": "2026-09-27",
+      "spotify_url": "",
+      "genres": [],
+      "popularity": 0
     },
     {
       "name": "Chelsea Wolfe: THE DARK World Tour",
@@ -3218,7 +3158,7 @@
         "folk pop",
         "christian folk"
       ],
-      "popularity": 54
+      "popularity": 55
     },
     {
       "name": "Hokus Pokus Live!",
@@ -3236,6 +3176,16 @@
       "venue_url": "https://www.rivieratheatre.com/events",
       "show_url": "https://www.jamusa.com/events/detail/ryan-bingham-and-the-texas-gentlemen-still-gettin-away-with-it-tour-1526033",
       "date": "2026-10-20",
+      "spotify_url": "",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Thee Phantom and Illharmonic Orchestra",
+      "venue": "Riviera",
+      "venue_url": "https://www.rivieratheatre.com/events",
+      "show_url": "https://www.jamusa.com/events/detail/thee-phantom-and-illharmonic-orchestra-1541709",
+      "date": "2026-10-24",
       "spotify_url": "",
       "genres": [],
       "popularity": 0
@@ -3268,7 +3218,7 @@
       "date": "2026-10-30",
       "spotify_url": "https://open.spotify.com/artist/5ZC7GPz5h9zkEfjZBUDNzI",
       "genres": [],
-      "popularity": 66
+      "popularity": 67
     },
     {
       "name": "Bad Gyal - M\u00e1s Cara World Tour 2026",
@@ -3291,10 +3241,10 @@
         "emo rap",
         "trap metal",
         "horrorcore",
-        "underground hip hop",
-        "cloud rap"
+        "cloud rap",
+        "underground hip hop"
       ],
-      "popularity": 68
+      "popularity": 69
     },
     {
       "name": "Sleep: North America 2026",
@@ -3367,6 +3317,18 @@
       "popularity": 0
     },
     {
+      "name": "Jorja Smith",
+      "venue": "Riviera",
+      "venue_url": "https://www.rivieratheatre.com/events",
+      "show_url": "https://www.jamusa.com/events/detail/jorja-smith-1541842",
+      "date": "2026-11-23",
+      "spotify_url": "https://open.spotify.com/artist/1CoZyIx7UvdxT5c8UkMzHd",
+      "genres": [
+        "uk r&b"
+      ],
+      "popularity": 74
+    },
+    {
       "name": "A Drag Queen Christmas",
       "venue": "Riviera",
       "venue_url": "https://www.rivieratheatre.com/events",
@@ -3403,17 +3365,14 @@
       "popularity": 0
     },
     {
-      "name": "Imminence",
+      "name": "Imminence - Axis Mundi Tour: North America 2026",
       "venue": "Riviera",
       "venue_url": "https://www.rivieratheatre.com/events",
       "show_url": "https://www.jamusa.com/events/detail/imminence-1490170",
       "date": "2026-12-10",
-      "spotify_url": "https://open.spotify.com/artist/7rqJQQxuUOCk052MK5kLsH",
-      "genres": [
-        "metalcore",
-        "metal"
-      ],
-      "popularity": 62
+      "spotify_url": "",
+      "genres": [],
+      "popularity": 0
     },
     {
       "name": "Kathy Griffin: New Face, New Tour",
@@ -3436,6 +3395,19 @@
       "popularity": 0
     },
     {
+      "name": "The Mary Wallopers",
+      "venue": "Riviera",
+      "venue_url": "https://www.rivieratheatre.com/events",
+      "show_url": "https://www.jamusa.com/events/detail/the-mary-wallopers-1551451",
+      "date": "2027-03-13",
+      "spotify_url": "https://open.spotify.com/artist/7aLfd5azGVKmim6H38mZk2",
+      "genres": [
+        "celtic punk",
+        "celtic"
+      ],
+      "popularity": 50
+    },
+    {
       "name": "Valery Meladze",
       "venue": "Riviera",
       "venue_url": "https://www.rivieratheatre.com/events",
@@ -3444,107 +3416,6 @@
       "spotify_url": "https://open.spotify.com/artist/2igtm1MhKEpmG3PzToJT40",
       "genres": [],
       "popularity": 55
-    },
-    {
-      "name": "Arranged in April",
-      "venue": "Subterranean",
-      "venue_url": "https://www.subt.net",
-      "show_url": "https://wl.seetickets.us/event/arranged-in-april/693833?afflky=BKBGManagementCo",
-      "date": "2026-08-03",
-      "spotify_url": "https://open.spotify.com/artist/0RpqbgRdtG57TKD0z0aTHf",
-      "genres": [
-        "screamo",
-        "post-hardcore",
-        "midwest emo"
-      ],
-      "popularity": 48
-    },
-    {
-      "name": "Morbid Visionz",
-      "venue": "Subterranean",
-      "venue_url": "https://www.subt.net",
-      "show_url": "https://wl.seetickets.us/event/morbid-visionz/695028?afflky=BKBGManagementCo",
-      "date": "2026-08-04",
-      "spotify_url": "https://open.spotify.com/artist/51ODfCtEXS8QGOe3om1dEI",
-      "genres": [
-        "death metal"
-      ],
-      "popularity": 6
-    },
-    {
-      "name": "Damager",
-      "venue": "Subterranean",
-      "venue_url": "https://www.subt.net",
-      "show_url": "https://wl.seetickets.us/event/damager-never-again-vinyl-release-show/694750?afflky=BKBGManagementCo",
-      "date": "2026-08-06",
-      "spotify_url": "https://open.spotify.com/artist/0EyRtoPQirvRMzwSI8wUSm",
-      "genres": [],
-      "popularity": 1
-    },
-    {
-      "name": "Emo Nite",
-      "venue": "Subterranean",
-      "venue_url": "https://www.subt.net",
-      "show_url": "https://wl.seetickets.us/event/Emo-Nite-at-CHICAGO-IL/697866?afflky=BKBGManagementCo",
-      "date": "2026-08-07",
-      "spotify_url": "",
-      "genres": [],
-      "popularity": 0
-    },
-    {
-      "name": "DWLLRS",
-      "venue": "Subterranean",
-      "venue_url": "https://www.subt.net",
-      "show_url": "https://wl.seetickets.us/event/dwllrs-one-of-those-nights-tour/689997?afflky=BKBGManagementCo",
-      "date": "2026-08-08",
-      "spotify_url": "https://open.spotify.com/artist/2TviQllPVEQ7E68Yr4uPKR",
-      "genres": [],
-      "popularity": 51
-    },
-    {
-      "name": "Kiss & Tell Cabaret",
-      "venue": "Subterranean",
-      "venue_url": "https://www.subt.net",
-      "show_url": "https://wl.seetickets.us/event/kiss-and-tell-cabaret-final-destination/699726?afflky=BKBGManagementCo",
-      "date": "2026-08-08",
-      "spotify_url": "https://open.spotify.com/artist/3dNlCbGWpbdvpafNP8ZfAJ",
-      "genres": [],
-      "popularity": 0
-    },
-    {
-      "name": "Constantine, Dj Nico, Mo Mami, BiLatinBby, WILHELMINA",
-      "venue": "Subterranean",
-      "venue_url": "https://www.subt.net",
-      "show_url": "https://wl.seetickets.us/event/digital-dream/700472?afflky=BKBGManagementCo",
-      "date": "2026-08-08",
-      "spotify_url": "",
-      "genres": [],
-      "popularity": 0
-    },
-    {
-      "name": "Mella",
-      "venue": "Subterranean",
-      "venue_url": "https://www.subt.net",
-      "show_url": "https://wl.seetickets.us/event/mella-or-so-weve-been-touring/692483?afflky=BKBGManagementCo",
-      "date": "2026-08-09",
-      "spotify_url": "https://open.spotify.com/artist/5dhXWXNPzH9Ajw5x12CbPR",
-      "genres": [
-        "post-hardcore"
-      ],
-      "popularity": 46
-    },
-    {
-      "name": "Ace Monroe",
-      "venue": "Subterranean",
-      "venue_url": "https://www.subt.net",
-      "show_url": "https://wl.seetickets.us/event/ace-monroe/693091?afflky=BKBGManagementCo",
-      "date": "2026-08-09",
-      "spotify_url": "https://open.spotify.com/artist/7Lcyr9TK4WHr4ojZiYhbYV",
-      "genres": [
-        "modern blues",
-        "blues rock"
-      ],
-      "popularity": 27
     },
     {
       "name": "Chaosphere",
@@ -3557,7 +3428,7 @@
         "mathcore",
         "deathcore"
       ],
-      "popularity": 9
+      "popularity": 8
     },
     {
       "name": "Blossom,  Sledges",
@@ -3645,6 +3516,16 @@
       "popularity": 43
     },
     {
+      "name": "Draggy Tingz: Hosted By Logan Zass",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "show_url": "https://wl.seetickets.us/event/draggy-tingz-hosted-by-logan-zass/701715?afflky=BKBGManagementCo",
+      "date": "2026-08-16",
+      "spotify_url": "",
+      "genres": [],
+      "popularity": 0
+    },
+    {
       "name": "Mother's Day Rogers",
       "venue": "Subterranean",
       "venue_url": "https://www.subt.net",
@@ -3685,7 +3566,7 @@
       "date": "2026-08-21",
       "spotify_url": "https://open.spotify.com/artist/0LqPWsSWSsMrlJsgkYEawe",
       "genres": [],
-      "popularity": 20
+      "popularity": 21
     },
     {
       "name": "Let It Happen: Tame Impala Dance Party",
@@ -3742,7 +3623,7 @@
         "riot grrrl",
         "queercore"
       ],
-      "popularity": 34
+      "popularity": 35
     },
     {
       "name": "Georgia Parker",
@@ -3750,11 +3631,9 @@
       "venue_url": "https://www.subt.net",
       "show_url": "https://wl.seetickets.us/event/georgia-parker/699232?afflky=BKBGManagementCo",
       "date": "2026-08-24",
-      "spotify_url": "https://open.spotify.com/artist/4OGodtGAXXUvXC4mmJzZNf",
-      "genres": [
-        "acoustic pop"
-      ],
-      "popularity": 38
+      "spotify_url": "https://open.spotify.com/artist/1I34cUj5AgrBrPAOqSXeiC",
+      "genres": [],
+      "popularity": 3
     },
     {
       "name": "Kayo",
@@ -3807,6 +3686,16 @@
       "venue": "Subterranean",
       "venue_url": "https://www.subt.net",
       "show_url": "https://wl.seetickets.us/event/club-slayyy-slayyyter-hyperpop-night/699524?afflky=BKBGManagementCo",
+      "date": "2026-08-29",
+      "spotify_url": "",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "PERREO INTENSO",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "show_url": "https://wl.seetickets.us/event/perreo-intenso/701473?afflky=BKBGManagementCo",
       "date": "2026-08-29",
       "spotify_url": "",
       "genres": [],
@@ -3918,6 +3807,19 @@
       "popularity": 53
     },
     {
+      "name": "The Stinkeyes",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "show_url": "https://wl.seetickets.us/event/the-stinkeyes/701482?afflky=BKBGManagementCo",
+      "date": "2026-09-07",
+      "spotify_url": "https://open.spotify.com/artist/0bmVF2jDoHF6ixkwmMEeJh",
+      "genres": [
+        "queercore",
+        "riot grrrl"
+      ],
+      "popularity": 0
+    },
+    {
       "name": "RUSSELL!",
       "venue": "Subterranean",
       "venue_url": "https://www.subt.net",
@@ -3948,6 +3850,16 @@
       "popularity": 66
     },
     {
+      "name": "Shane Guerrette",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "show_url": "https://wl.seetickets.us/event/shane-guerrette/700902?afflky=BKBGManagementCo",
+      "date": "2026-09-12",
+      "spotify_url": "https://open.spotify.com/artist/4xaFqKnLaGscm3y2CU13Qq",
+      "genres": [],
+      "popularity": 37
+    },
+    {
       "name": "Pleasantries",
       "venue": "Subterranean",
       "venue_url": "https://www.subt.net",
@@ -3967,7 +3879,7 @@
       "genres": [
         "surf rock"
       ],
-      "popularity": 50
+      "popularity": 49
     },
     {
       "name": "Bleach",
@@ -4033,7 +3945,7 @@
       "genres": [
         "bedroom pop"
       ],
-      "popularity": 35
+      "popularity": 39
     },
     {
       "name": "Nexus 6",
@@ -4060,7 +3972,7 @@
       "popularity": 41
     },
     {
-      "name": "Keep For Cheap x Latchkey Kids",
+      "name": "Keep for Cheap, Latchkey Kids",
       "venue": "Subterranean",
       "venue_url": "https://www.subt.net",
       "show_url": "https://wl.seetickets.us/event/keep-for-cheap-x-latchkey-kids/700892?afflky=BKBGManagementCo",
@@ -4070,6 +3982,18 @@
       "popularity": 0
     },
     {
+      "name": "Graham Hunt",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "show_url": "https://wl.seetickets.us/event/graham-hunt/701037?afflky=BKBGManagementCo",
+      "date": "2026-09-21",
+      "spotify_url": "https://open.spotify.com/artist/3cdxdVJIA1FE4oMT85haWb",
+      "genres": [
+        "power pop"
+      ],
+      "popularity": 19
+    },
+    {
       "name": "Mid America",
       "venue": "Subterranean",
       "venue_url": "https://www.subt.net",
@@ -4077,7 +4001,7 @@
       "date": "2026-09-22",
       "spotify_url": "https://open.spotify.com/artist/2nqAtFZqcC4ZEk2qVUq3e8",
       "genres": [],
-      "popularity": 5
+      "popularity": 4
     },
     {
       "name": "The Black Queen",
@@ -4097,13 +4021,9 @@
       "venue_url": "https://www.subt.net",
       "show_url": "https://wl.seetickets.us/event/chandler/692315?afflky=BKBGManagementCo",
       "date": "2026-09-23",
-      "spotify_url": "https://open.spotify.com/artist/6y7frW1RUq3XBBXbYowVpk",
-      "genres": [
-        "worship",
-        "gospel",
-        "christian"
-      ],
-      "popularity": 72
+      "spotify_url": "https://open.spotify.com/artist/7hKEIXWtAS2LHVE8FK4kQx",
+      "genres": [],
+      "popularity": 42
     },
     {
       "name": "The Belair Lip Bombs",
@@ -4113,7 +4033,7 @@
       "date": "2026-09-23",
       "spotify_url": "https://open.spotify.com/artist/6viWvP8YChO4DcOi1BpNvT",
       "genres": [],
-      "popularity": 43
+      "popularity": 44
     },
     {
       "name": "Sub Urban",
@@ -4160,6 +4080,16 @@
       "spotify_url": "",
       "genres": [],
       "popularity": 0
+    },
+    {
+      "name": "DUSTY",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "show_url": "https://wl.seetickets.us/event/dusty/700913?afflky=BKBGManagementCo",
+      "date": "2026-09-26",
+      "spotify_url": "https://open.spotify.com/artist/5zaXYwewAXedKNCff45U5l",
+      "genres": [],
+      "popularity": 66
     },
     {
       "name": "Smut",
@@ -4233,7 +4163,7 @@
       "genres": [
         "europop"
       ],
-      "popularity": 48
+      "popularity": 49
     },
     {
       "name": "Moony",
@@ -4243,7 +4173,7 @@
       "date": "2026-10-06",
       "spotify_url": "https://open.spotify.com/artist/3agqtDm9DE1tKj7sXrKqpZ",
       "genres": [],
-      "popularity": 30
+      "popularity": 31
     },
     {
       "name": "Buddha Trixie",
@@ -4253,7 +4183,7 @@
       "date": "2026-10-08",
       "spotify_url": "https://open.spotify.com/artist/4VVh7MQx2qRX5YWmokQ8hT",
       "genres": [],
-      "popularity": 44
+      "popularity": 45
     },
     {
       "name": "LEAP",
@@ -4263,7 +4193,7 @@
       "date": "2026-10-10",
       "spotify_url": "https://open.spotify.com/artist/538iX6YCTybcgzsrjDTrFi",
       "genres": [],
-      "popularity": 57
+      "popularity": 58
     },
     {
       "name": "Upon Your Dead Body",
@@ -4286,6 +4216,19 @@
       "spotify_url": "https://open.spotify.com/artist/6Lk6q3fmgNLkzMJUQApTwl",
       "genres": [],
       "popularity": 17
+    },
+    {
+      "name": "SPY",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "show_url": "https://wl.seetickets.us/event/spy/701634?afflky=BKBGManagementCo",
+      "date": "2026-10-12",
+      "spotify_url": "https://open.spotify.com/artist/7vCI1d19vrokQuRkiAhwMC",
+      "genres": [
+        "hardcore punk",
+        "hardcore"
+      ],
+      "popularity": 33
     },
     {
       "name": "Max Diaz",
@@ -4352,7 +4295,7 @@
         "alternative r&b",
         "indie soul"
       ],
-      "popularity": 78
+      "popularity": 79
     },
     {
       "name": "Intuition, Equalibrum",
@@ -4370,13 +4313,12 @@
       "venue_url": "https://www.subt.net",
       "show_url": "https://wl.seetickets.us/event/clever/697853?afflky=BKBGManagementCo",
       "date": "2026-10-22",
-      "spotify_url": "https://open.spotify.com/artist/7663vNncj70kCkfsi5eMNf",
+      "spotify_url": "https://open.spotify.com/artist/6FcC7osOicG2aEqb2VrbhS",
       "genres": [
-        "math rock",
-        "midwest emo",
-        "post-rock"
+        "bluegrass",
+        "newgrass"
       ],
-      "popularity": 31
+      "popularity": 36
     },
     {
       "name": "MaryAnne Muglia",
@@ -4386,7 +4328,31 @@
       "date": "2026-10-23",
       "spotify_url": "https://open.spotify.com/artist/1UQncgnqGVMDSjYzQ049jL",
       "genres": [],
-      "popularity": 16
+      "popularity": 17
+    },
+    {
+      "name": "Paledusk",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "show_url": "https://wl.seetickets.us/event/paledusk/700905?afflky=BKBGManagementCo",
+      "date": "2026-10-23",
+      "spotify_url": "https://open.spotify.com/artist/2GWuBfYdmPB91krBNQavHa",
+      "genres": [
+        "j-rock",
+        "anime",
+        "mathcore"
+      ],
+      "popularity": 55
+    },
+    {
+      "name": "Paige Fish",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "show_url": "https://wl.seetickets.us/event/paige-fish-on-tour/701017?afflky=BKBGManagementCo",
+      "date": "2026-10-24",
+      "spotify_url": "https://open.spotify.com/artist/10djoaqJLN6H4oORnKJ63P",
+      "genres": [],
+      "popularity": 50
     },
     {
       "name": "Zauntee",
@@ -4513,6 +4479,43 @@
       "popularity": 67
     },
     {
+      "name": "Kingdom Of Giants",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "show_url": "https://wl.seetickets.us/event/kingdom-of-giants/700926?afflky=BKBGManagementCo",
+      "date": "2026-11-22",
+      "spotify_url": "https://open.spotify.com/artist/77rcxvpDqP78d90dL3DNNe",
+      "genres": [
+        "metalcore",
+        "post-hardcore",
+        "djent",
+        "deathcore"
+      ],
+      "popularity": 50
+    },
+    {
+      "name": "GODHANDUSA",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "show_url": "https://wl.seetickets.us/event/godhandusa-call-to-worship/700620?afflky=BKBGManagementCo",
+      "date": "2026-12-10",
+      "spotify_url": "https://open.spotify.com/artist/52XZBIfTRn9iyM7QLf6DmX",
+      "genres": [
+        "trap metal"
+      ],
+      "popularity": 52
+    },
+    {
+      "name": "LETDOWN.",
+      "venue": "Subterranean",
+      "venue_url": "https://www.subt.net",
+      "show_url": "https://wl.seetickets.us/event/letdown-the-happy-tour/701028?afflky=BKBGManagementCo",
+      "date": "2026-12-13",
+      "spotify_url": "https://open.spotify.com/artist/2rP19mjQlqtCScJ3zqLUb1",
+      "genres": [],
+      "popularity": 56
+    },
+    {
       "name": "Ellie Banke",
       "venue": "Subterranean",
       "venue_url": "https://www.subt.net",
@@ -4520,7 +4523,7 @@
       "date": "2027-01-30",
       "spotify_url": "https://open.spotify.com/artist/5oyWr2nOEd2KnF8HHvAb1Q",
       "genres": [],
-      "popularity": 44
+      "popularity": 43
     },
     {
       "name": "Valencia Grace",
@@ -4544,7 +4547,7 @@
         "indie",
         "alternative rock"
       ],
-      "popularity": 67
+      "popularity": 66
     },
     {
       "name": "Tinashe",
@@ -4559,16 +4562,19 @@
       "popularity": 77
     },
     {
-      "name": "Cavetown",
+      "name": "The Black Keys",
       "venue": "Salt Shed",
       "venue_url": "https://www.saltshedchicago.com/home#shows",
-      "show_url": "https://www.ticketmaster.com/cavetown-with-chloe-moriondo-running-with-chicago-illinois-09-27-2026/event/0400642CE2B17663",
-      "date": "2026-09-27",
-      "spotify_url": "https://open.spotify.com/artist/2hR4h1Cao2ueuI7Cx9c7V8",
+      "show_url": "https://www.ticketmaster.com/the-black-keys-peaches-n-kream-chicago-illinois-10-20-2026/event/04006503F3401026",
+      "date": "2026-10-20",
+      "spotify_url": "https://open.spotify.com/artist/7mnBLXK823vNxN3UWB7Gfz",
       "genres": [
-        "bedroom pop"
+        "blues rock",
+        "garage rock",
+        "modern blues",
+        "rock"
       ],
-      "popularity": 68
+      "popularity": 72
     },
     {
       "name": "Orville Peck",
@@ -4580,7 +4586,19 @@
       "genres": [
         "alt country"
       ],
-      "popularity": 57
+      "popularity": 58
+    },
+    {
+      "name": "Cavetown",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "show_url": "https://www.ticketmaster.com/cavetown-with-chloe-moriondo-running-with-chicago-illinois-09-27-2026/event/0400642CE2B17663",
+      "date": "2026-09-27",
+      "spotify_url": "https://open.spotify.com/artist/2hR4h1Cao2ueuI7Cx9c7V8",
+      "genres": [
+        "bedroom pop"
+      ],
+      "popularity": 68
     },
     {
       "name": "Joe Russo's Almost Dead",
@@ -4594,6 +4612,24 @@
         "newgrass"
       ],
       "popularity": 31
+    },
+    {
+      "name": "Wooli",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "show_url": "https://www.ticketmaster.com/wankdat-crankdat-b2b-wooli-chicago-illinois-09-06-2026/event/04006506E66011EA",
+      "date": "2026-09-06",
+      "spotify_url": "https://open.spotify.com/artist/1Uyqa2sdHm1bL5JK4IC4zc",
+      "genres": [
+        "dubstep",
+        "melodic bass",
+        "riddim",
+        "edm",
+        "deathstep",
+        "future bass",
+        "bass music"
+      ],
+      "popularity": 59
     },
     {
       "name": "Nothing But Thieves",
@@ -4630,9 +4666,10 @@
       "date": "2026-10-23",
       "spotify_url": "https://open.spotify.com/artist/3lFDsTyYNPQc8WzJExnQWn",
       "genres": [
-        "pop soul"
+        "pop soul",
+        "jazz pop"
       ],
-      "popularity": 53
+      "popularity": 54
     },
     {
       "name": "Death Cab for Cutie",
@@ -4645,6 +4682,20 @@
       "popularity": 66
     },
     {
+      "name": "American Football",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "show_url": "https://www.ticketmaster.com/american-football-with-rainer-maria-and-chicago-illinois-08-14-2026/event/0400643CD62AB394",
+      "date": "2026-08-14",
+      "spotify_url": "https://open.spotify.com/artist/5FwydyGVcsQllnM4xM6jw4",
+      "genres": [
+        "midwest emo",
+        "math rock",
+        "emo"
+      ],
+      "popularity": 57
+    },
+    {
       "name": "Geese",
       "venue": "Salt Shed",
       "venue_url": "https://www.saltshedchicago.com/home#shows",
@@ -4655,46 +4706,6 @@
         "art rock"
       ],
       "popularity": 65
-    },
-    {
-      "name": "Bikini Kill",
-      "venue": "Salt Shed",
-      "venue_url": "https://www.saltshedchicago.com/home#shows",
-      "show_url": "https://www.ticketmaster.com/bikini-kill-with-ganser-chicago-illinois-09-14-2026/event/04006436D3182D94",
-      "date": "2026-09-14",
-      "spotify_url": "https://open.spotify.com/artist/0gvHPdYxlU94W7V5MSIlFe",
-      "genres": [
-        "riot grrrl",
-        "queercore",
-        "punk"
-      ],
-      "popularity": 51
-    },
-    {
-      "name": "Angine de Poitrine",
-      "venue": "Salt Shed",
-      "venue_url": "https://www.saltshedchicago.com/home#shows",
-      "show_url": "https://www.ticketmaster.com/angine-de-poitrine-chicago-illinois-11-29-2026/event/040064D2F2BDE720",
-      "date": "2026-11-29",
-      "spotify_url": "https://open.spotify.com/artist/13NmOYYfvONNZ9mn2qn8P2",
-      "genres": [
-        "math rock"
-      ],
-      "popularity": 61
-    },
-    {
-      "name": "American Football",
-      "venue": "Salt Shed",
-      "venue_url": "https://www.saltshedchicago.com/home#shows",
-      "show_url": "https://www.ticketmaster.com/american-football-with-afternoon-bike-ride-chicago-illinois-08-14-2026/event/0400643CD62AB394",
-      "date": "2026-08-14",
-      "spotify_url": "https://open.spotify.com/artist/5FwydyGVcsQllnM4xM6jw4",
-      "genres": [
-        "midwest emo",
-        "math rock",
-        "emo"
-      ],
-      "popularity": 57
     },
     {
       "name": "Sleeping With Sirens",
@@ -4711,6 +4722,20 @@
       "popularity": 70
     },
     {
+      "name": "Bikini Kill",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "show_url": "https://www.ticketmaster.com/bikini-kill-with-ganser-chicago-illinois-09-14-2026/event/04006436D3182D94",
+      "date": "2026-09-14",
+      "spotify_url": "https://open.spotify.com/artist/0gvHPdYxlU94W7V5MSIlFe",
+      "genres": [
+        "riot grrrl",
+        "queercore",
+        "punk"
+      ],
+      "popularity": 51
+    },
+    {
       "name": "BOYNEXTDOOR",
       "venue": "Salt Shed",
       "venue_url": "https://www.saltshedchicago.com/home#shows",
@@ -4723,14 +4748,16 @@
       "popularity": 73
     },
     {
-      "name": "Palace",
+      "name": "Angine de Poitrine",
       "venue": "Salt Shed",
       "venue_url": "https://www.saltshedchicago.com/home#shows",
-      "show_url": "https://www.ticketmaster.com/palace-with-willie-j-healey-usa-chicago-illinois-11-13-2026/event/040064909EF36C2F",
-      "date": "2026-11-13",
-      "spotify_url": "https://open.spotify.com/artist/48vDIufGC8ujPuBiTxY8dm",
-      "genres": [],
-      "popularity": 64
+      "show_url": "https://www.ticketmaster.com/angine-de-poitrine-with-zouz-chicago-illinois-11-30-2026/event/040064D2F23BE643",
+      "date": "2026-11-30",
+      "spotify_url": "https://open.spotify.com/artist/13NmOYYfvONNZ9mn2qn8P2",
+      "genres": [
+        "math rock"
+      ],
+      "popularity": 61
     },
     {
       "name": "Mon Rovia",
@@ -4741,6 +4768,28 @@
       "spotify_url": "https://open.spotify.com/artist/7qeVidrQzaXvWIa3Py1tpK",
       "genres": [],
       "popularity": 0
+    },
+    {
+      "name": "Palace",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "show_url": "https://www.ticketmaster.com/palace-with-willie-j-healey-usa-chicago-illinois-11-13-2026/event/040064909EF36C2F",
+      "date": "2026-11-13",
+      "spotify_url": "https://open.spotify.com/artist/48vDIufGC8ujPuBiTxY8dm",
+      "genres": [],
+      "popularity": 64
+    },
+    {
+      "name": "Dylan Gossett",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "show_url": "https://www.ticketmaster.com/dylan-gossett-live-in-concert-chicago-illinois-10-27-2026/event/040064D2FEEBF787",
+      "date": "2026-10-27",
+      "spotify_url": "https://open.spotify.com/artist/4H4M0Y4cN39zIVDHvdW53x",
+      "genres": [
+        "country"
+      ],
+      "popularity": 68
     },
     {
       "name": "Movements",
@@ -4758,16 +4807,6 @@
       "popularity": 61
     },
     {
-      "name": "Jack Harlow",
-      "venue": "Salt Shed",
-      "venue_url": "https://www.saltshedchicago.com/home#shows",
-      "show_url": "https://www.ticketmaster.com/jack-harlow-with-james-savage-monica-chicago-illinois-08-08-2026/event/040064770ABCBB26",
-      "date": "2026-08-08",
-      "spotify_url": "https://open.spotify.com/artist/2LIk90788K0zvyj2JJVwkJ",
-      "genres": [],
-      "popularity": 78
-    },
-    {
       "name": "Fruit Bats",
       "venue": "Salt Shed",
       "venue_url": "https://www.saltshedchicago.com/home#shows",
@@ -4776,28 +4815,6 @@
       "spotify_url": "https://open.spotify.com/artist/6Qm9stX6XO1a4c7BXQDDgc",
       "genres": [],
       "popularity": 59
-    },
-    {
-      "name": "Dylan Gossett",
-      "venue": "Salt Shed",
-      "venue_url": "https://www.saltshedchicago.com/home#shows",
-      "show_url": "https://www.ticketmaster.com/dylan-gossett-live-in-concert-chicago-illinois-10-27-2026/event/040064D2FEEBF787",
-      "date": "2026-10-27",
-      "spotify_url": "https://open.spotify.com/artist/4H4M0Y4cN39zIVDHvdW53x",
-      "genres": [
-        "country"
-      ],
-      "popularity": 68
-    },
-    {
-      "name": "Ratboys",
-      "venue": "Salt Shed",
-      "venue_url": "https://www.saltshedchicago.com/home#shows",
-      "show_url": "https://www.ticketmaster.com/93xrt-winter-jam-presents-ratboys-w-chicago-illinois-12-19-2026/event/040064F1E76E55A2",
-      "date": "2026-12-19",
-      "spotify_url": "https://open.spotify.com/artist/1SoBNpuC0N4nvaQFENS0qf",
-      "genres": [],
-      "popularity": 44
     },
     {
       "name": "LP",
@@ -4810,6 +4827,16 @@
       "popularity": 69
     },
     {
+      "name": "Ratboys",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "show_url": "https://www.ticketmaster.com/93xrt-winter-jam-presents-ratboys-w-chicago-illinois-12-19-2026/event/040064F1E76E55A2",
+      "date": "2026-12-19",
+      "spotify_url": "https://open.spotify.com/artist/1SoBNpuC0N4nvaQFENS0qf",
+      "genres": [],
+      "popularity": 44
+    },
+    {
       "name": "The Menzingers",
       "venue": "Salt Shed",
       "venue_url": "https://www.saltshedchicago.com/home#shows",
@@ -4819,24 +4846,22 @@
       "genres": [
         "indie punk",
         "punk",
-        "pop punk",
-        "skate punk"
+        "pop punk"
       ],
       "popularity": 56
     },
     {
-      "name": "Turnover",
+      "name": "Charles Wesley Godwin",
       "venue": "Salt Shed",
       "venue_url": "https://www.saltshedchicago.com/home#shows",
-      "show_url": "https://www.ticketmaster.com/turnover-down-on-earth-tour-chicago-illinois-11-25-2026/event/040064D3BF4DA5FC",
-      "date": "2026-11-25",
-      "spotify_url": "https://open.spotify.com/artist/0gLjJuczGWhqKVMmVpIT52",
+      "show_url": "https://www.ticketmaster.com/charles-wesley-godwin-with-tyler-nance-chicago-illinois-11-12-2026/event/040064AED766D32E",
+      "date": "2026-11-12",
+      "spotify_url": "https://open.spotify.com/artist/2ErsJAz6qJ5cqjoVAvfvaC",
       "genres": [
-        "midwest emo",
-        "dream pop",
-        "pop punk"
+        "red dirt",
+        "country"
       ],
-      "popularity": 56
+      "popularity": 67
     },
     {
       "name": "Slow Pulp",
@@ -4859,19 +4884,6 @@
       "popularity": 59
     },
     {
-      "name": "Charles Wesley Godwin",
-      "venue": "Salt Shed",
-      "venue_url": "https://www.saltshedchicago.com/home#shows",
-      "show_url": "https://www.ticketmaster.com/charles-wesley-godwin-with-tyler-nance-chicago-illinois-11-12-2026/event/040064AED766D32E",
-      "date": "2026-11-12",
-      "spotify_url": "https://open.spotify.com/artist/2ErsJAz6qJ5cqjoVAvfvaC",
-      "genres": [
-        "red dirt",
-        "country"
-      ],
-      "popularity": 66
-    },
-    {
       "name": "Fetty Wap",
       "venue": "Salt Shed",
       "venue_url": "https://www.saltshedchicago.com/home#shows",
@@ -4882,14 +4894,18 @@
       "popularity": 77
     },
     {
-      "name": "Max McNown",
+      "name": "Turnover",
       "venue": "Salt Shed",
       "venue_url": "https://www.saltshedchicago.com/home#shows",
-      "show_url": "https://www.ticketmaster.com/max-mcnown-the-summer-vacation-tour-chicago-illinois-08-05-2026/event/0400647FCEEDC50F",
-      "date": "2026-08-05",
-      "spotify_url": "https://open.spotify.com/artist/340PS4ZcZ4UCBgyrXzEjcp",
-      "genres": [],
-      "popularity": 75
+      "show_url": "https://www.ticketmaster.com/turnover-down-on-earth-tour-chicago-illinois-11-25-2026/event/040064D3BF4DA5FC",
+      "date": "2026-11-25",
+      "spotify_url": "https://open.spotify.com/artist/0gLjJuczGWhqKVMmVpIT52",
+      "genres": [
+        "midwest emo",
+        "dream pop",
+        "pop punk"
+      ],
+      "popularity": 56
     },
     {
       "name": "Sabaton",
@@ -4905,7 +4921,7 @@
         "symphonic metal",
         "folk metal"
       ],
-      "popularity": 72
+      "popularity": 73
     },
     {
       "name": "Ravyn Lenae",
@@ -4918,17 +4934,24 @@
         "alternative r&b",
         "indie soul"
       ],
-      "popularity": 78
+      "popularity": 79
     },
     {
-      "name": "Sylvan Esso",
+      "name": "Svdden Death",
       "venue": "Salt Shed",
       "venue_url": "https://www.saltshedchicago.com/home#shows",
-      "show_url": "https://www.ticketmaster.com/sylvan-esso-presented-by-jack-daniels-chicago-illinois-10-22-2026/event/0400649CF45E4588",
-      "date": "2026-10-22",
-      "spotify_url": "https://open.spotify.com/artist/39vA9YljbnOApXKniLWBZv",
-      "genres": [],
-      "popularity": 49
+      "show_url": "https://www.ticketmaster.com/svdden-death-chicago-illinois-12-18-2026/event/04006503CF01C8E6",
+      "date": "2026-12-18",
+      "spotify_url": "https://open.spotify.com/artist/2u01kCKA5wDvvztuH8lyT0",
+      "genres": [
+        "riddim",
+        "dubstep",
+        "deathstep",
+        "bass music",
+        "edm",
+        "dub"
+      ],
+      "popularity": 51
     },
     {
       "name": "Jesse Welles",
@@ -4944,6 +4967,26 @@
       "popularity": 56
     },
     {
+      "name": "Sylvan Esso",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "show_url": "https://www.ticketmaster.com/sylvan-esso-presented-by-jack-daniels-chicago-illinois-10-22-2026/event/0400649CF45E4588",
+      "date": "2026-10-22",
+      "spotify_url": "https://open.spotify.com/artist/39vA9YljbnOApXKniLWBZv",
+      "genres": [],
+      "popularity": 49
+    },
+    {
+      "name": "Isaiah Rashad",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "show_url": "https://www.ticketmaster.com/isaiah-rashad-lil-sunnys-awful-road-chicago-illinois-09-03-2026/event/040064CFDAFEA3EC",
+      "date": "2026-09-03",
+      "spotify_url": "https://open.spotify.com/artist/6aaMZ3fcfLv4tEbmY7bjRM",
+      "genres": [],
+      "popularity": 71
+    },
+    {
       "name": "Greensky Bluegrass",
       "venue": "Salt Shed",
       "venue_url": "https://www.saltshedchicago.com/home#shows",
@@ -4957,16 +5000,6 @@
         "americana"
       ],
       "popularity": 48
-    },
-    {
-      "name": "Isaiah Rashad",
-      "venue": "Salt Shed",
-      "venue_url": "https://www.saltshedchicago.com/home#shows",
-      "show_url": "https://www.ticketmaster.com/isaiah-rashad-lil-sunnys-awful-road-chicago-illinois-09-03-2026/event/040064CFDAFEA3EC",
-      "date": "2026-09-03",
-      "spotify_url": "https://open.spotify.com/artist/6aaMZ3fcfLv4tEbmY7bjRM",
-      "genres": [],
-      "popularity": 71
     },
     {
       "name": "Daily Bread",
@@ -4988,7 +5021,7 @@
       "genres": [
         "bedroom pop"
       ],
-      "popularity": 75
+      "popularity": 77
     },
     {
       "name": "Koe Wetzel",
@@ -5015,7 +5048,7 @@
       "genres": [
         "retro soul"
       ],
-      "popularity": 71
+      "popularity": 72
     },
     {
       "name": "Two Door Cinema Club",
@@ -5042,6 +5075,18 @@
         "post-punk"
       ],
       "popularity": 66
+    },
+    {
+      "name": "Yacht Rock Revue",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "show_url": "https://www.ticketmaster.com/yacht-rock-revue-primetime-chicago-illinois-09-11-2026/event/0400643BF736AC2E",
+      "date": "2026-09-11",
+      "spotify_url": "https://open.spotify.com/artist/5vJbbFDnRQql9BtSgR9vZH",
+      "genres": [
+        "yacht rock"
+      ],
+      "popularity": 31
     },
     {
       "name": "Knocked Loose",
@@ -5072,18 +5117,6 @@
       "popularity": 62
     },
     {
-      "name": "Yacht Rock Revue",
-      "venue": "Salt Shed",
-      "venue_url": "https://www.saltshedchicago.com/home#shows",
-      "show_url": "https://www.ticketmaster.com/yacht-rock-revue-primetime-chicago-illinois-09-11-2026/event/0400643BF736AC2E",
-      "date": "2026-09-11",
-      "spotify_url": "https://open.spotify.com/artist/5vJbbFDnRQql9BtSgR9vZH",
-      "genres": [
-        "yacht rock"
-      ],
-      "popularity": 30
-    },
-    {
       "name": "Malcolm Todd",
       "venue": "Salt Shed",
       "venue_url": "https://www.saltshedchicago.com/home#shows",
@@ -5104,16 +5137,6 @@
       "popularity": 70
     },
     {
-      "name": "The Revivalists",
-      "venue": "Salt Shed",
-      "venue_url": "https://www.saltshedchicago.com/home#shows",
-      "show_url": "https://www.ticketmaster.com/the-revivalists-with-robert-randolph-presented-chicago-illinois-10-04-2026/event/040064A8C0C6E603",
-      "date": "2026-10-04",
-      "spotify_url": "https://open.spotify.com/artist/5kuJibJcwOC53s3OkoGMRA",
-      "genres": [],
-      "popularity": 64
-    },
-    {
       "name": "Galantis",
       "venue": "Salt Shed",
       "venue_url": "https://www.saltshedchicago.com/home#shows",
@@ -5122,6 +5145,16 @@
       "spotify_url": "https://open.spotify.com/artist/4sTQVOfp9vEMCemLw50sbu",
       "genres": [],
       "popularity": 72
+    },
+    {
+      "name": "The Revivalists",
+      "venue": "Salt Shed",
+      "venue_url": "https://www.saltshedchicago.com/home#shows",
+      "show_url": "https://www.ticketmaster.com/the-revivalists-with-robert-randolph-presented-chicago-illinois-10-04-2026/event/040064A8C0C6E603",
+      "date": "2026-10-04",
+      "spotify_url": "https://open.spotify.com/artist/5kuJibJcwOC53s3OkoGMRA",
+      "genres": [],
+      "popularity": 64
     },
     {
       "name": "Tove Lo",
@@ -5155,7 +5188,7 @@
         "emo",
         "punk"
       ],
-      "popularity": 71
+      "popularity": 72
     },
     {
       "name": "Billy Currington",
@@ -5178,7 +5211,7 @@
       "date": "2026-09-17",
       "spotify_url": "https://open.spotify.com/artist/2LXeJdQVcFkhkWydphLI74",
       "genres": [],
-      "popularity": 49
+      "popularity": 50
     },
     {
       "name": "Ministry",
@@ -5206,7 +5239,7 @@
       "genres": [
         "country"
       ],
-      "popularity": 76
+      "popularity": 77
     },
     {
       "name": "Sam Barber",
@@ -5229,41 +5262,6 @@
       "spotify_url": "https://open.spotify.com/artist/2FwDTncULUnmANIh7qKa5z",
       "genres": [],
       "popularity": 68
-    },
-    {
-      "name": "Furball",
-      "venue": "Metro",
-      "venue_url": "https://metrochicago.com/events/",
-      "show_url": "https://metrochicago.com/event/furball-market-days-2/metro-chicago/chicago-illinois/",
-      "date": "2026-08-07",
-      "spotify_url": "https://open.spotify.com/artist/1dDwdC87vXbr5JPDnncRP8",
-      "genres": [
-        "grunge"
-      ],
-      "popularity": 0
-    },
-    {
-      "name": "Good Hangs",
-      "venue": "Metro",
-      "venue_url": "https://metrochicago.com/events/",
-      "show_url": "https://metrochicago.com/event/good-hangs/metro-chicago/chicago-illinois/",
-      "date": "2026-08-08",
-      "spotify_url": "https://open.spotify.com/artist/2a1joNabZ5FF1XpYEvgD9W",
-      "genres": [
-        "midwest emo",
-        "pop punk"
-      ],
-      "popularity": 45
-    },
-    {
-      "name": "Market Daze Queen!",
-      "venue": "Metro",
-      "venue_url": "https://metrochicago.com/events/",
-      "show_url": "https://metrochicago.com/event/market-daze-queen-2/all-building-event/chicago-illinois/",
-      "date": "2026-08-09",
-      "spotify_url": "",
-      "genres": [],
-      "popularity": 0
     },
     {
       "name": "Second Hand News",
@@ -5315,15 +5313,11 @@
       "venue_url": "https://metrochicago.com/events/",
       "show_url": "https://metrochicago.com/event/ink-dagger/metro-chicago/chicago-illinois/",
       "date": "2026-08-20",
-      "spotify_url": "https://open.spotify.com/artist/0k17h0D3J5VfsdmQ1iZtE9",
+      "spotify_url": "https://open.spotify.com/artist/5bOsFzuJ6QZMr86ezC4oXY",
       "genres": [
-        "progressive rock",
-        "psychedelic rock",
-        "classic rock",
-        "art rock",
-        "rock"
+        "adult standards"
       ],
-      "popularity": 82
+      "popularity": 56
     },
     {
       "name": "Eagles of Death Metal",
@@ -5353,7 +5347,7 @@
         "darkwave",
         "synthpop"
       ],
-      "popularity": 36
+      "popularity": 37
     },
     {
       "name": "Pond",
@@ -5366,7 +5360,7 @@
         "neo-psychedelic",
         "psychedelic rock"
       ],
-      "popularity": 49
+      "popularity": 48
     },
     {
       "name": "Peter Hook",
@@ -5380,6 +5374,16 @@
         "post-punk"
       ],
       "popularity": 29
+    },
+    {
+      "name": "Labor Day Queen!",
+      "venue": "Metro",
+      "venue_url": "https://metrochicago.com/events/",
+      "show_url": "https://metrochicago.com/event/labor-day-queen-2/all-building-event/chicago-illinois/",
+      "date": "2026-09-06",
+      "spotify_url": "",
+      "genres": [],
+      "popularity": 0
     },
     {
       "name": "Com Truise (DJ Set)",
@@ -5412,7 +5416,7 @@
         "hardcore punk",
         "hardcore"
       ],
-      "popularity": 42
+      "popularity": 44
     },
     {
       "name": "Avalon Emerson",
@@ -5529,7 +5533,7 @@
       "date": "2026-09-29",
       "spotify_url": "https://open.spotify.com/artist/1HOeqtP7tHkKNJNLzQ2tnr",
       "genres": [],
-      "popularity": 50
+      "popularity": 51
     },
     {
       "name": "Lambrini Girls",
@@ -5546,6 +5550,16 @@
       "popularity": 50
     },
     {
+      "name": "Olof Dreijer (Live)",
+      "venue": "Metro",
+      "venue_url": "https://metrochicago.com/events/",
+      "show_url": "https://metrochicago.com/event/olof-dreijer-live/sleeping-village/chicago--illinois/",
+      "date": "2026-09-30",
+      "spotify_url": "",
+      "genres": [],
+      "popularity": 0
+    },
+    {
       "name": "Militarie Gun",
       "venue": "Metro",
       "venue_url": "https://metrochicago.com/events/",
@@ -5553,7 +5567,7 @@
       "date": "2026-10-01",
       "spotify_url": "https://open.spotify.com/artist/4us4NMG5wuqdUZvthZrj0Q",
       "genres": [],
-      "popularity": 48
+      "popularity": 49
     },
     {
       "name": "Boy Harsher",
@@ -5664,7 +5678,7 @@
       "date": "2026-10-16",
       "spotify_url": "https://open.spotify.com/artist/3C6wmSgnZuqxVQyBWujBsn",
       "genres": [],
-      "popularity": 52
+      "popularity": 54
     },
     {
       "name": "Rocket From The Crypt",
@@ -5728,6 +5742,18 @@
         "art pop"
       ],
       "popularity": 58
+    },
+    {
+      "name": "Die Spitz",
+      "venue": "Metro",
+      "venue_url": "https://metrochicago.com/events/",
+      "show_url": "https://metrochicago.com/event/die-spitz/metro-chicago/chicago-illinois/",
+      "date": "2026-11-07",
+      "spotify_url": "https://open.spotify.com/artist/0zfZmpHTu0MlkkNr5KHeXE",
+      "genres": [
+        "riot grrrl"
+      ],
+      "popularity": 52
     },
     {
       "name": "Strawberry Guy",
@@ -5820,6 +5846,16 @@
       "popularity": 50
     },
     {
+      "name": "Dead/Awake, Chaosphere, Orbital Gate, Errors Of Humanity, Carrion Throne",
+      "venue": "Bottom Lounge",
+      "venue_url": "https://bottomlounge.com/events/",
+      "show_url": "https://www.ticketweb.com/event/deadawake-chaosphere-orbital-gate-errors-bottom-lounge-tickets/14264684",
+      "date": "2026-08-23",
+      "spotify_url": "",
+      "genres": [],
+      "popularity": 0
+    },
+    {
       "name": "Quicksand",
       "venue": "Bottom Lounge",
       "venue_url": "https://bottomlounge.com/events/",
@@ -5834,16 +5870,6 @@
       "popularity": 47
     },
     {
-      "name": "Dead/Awake, Chaosphere, Orbital Gate, Errors Of Humanity, Carrion Throne",
-      "venue": "Bottom Lounge",
-      "venue_url": "https://bottomlounge.com/events/",
-      "show_url": "https://www.ticketweb.com/event/deadawake-chaosphere-orbital-gate-errors-bottom-lounge-tickets/14264684",
-      "date": "2026-08-23",
-      "spotify_url": "",
-      "genres": [],
-      "popularity": 0
-    },
-    {
       "name": "The Rasmus",
       "venue": "Bottom Lounge",
       "venue_url": "https://bottomlounge.com/events/",
@@ -5856,6 +5882,34 @@
       "popularity": 61
     },
     {
+      "name": "Haste the Day",
+      "venue": "Bottom Lounge",
+      "venue_url": "https://bottomlounge.com/events/",
+      "show_url": "https://www.ticketweb.com/event/haste-the-day-bottom-lounge-tickets/14218024",
+      "date": "2026-08-14",
+      "spotify_url": "https://open.spotify.com/artist/7voCqDg5xgF1LZFrmbPS7w",
+      "genres": [
+        "metalcore",
+        "post-hardcore",
+        "christian rock",
+        "screamo"
+      ],
+      "popularity": 43
+    },
+    {
+      "name": "Pain Of Truth",
+      "venue": "Bottom Lounge",
+      "venue_url": "https://bottomlounge.com/events/",
+      "show_url": "https://www.ticketweb.com/event/pain-of-truth-100-demons-bottom-lounge-tickets/14275104",
+      "date": "2026-10-21",
+      "spotify_url": "https://open.spotify.com/artist/6tnuL2AIiA5wCpO5Pm8Xql",
+      "genres": [
+        "hardcore",
+        "hardcore punk"
+      ],
+      "popularity": 42
+    },
+    {
       "name": "Pity Party (Girls Club)",
       "venue": "Bottom Lounge",
       "venue_url": "https://bottomlounge.com/events/",
@@ -5863,7 +5917,7 @@
       "date": "2026-09-05",
       "spotify_url": "https://open.spotify.com/artist/5J3QKfJDFyjR3Q2qRcRaIU",
       "genres": [],
-      "popularity": 50
+      "popularity": 51
     },
     {
       "name": "Don't Panic",
@@ -5906,22 +5960,7 @@
         "post-hardcore",
         "screamo"
       ],
-      "popularity": 55
-    },
-    {
-      "name": "Haste the Day",
-      "venue": "Bottom Lounge",
-      "venue_url": "https://bottomlounge.com/events/",
-      "show_url": "https://www.ticketweb.com/event/haste-the-day-bottom-lounge-tickets/14218024",
-      "date": "2026-08-14",
-      "spotify_url": "https://open.spotify.com/artist/7voCqDg5xgF1LZFrmbPS7w",
-      "genres": [
-        "metalcore",
-        "post-hardcore",
-        "christian rock",
-        "screamo"
-      ],
-      "popularity": 43
+      "popularity": 56
     },
     {
       "name": "Post Sex Nachos",
@@ -5936,16 +5975,14 @@
       "popularity": 44
     },
     {
-      "name": "Every Avenue",
+      "name": "Arrows In Action",
       "venue": "Bottom Lounge",
       "venue_url": "https://bottomlounge.com/events/",
-      "show_url": "https://www.ticketweb.com/event/every-avenue-x-in-her-bottom-lounge-tickets/14919903",
-      "date": "2026-10-22",
-      "spotify_url": "https://open.spotify.com/artist/1IpSmgcN9F3KNa7j9JtAE4",
-      "genres": [
-        "pop punk"
-      ],
-      "popularity": 47
+      "show_url": "https://www.ticketweb.com/event/arrows-in-action-i-bottom-lounge-tickets/14908173",
+      "date": "2026-09-25",
+      "spotify_url": "https://open.spotify.com/artist/467o5z7PYxbXFAGA0mvhAQ",
+      "genres": [],
+      "popularity": 56
     },
     {
       "name": "DevilDriver",
@@ -6015,6 +6052,28 @@
       "popularity": 0
     },
     {
+      "name": "PRAYERS  No Tengo Calma Tour 2026  featuring DEVORA and CHRIZ AMAYA",
+      "venue": "Bottom Lounge",
+      "venue_url": "https://bottomlounge.com/events/",
+      "show_url": "https://www.ticketweb.com/event/prayers-no-tengo-calma-bottom-lounge-tickets/15014093",
+      "date": "2026-10-17",
+      "spotify_url": "",
+      "genres": [],
+      "popularity": 0
+    },
+    {
+      "name": "Every Avenue",
+      "venue": "Bottom Lounge",
+      "venue_url": "https://bottomlounge.com/events/",
+      "show_url": "https://www.ticketweb.com/event/every-avenue-x-in-her-bottom-lounge-tickets/14919903",
+      "date": "2026-10-22",
+      "spotify_url": "https://open.spotify.com/artist/1IpSmgcN9F3KNa7j9JtAE4",
+      "genres": [
+        "pop punk"
+      ],
+      "popularity": 47
+    },
+    {
       "name": "Michigander",
       "venue": "Bottom Lounge",
       "venue_url": "https://bottomlounge.com/events/",
@@ -6022,7 +6081,7 @@
       "date": "2026-11-20",
       "spotify_url": "https://open.spotify.com/artist/0oL26Dn9y761yfJgNb3vfu",
       "genres": [],
-      "popularity": 46
+      "popularity": 47
     },
     {
       "name": "Cheekface",
@@ -6032,17 +6091,21 @@
       "date": "2026-09-26",
       "spotify_url": "https://open.spotify.com/artist/32kCEAvtuFzIZA15zrhQDW",
       "genres": [],
-      "popularity": 45
+      "popularity": 46
     },
     {
-      "name": "Arrows In Action",
+      "name": "AJJ",
       "venue": "Bottom Lounge",
       "venue_url": "https://bottomlounge.com/events/",
-      "show_url": "https://www.ticketweb.com/event/arrows-in-action-i-bottom-lounge-tickets/14908173",
-      "date": "2026-09-25",
-      "spotify_url": "https://open.spotify.com/artist/467o5z7PYxbXFAGA0mvhAQ",
-      "genres": [],
-      "popularity": 56
+      "show_url": "https://www.ticketweb.com/event/ajj-greet-death-bottom-lounge-tickets/15004463",
+      "date": "2026-10-04",
+      "spotify_url": "https://open.spotify.com/artist/4IDpDJIDfK96HMLD4Tphyl",
+      "genres": [
+        "folk punk",
+        "anti-folk",
+        "midwest emo"
+      ],
+      "popularity": 50
     },
     {
       "name": "Josh Tatofi, Kaipo",
@@ -6145,7 +6208,7 @@
       "genres": [
         "pop punk"
       ],
-      "popularity": 32
+      "popularity": 33
     },
     {
       "name": "Nai Palm",
@@ -6159,7 +6222,7 @@
         "alternative r&b",
         "neo soul"
       ],
-      "popularity": 33
+      "popularity": 34
     },
     {
       "name": "Shawn James",
@@ -6228,6 +6291,22 @@
       "popularity": 0
     },
     {
+      "name": "Chinese Football",
+      "venue": "Bottom Lounge",
+      "venue_url": "https://bottomlounge.com/events/",
+      "show_url": "https://www.ticketweb.com/event/chinese-football-bottom-lounge-tickets/15004503",
+      "date": "2026-10-18",
+      "spotify_url": "https://open.spotify.com/artist/65qWysYTXcTL8nqZzg84Hk",
+      "genres": [
+        "math rock",
+        "chinese indie",
+        "midwest emo",
+        "chinese rock",
+        "post-rock"
+      ],
+      "popularity": 37
+    },
+    {
       "name": "Gene",
       "venue": "Bottom Lounge",
       "venue_url": "https://bottomlounge.com/events/",
@@ -6248,7 +6327,7 @@
       "date": "2026-09-22",
       "spotify_url": "https://open.spotify.com/artist/5069JTmv5ZDyPeZaCCXiCg",
       "genres": [],
-      "popularity": 73
+      "popularity": 74
     },
     {
       "name": "LUCKI",
@@ -6288,7 +6367,17 @@
         "soundtrack",
         "score"
       ],
-      "popularity": 62
+      "popularity": 63
+    },
+    {
+      "name": "Bop To The Top",
+      "venue": "Aragon Ballroom",
+      "venue_url": "https://www.aragonballroomchicago.com/shows",
+      "show_url": "https://www.ticketmaster.com/stan-society-presents-bop-to-the-chicago-illinois-08-29-2026/event/0400649623B1D1AC",
+      "date": "2026-08-29",
+      "spotify_url": "",
+      "genres": [],
+      "popularity": 0
     },
     {
       "name": "Rawayana",
@@ -6300,17 +6389,7 @@
       "genres": [
         "reggae en espa\u00f1ol"
       ],
-      "popularity": 76
-    },
-    {
-      "name": "Bop To The Top",
-      "venue": "Aragon Ballroom",
-      "venue_url": "https://www.aragonballroomchicago.com/shows",
-      "show_url": "https://www.ticketmaster.com/stan-society-presents-bop-to-the-chicago-illinois-08-29-2026/event/0400649623B1D1AC",
-      "date": "2026-08-29",
-      "spotify_url": "",
-      "genres": [],
-      "popularity": 0
+      "popularity": 77
     },
     {
       "name": "Suki Waterhouse",
@@ -6335,6 +6414,19 @@
       "popularity": 63
     },
     {
+      "name": "Jay Park",
+      "venue": "Aragon Ballroom",
+      "venue_url": "https://www.aragonballroomchicago.com/shows",
+      "show_url": "https://www.ticketmaster.com/jay-park-with-special-guest-lngshot-chicago-illinois-09-15-2026/event/040064C34EF8A284",
+      "date": "2026-09-15",
+      "spotify_url": "https://open.spotify.com/artist/4XDi67ZENZcbfKnvMnTYsI",
+      "genres": [
+        "k-rap",
+        "k-pop"
+      ],
+      "popularity": 70
+    },
+    {
       "name": "Trivium",
       "venue": "Aragon Ballroom",
       "venue_url": "https://www.aragonballroomchicago.com/shows",
@@ -6347,6 +6439,33 @@
         "heavy metal"
       ],
       "popularity": 64
+    },
+    {
+      "name": "Eslabon Armado",
+      "venue": "Aragon Ballroom",
+      "venue_url": "https://www.aragonballroomchicago.com/shows",
+      "show_url": "https://www.ticketmaster.com/eslabon-armado-amor-nocturno-chicago-illinois-08-15-2026/event/040064C3DB50E0F1",
+      "date": "2026-08-15",
+      "spotify_url": "https://open.spotify.com/artist/0XeEobZplHxzM9QzFQWLiR",
+      "genres": [
+        "corridos tumbados",
+        "sad sierre\u00f1o",
+        "corrido",
+        "sierre\u00f1o",
+        "m\u00fasica mexicana",
+        "corridos b\u00e9licos"
+      ],
+      "popularity": 79
+    },
+    {
+      "name": "Dexter and The Moonrocks",
+      "venue": "Aragon Ballroom",
+      "venue_url": "https://www.aragonballroomchicago.com/shows",
+      "show_url": "https://www.ticketmaster.com/dexter-and-the-moonrocks-chicago-illinois-11-28-2026/event/040064C3D31ED447",
+      "date": "2026-11-28",
+      "spotify_url": "https://open.spotify.com/artist/72sOBVpZpUwHq7i0vb26lT",
+      "genres": [],
+      "popularity": 74
     },
     {
       "name": "Brand New",
@@ -6363,27 +6482,14 @@
       "popularity": 60
     },
     {
-      "name": "Jay Park",
+      "name": "Dominic Fike",
       "venue": "Aragon Ballroom",
       "venue_url": "https://www.aragonballroomchicago.com/shows",
-      "show_url": "https://www.ticketmaster.com/jay-park-with-special-guest-lngshot-chicago-illinois-09-15-2026/event/040064C34EF8A284",
-      "date": "2026-09-15",
-      "spotify_url": "https://open.spotify.com/artist/4XDi67ZENZcbfKnvMnTYsI",
-      "genres": [
-        "k-rap",
-        "k-pop"
-      ],
-      "popularity": 70
-    },
-    {
-      "name": "Dexter and The Moonrocks",
-      "venue": "Aragon Ballroom",
-      "venue_url": "https://www.aragonballroomchicago.com/shows",
-      "show_url": "https://www.ticketmaster.com/dexter-and-the-moonrocks-chicago-illinois-11-28-2026/event/040064C3D31ED447",
-      "date": "2026-11-28",
-      "spotify_url": "https://open.spotify.com/artist/72sOBVpZpUwHq7i0vb26lT",
+      "show_url": "https://www.ticketmaster.com/comedy-tragedy-parody-dominic-fike-in-chicago-illinois-08-27-2026/event/04006482DD4E177A",
+      "date": "2026-08-27",
+      "spotify_url": "https://open.spotify.com/artist/6USv9qhCn6zfxlBQIYJ9qs",
       "genres": [],
-      "popularity": 74
+      "popularity": 85
     },
     {
       "name": "Black Label Society",
@@ -6420,43 +6526,6 @@
       "popularity": 60
     },
     {
-      "name": "Dominic Fike",
-      "venue": "Aragon Ballroom",
-      "venue_url": "https://www.aragonballroomchicago.com/shows",
-      "show_url": "https://www.ticketmaster.com/comedy-tragedy-parody-dominic-fike-in-chicago-illinois-08-27-2026/event/04006482DD4E177A",
-      "date": "2026-08-27",
-      "spotify_url": "https://open.spotify.com/artist/6USv9qhCn6zfxlBQIYJ9qs",
-      "genres": [],
-      "popularity": 85
-    },
-    {
-      "name": "Eslabon Armado",
-      "venue": "Aragon Ballroom",
-      "venue_url": "https://www.aragonballroomchicago.com/shows",
-      "show_url": "https://www.ticketmaster.com/eslabon-armado-amor-nocturno-chicago-illinois-08-15-2026/event/040064C3DB50E0F1",
-      "date": "2026-08-15",
-      "spotify_url": "https://open.spotify.com/artist/0XeEobZplHxzM9QzFQWLiR",
-      "genres": [
-        "corridos tumbados",
-        "sad sierre\u00f1o",
-        "corrido",
-        "sierre\u00f1o",
-        "m\u00fasica mexicana",
-        "corridos b\u00e9licos"
-      ],
-      "popularity": 79
-    },
-    {
-      "name": "CircuitMOM",
-      "venue": "Aragon Ballroom",
-      "venue_url": "https://www.aragonballroomchicago.com/shows",
-      "show_url": "https://www.ticketmaster.com/circuitmom-and-circuitsun-2day-queendomtake-flight-chicago-illinois-08-08-2026/event/04006342BCA4609F",
-      "date": "2026-08-08",
-      "spotify_url": "",
-      "genres": [],
-      "popularity": 0
-    },
-    {
       "name": "Tyla",
       "venue": "Aragon Ballroom",
       "venue_url": "https://www.aragonballroomchicago.com/shows",
@@ -6476,7 +6545,7 @@
       "date": "2026-10-09",
       "spotify_url": "https://open.spotify.com/artist/3y2cIKLjiOlp1Np37WiUdH",
       "genres": [],
-      "popularity": 79
+      "popularity": 80
     },
     {
       "name": "Polo & Pan",
@@ -6517,6 +6586,16 @@
       "popularity": 60
     },
     {
+      "name": "Omar Courtz",
+      "venue": "Aragon Ballroom",
+      "venue_url": "https://www.aragonballroomchicago.com/shows",
+      "show_url": "https://www.ticketmaster.com/omar-courtz-por-si-manana-no-chicago-illinois-09-05-2026/event/04006479FCC9EA4B",
+      "date": "2026-09-05",
+      "spotify_url": "https://open.spotify.com/artist/3E12tRURRvPfHz0hAMCFYc",
+      "genres": [],
+      "popularity": 89
+    },
+    {
       "name": "Beartooth",
       "venue": "Aragon Ballroom",
       "venue_url": "https://www.aragonballroomchicago.com/shows",
@@ -6541,27 +6620,7 @@
         "alternative hip hop",
         "experimental"
       ],
-      "popularity": 64
-    },
-    {
-      "name": "Omar Courtz",
-      "venue": "Aragon Ballroom",
-      "venue_url": "https://www.aragonballroomchicago.com/shows",
-      "show_url": "https://www.ticketmaster.com/omar-courtz-por-si-manana-no-chicago-illinois-09-05-2026/event/04006479FCC9EA4B",
-      "date": "2026-09-05",
-      "spotify_url": "https://open.spotify.com/artist/3E12tRURRvPfHz0hAMCFYc",
-      "genres": [],
-      "popularity": 88
-    },
-    {
-      "name": "Masego",
-      "venue": "Aragon Ballroom",
-      "venue_url": "https://www.aragonballroomchicago.com/shows",
-      "show_url": "https://www.ticketmaster.com/masego-fix-your-face-tour-chicago-illinois-09-04-2026/event/040064B7BF346E4F",
-      "date": "2026-09-04",
-      "spotify_url": "https://open.spotify.com/artist/3ycxRkcZ67ALN3GQJ57Vig",
-      "genres": [],
-      "popularity": 73
+      "popularity": 63
     },
     {
       "name": "Young Thug",
@@ -6578,14 +6637,14 @@
       "popularity": 86
     },
     {
-      "name": "EsDeeKid",
+      "name": "Masego",
       "venue": "Aragon Ballroom",
       "venue_url": "https://www.aragonballroomchicago.com/shows",
-      "show_url": "https://www.ticketmaster.com/esdeekid-council-house-rat-tour-chicago-illinois-09-26-2026/event/040064EFFD17436E",
-      "date": "2026-09-26",
-      "spotify_url": "https://open.spotify.com/artist/0EyhkwP3UnwGFBy6xwKjSy",
+      "show_url": "https://www.ticketmaster.com/masego-fix-your-face-tour-chicago-illinois-09-04-2026/event/040064B7BF346E4F",
+      "date": "2026-09-04",
+      "spotify_url": "https://open.spotify.com/artist/3ycxRkcZ67ALN3GQJ57Vig",
       "genres": [],
-      "popularity": 80
+      "popularity": 73
     },
     {
       "name": "6LACK",
@@ -6598,16 +6657,26 @@
       "popularity": 74
     },
     {
+      "name": "EsDeeKid",
+      "venue": "Aragon Ballroom",
+      "venue_url": "https://www.aragonballroomchicago.com/shows",
+      "show_url": "https://www.ticketmaster.com/esdeekid-council-house-rat-tour-chicago-illinois-09-26-2026/event/040064EFFD17436E",
+      "date": "2026-09-26",
+      "spotify_url": "https://open.spotify.com/artist/0EyhkwP3UnwGFBy6xwKjSy",
+      "genres": [],
+      "popularity": 80
+    },
+    {
       "name": "Starbomb",
       "venue": "Aragon Ballroom",
       "venue_url": "https://www.aragonballroomchicago.com/shows",
-      "show_url": "https://www.ticketmaster.com/starbomb-probably-the-only-tour-ever-chicago-illinois-10-07-2026/event/040064ADCE26C5B4",
+      "show_url": "https://www.ticketmaster.com/starbomb-featuring-dj-commander-meouch-probably-chicago-illinois-10-07-2026/event/040064ADCE26C5B4",
       "date": "2026-10-07",
       "spotify_url": "https://open.spotify.com/artist/1DLBs2535MM32RYqirYYY4",
       "genres": [
         "comedy"
       ],
-      "popularity": 45
+      "popularity": 46
     },
     {
       "name": "Usher Raymond & Chris Brown",
@@ -6632,41 +6701,16 @@
       "popularity": 96
     },
     {
-      "name": "Foo Fighters",
-      "venue": "Soldier Field",
-      "venue_url": "https://www.soldierfield.com/events",
-      "show_url": "https://www.ticketmaster.com/foo-fighters-take-cover-tour-2026-chicago-illinois-08-08-2026/event/0400635516EE861C",
-      "date": "2026-08-08",
-      "spotify_url": "https://open.spotify.com/artist/7jy3rLJdDQY21OgRLCZ9sD",
-      "genres": [
-        "post-grunge",
-        "rock",
-        "alternative rock",
-        "grunge"
-      ],
-      "popularity": 79
-    },
-    {
       "name": "Ye",
       "venue": "Soldier Field",
       "venue_url": "https://www.soldierfield.com/events",
       "show_url": "https://www.ticketmaster.com/ye-live-in-chicago-chicago-illinois-09-04-2026/event/040064D383A040C1",
       "date": "2026-09-04",
-      "spotify_url": "https://open.spotify.com/artist/5K4W6rqBFWDnAN6FQUkS6x",
+      "spotify_url": "https://open.spotify.com/artist/3TNt4aUIxgfy9aoaft5Jj2",
       "genres": [
-        "rap"
+        "indie rock"
       ],
-      "popularity": 93
-    },
-    {
-      "name": "Kehlani",
-      "venue": "Northerly Island",
-      "venue_url": "https://www.huntingtonbankpavilion.com",
-      "show_url": "https://www.ticketmaster.com/the-kehlani-world-tour-north-america-chicago-illinois-08-09-2026/event/040064B59FCB8477",
-      "date": "2026-08-09",
-      "spotify_url": "https://open.spotify.com/artist/0cGUm45nv7Z6M6qdXYQGTX",
-      "genres": [],
-      "popularity": 80
+      "popularity": 70
     },
     {
       "name": "Ken Carson",
@@ -6691,28 +6735,6 @@
       "popularity": 0
     },
     {
-      "name": "The Fray",
-      "venue": "Northerly Island",
-      "venue_url": "https://www.huntingtonbankpavilion.com",
-      "show_url": "https://www.ticketmaster.com/the-fray-summer-of-light-tour-chicago-illinois-08-29-2026/event/04006437A81DAFA2",
-      "date": "2026-08-29",
-      "spotify_url": "https://open.spotify.com/artist/0zOcE3mg9nS6l3yxt1Y0bK",
-      "genres": [],
-      "popularity": 74
-    },
-    {
-      "name": "BABYMETAL",
-      "venue": "Northerly Island",
-      "venue_url": "https://www.huntingtonbankpavilion.com",
-      "show_url": "https://www.ticketmaster.com/babymetal-world-tour-2026-chicago-illinois-09-04-2026/event/0400647A12B9D10D",
-      "date": "2026-09-04",
-      "spotify_url": "https://open.spotify.com/artist/630wzNP2OL7fl4Xl0GnMWq",
-      "genres": [
-        "j-rock"
-      ],
-      "popularity": 69
-    },
-    {
       "name": "Chief Keef",
       "venue": "Northerly Island",
       "venue_url": "https://www.huntingtonbankpavilion.com",
@@ -6724,6 +6746,28 @@
         "drill"
       ],
       "popularity": 78
+    },
+    {
+      "name": "BABYMETAL",
+      "venue": "Northerly Island",
+      "venue_url": "https://www.huntingtonbankpavilion.com",
+      "show_url": "https://www.ticketmaster.com/babymetal-world-tour-2026-chicago-illinois-09-04-2026/event/0400647A12B9D10D",
+      "date": "2026-09-04",
+      "spotify_url": "https://open.spotify.com/artist/630wzNP2OL7fl4Xl0GnMWq",
+      "genres": [
+        "j-rock"
+      ],
+      "popularity": 70
+    },
+    {
+      "name": "The Fray",
+      "venue": "Northerly Island",
+      "venue_url": "https://www.huntingtonbankpavilion.com",
+      "show_url": "https://www.ticketmaster.com/the-fray-summer-of-light-tour-chicago-illinois-08-29-2026/event/04006437A81DAFA2",
+      "date": "2026-08-29",
+      "spotify_url": "https://open.spotify.com/artist/0zOcE3mg9nS6l3yxt1Y0bK",
+      "genres": [],
+      "popularity": 74
     },
     {
       "name": "O.A.R.",
@@ -6758,6 +6802,16 @@
         "emo",
         "pop punk"
       ],
+      "popularity": 71
+    },
+    {
+      "name": "Mt. Joy",
+      "venue": "Northerly Island",
+      "venue_url": "https://www.huntingtonbankpavilion.com",
+      "show_url": "https://www.ticketmaster.com/mt-joy-2026-celebrating-10-years-chicago-illinois-10-03-2026/event/04006379961B566A",
+      "date": "2026-10-03",
+      "spotify_url": "https://open.spotify.com/artist/69tiO1fG8VWduDl3ji2qhI",
+      "genres": [],
       "popularity": 70
     },
     {
@@ -6771,26 +6825,6 @@
       "popularity": 78
     },
     {
-      "name": "Mt. Joy",
-      "venue": "Northerly Island",
-      "venue_url": "https://www.huntingtonbankpavilion.com",
-      "show_url": "https://www.ticketmaster.com/mt-joy-2026-celebrating-10-years-chicago-illinois-10-03-2026/event/04006379961B566A",
-      "date": "2026-10-03",
-      "spotify_url": "https://open.spotify.com/artist/69tiO1fG8VWduDl3ji2qhI",
-      "genres": [],
-      "popularity": 70
-    },
-    {
-      "name": "Young the Giant",
-      "venue": "Northerly Island",
-      "venue_url": "https://www.huntingtonbankpavilion.com",
-      "show_url": "https://www.ticketmaster.com/young-the-giant-victory-garden-tour-chicago-illinois-08-07-2026/event/0400644BFBEEBAB6",
-      "date": "2026-08-07",
-      "spotify_url": "https://open.spotify.com/artist/4j56EQDQu5XnL7R3E9iFJT",
-      "genres": [],
-      "popularity": 68
-    },
-    {
       "name": "Something Corporate",
       "venue": "Northerly Island",
       "venue_url": "https://www.huntingtonbankpavilion.com",
@@ -6801,17 +6835,7 @@
         "pop punk",
         "emo"
       ],
-      "popularity": 47
-    },
-    {
-      "name": "Dermot Kennedy",
-      "venue": "Northerly Island",
-      "venue_url": "https://www.huntingtonbankpavilion.com",
-      "show_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-chicago-illinois-09-11-2026/event/04006472F76CA8FC",
-      "date": "2026-09-11",
-      "spotify_url": "https://open.spotify.com/artist/5KNNVgR6LBIABRIomyCwKJ",
-      "genres": [],
-      "popularity": 72
+      "popularity": 48
     },
     {
       "name": "Foster the People",
@@ -6822,6 +6846,16 @@
       "spotify_url": "https://open.spotify.com/artist/7gP3bB2nilZXLfPHJhMdvc",
       "genres": [],
       "popularity": 74
+    },
+    {
+      "name": "Dermot Kennedy",
+      "venue": "Northerly Island",
+      "venue_url": "https://www.huntingtonbankpavilion.com",
+      "show_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-chicago-illinois-09-11-2026/event/04006472F76CA8FC",
+      "date": "2026-09-11",
+      "spotify_url": "https://open.spotify.com/artist/5KNNVgR6LBIABRIomyCwKJ",
+      "genres": [],
+      "popularity": 72
     },
     {
       "name": "TLC",
@@ -6866,16 +6900,14 @@
       "popularity": 79
     },
     {
-      "name": "Ariana Grande",
+      "name": "Teddy Swims",
       "venue": "United Center",
       "venue_url": "https://www.unitedcenter.com/events/",
-      "show_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-chicago-illinois-08-03-2026/event/04006319DDEA2CD5",
-      "date": "2026-08-03",
-      "spotify_url": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR",
-      "genres": [
-        "pop"
-      ],
-      "popularity": 96
+      "show_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-chicago-illinois-09-25-2026/event/0400648DBE0B6BEE",
+      "date": "2026-09-25",
+      "spotify_url": "https://open.spotify.com/artist/33qOK5uJ8AR2xuQQAhHump",
+      "genres": [],
+      "popularity": 85
     },
     {
       "name": "Olivia Rodrigo",
@@ -6886,16 +6918,6 @@
       "spotify_url": "https://open.spotify.com/artist/1McMsnEElThX1knmY4oliG",
       "genres": [],
       "popularity": 95
-    },
-    {
-      "name": "Teddy Swims",
-      "venue": "United Center",
-      "venue_url": "https://www.unitedcenter.com/events/",
-      "show_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-chicago-illinois-09-25-2026/event/0400648DBE0B6BEE",
-      "date": "2026-09-25",
-      "spotify_url": "https://open.spotify.com/artist/33qOK5uJ8AR2xuQQAhHump",
-      "genres": [],
-      "popularity": 85
     },
     {
       "name": "Kacey Musgraves",
@@ -6937,7 +6959,29 @@
       "date": "2026-09-08",
       "spotify_url": "https://open.spotify.com/artist/73sIBHcqh3Z3NyqHKZ7FOL",
       "genres": [],
-      "popularity": 81
+      "popularity": 82
+    },
+    {
+      "name": "J. Cole",
+      "venue": "United Center",
+      "venue_url": "https://www.unitedcenter.com/events/",
+      "show_url": "https://www.ticketmaster.com/j-cole-the-falloff-tour-chicago-illinois-08-11-2026/event/040064490EE77EE6",
+      "date": "2026-08-11",
+      "spotify_url": "https://open.spotify.com/artist/6l3HvQ5sa6mXTsMTB19rO5",
+      "genres": [
+        "rap"
+      ],
+      "popularity": 86
+    },
+    {
+      "name": "Doja Cat",
+      "venue": "United Center",
+      "venue_url": "https://www.unitedcenter.com/events/",
+      "show_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-chicago-illinois-10-03-2026/event/0400633AB95340B3",
+      "date": "2026-10-03",
+      "spotify_url": "https://open.spotify.com/artist/5cj0lLjcoR7YOSnhnX0Po5",
+      "genres": [],
+      "popularity": 87
     },
     {
       "name": "Journey",
@@ -6953,16 +6997,6 @@
       "popularity": 78
     },
     {
-      "name": "Doja Cat",
-      "venue": "United Center",
-      "venue_url": "https://www.unitedcenter.com/events/",
-      "show_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-chicago-illinois-10-03-2026/event/0400633AB95340B3",
-      "date": "2026-10-03",
-      "spotify_url": "https://open.spotify.com/artist/5cj0lLjcoR7YOSnhnX0Po5",
-      "genres": [],
-      "popularity": 87
-    },
-    {
       "name": "Johnny Blue Skies",
       "venue": "United Center",
       "venue_url": "https://www.unitedcenter.com/events/",
@@ -6973,16 +7007,6 @@
         "alt country"
       ],
       "popularity": 57
-    },
-    {
-      "name": "Niall Horan",
-      "venue": "United Center",
-      "venue_url": "https://www.unitedcenter.com/events/",
-      "show_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-chicago-illinois-03-23-2027/event/040064A7DFC05998",
-      "date": "2027-03-23",
-      "spotify_url": "https://open.spotify.com/artist/1Hsdzj7Dlq2I7tHP7501T4",
-      "genres": [],
-      "popularity": 75
     },
     {
       "name": "Lionel Richie",
@@ -6997,6 +7021,16 @@
       "popularity": 72
     },
     {
+      "name": "Niall Horan",
+      "venue": "United Center",
+      "venue_url": "https://www.unitedcenter.com/events/",
+      "show_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-chicago-illinois-03-23-2027/event/040064A7DFC05998",
+      "date": "2027-03-23",
+      "spotify_url": "https://open.spotify.com/artist/1Hsdzj7Dlq2I7tHP7501T4",
+      "genres": [],
+      "popularity": 75
+    },
+    {
       "name": "John Summit",
       "venue": "United Center",
       "venue_url": "https://www.unitedcenter.com/events/",
@@ -7008,18 +7042,6 @@
         "tech house"
       ],
       "popularity": 77
-    },
-    {
-      "name": "J. Cole",
-      "venue": "United Center",
-      "venue_url": "https://www.unitedcenter.com/events/",
-      "show_url": "https://www.ticketmaster.com/j-cole-the-falloff-tour-chicago-illinois-08-11-2026/event/040064490EE77EE6",
-      "date": "2026-08-11",
-      "spotify_url": "https://open.spotify.com/artist/6l3HvQ5sa6mXTsMTB19rO5",
-      "genres": [
-        "rap"
-      ],
-      "popularity": 86
     },
     {
       "name": "Eric Clapton",
@@ -7067,7 +7089,7 @@
       "date": "2026-10-08",
       "spotify_url": "https://open.spotify.com/artist/3AA28KZvwAUcZuOKwyblJQ",
       "genres": [],
-      "popularity": 83
+      "popularity": 84
     },
     {
       "name": "The Neighbourhood",
@@ -7111,17 +7133,7 @@
       "genres": [
         "swedish pop"
       ],
-      "popularity": 72
-    },
-    {
-      "name": "Jungle",
-      "venue": "United Center",
-      "venue_url": "https://www.unitedcenter.com/events/",
-      "show_url": "https://www.ticketmaster.com/jungle-world-tour-2026-chicago-illinois-09-10-2026/event/04006471AF0A67B4",
-      "date": "2026-09-10",
-      "spotify_url": "https://open.spotify.com/artist/59oA5WbbQvomJz2BuRG071",
-      "genres": [],
-      "popularity": 75
+      "popularity": 73
     },
     {
       "name": "LE SSERAFIM",
@@ -7134,6 +7146,16 @@
         "k-pop"
       ],
       "popularity": 83
+    },
+    {
+      "name": "Jungle",
+      "venue": "United Center",
+      "venue_url": "https://www.unitedcenter.com/events/",
+      "show_url": "https://www.ticketmaster.com/jungle-world-tour-2026-chicago-illinois-09-10-2026/event/04006471AF0A67B4",
+      "date": "2026-09-10",
+      "spotify_url": "https://open.spotify.com/artist/59oA5WbbQvomJz2BuRG071",
+      "genres": [],
+      "popularity": 75
     },
     {
       "name": "Sombr",
@@ -7153,7 +7175,7 @@
       "date": "2026-09-05",
       "spotify_url": "https://open.spotify.com/artist/3E12tRURRvPfHz0hAMCFYc",
       "genres": [],
-      "popularity": 88
+      "popularity": 89
     },
     {
       "name": "Disney Worlds Collide Concert Tour",
@@ -7164,6 +7186,16 @@
       "spotify_url": "",
       "genres": [],
       "popularity": 0
+    },
+    {
+      "name": "Latto",
+      "venue": "United Center",
+      "venue_url": "https://www.unitedcenter.com/events/",
+      "show_url": "https://www.ticketmaster.com/latto-vip-upgrades-event-ticket-not-chicago-illinois-10-03-2026/event/04006501D67DD8BB",
+      "date": "2026-10-03",
+      "spotify_url": "https://open.spotify.com/artist/3MdXrJWsbVzdn6fe5JYkSQ",
+      "genres": [],
+      "popularity": 77
     }
   ]
 }
